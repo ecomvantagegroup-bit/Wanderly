@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="wanderly.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
