@@ -1,0 +1,241 @@
+{
+  "hero": {
+    "brand": "Wonderly",
+    "heading": "Wander the World's Great Cities",
+    "body": "World heritage, culture and city travel guides for India, Russia, China, the USA, Japan and Indonesia.",
+    "image": "/assets/images/hero/hero.jpg"
+  },
+  "countries": [
+    {
+      "id": "india",
+      "slug": "india-travel-guide",
+      "route": "/india",
+      "heading": "India",
+      "body": "Mughal monuments, palaces, Pink City forts and Goa beaches across Delhi, Agra, Jaipur, Mumbai and Goa.",
+      "images": {
+        "primary": "/assets/images/countries/india/primary.jpg",
+        "hover": "/assets/images/countries/india/hover.jpg"
+      }
+    },
+    {
+      "id": "russia",
+      "slug": "russia-travel-guide",
+      "route": "/russia",
+      "heading": "Russia",
+      "body": "Imperial palaces, the Kremlin and Red Square, plus Saint Petersburg, Kazan, Sochi and the Golden Ring towns.",
+      "images": {
+        "primary": "/assets/images/countries/russia/primary.jpg",
+        "hover": "/assets/images/countries/russia/hover.jpg"
+      }
+    },
+    {
+      "id": "china",
+      "slug": "china-travel-guide",
+      "route": "/china",
+      "heading": "China",
+      "body": "The Great Wall, Terracotta Army, Shanghai skyline, Li River peaks and Sichuan food in five essential destinations.",
+      "images": {
+        "primary": "/assets/images/countries/china/primary.jpg",
+        "hover": "/assets/images/countries/china/hover.jpg"
+      }
+    },
+    {
+      "id": "usa",
+      "slug": "usa-travel-guide",
+      "route": "/usa",
+      "heading": "United States",
+      "body": "Iconic city breaks: New York, Washington D.C., Los Angeles, San Francisco's Golden Gate Bridge and Las Vegas.",
+      "images": {
+        "primary": "/assets/images/countries/usa/primary.jpg",
+        "hover": "/assets/images/countries/usa/hover.jpg"
+      }
+    },
+    {
+      "id": "japan",
+      "slug": "japan-travel-guide",
+      "route": "/japan",
+      "heading": "Japan",
+      "body": "Temples, shrines, castles and cherry blossoms from Tokyo and Kyoto to Osaka, Hiroshima and Nara.",
+      "images": {
+        "primary": "/assets/images/countries/japan/primary.jpg",
+        "hover": "/assets/images/countries/japan/hover.jpg"
+      }
+    },
+    {
+      "id": "indonesia",
+      "slug": "indonesia-travel-guide",
+      "route": "/indonesia",
+      "heading": "Indonesia",
+      "body": "Borobudur and Prambanan, Bali's temples and rice terraces, Jakarta, and Komodo dragons from Labuan Bajo.",
+      "images": {
+        "primary": "/assets/images/countries/indonesia/primary.jpg",
+        "hover": "/assets/images/countries/indonesia/hover.jpg"
+      }
+    }
+  ],
+    "patternSection": {
+    "heading": "Plan Your Next Trail",
+    "body": "Pick a country above to explore its top cities, UNESCO sites, best times to visit and itineraries.",
+    "patternImages": [
+       "/assets/images/patterns/world-map.jpg",
+       "/assets/images/patterns/travel-map.jpg"
+    ]
+  },
+  "globeSection": {
+    "id": "globe",
+    "heading": "Explore the World in 3D",
+    "body": "Drag to rotate the globe and select a country to start planning your trail.",
+    "model": {
+     "type": "glb",
+     "path": "/assets/models/globe.glb",
+     "poster": "/assets/images/globe/globe-poster.jpg"
+    },
+    "interaction": {
+     "rotate": true,
+     "zoom": true,
+     "autoRotate": true,
+     "autoRotateSpeed": 0.5
+    },
+    "markers": [
+      {
+        "countryId": "india",
+        "label": "India",
+        "lat": 20.59,
+        "lng": 78.96,
+        "route": "/india"
+      },
+      {
+        "countryId": "russia",
+        "label": "Russia",
+        "lat": 61.52,
+        "lng": 105.32,
+        "route": "/russia"
+      },
+      {
+        "countryId": "china",
+        "label": "China",
+        "lat": 35.86,
+        "lng": 104.2,
+        "route": "/china"
+      },
+      {
+        "countryId": "usa",
+        "label": "United States",
+        "lat": 37.09,
+        "lng": -95.71,
+        "route": "/usa"
+      },
+      {
+        "countryId": "japan",
+        "label": "Japan",
+        "lat": 36.2,
+        "lng": 138.25,
+        "route": "/japan"
+      },
+      {
+        "countryId": "indonesia",
+        "label": "Indonesia",
+        "lat": -0.79,
+        "lng": 113.92,
+        "route": "/indonesia"
+      }
+    ]
+  },
+  "footer": {
+    "background": {
+      "type": "video",
+      "src": "/assets/animations/footer-bg.webm",
+      "fallbackImage": "/assets/images/footer/footer-bg.jpg",
+      "autoplay": true,
+      "loop": true,
+      "muted": true
+    },
+    "content": {
+      "brand": {
+        "name": "Wanderly",
+        "tagline": "World Heritage, Culture and City Travel Guides",
+        "logo": "/assets/images/brand/logo.svg"
+      },
+      "columns": [
+        {
+          "title": "Countries",
+          "links": [
+            {
+              "label": "India",
+              "route": "/india"
+            },
+            {
+              "label": "Russia",
+              "route": "/russia"
+            },
+            {
+              "label": "China",
+              "route": "/china"
+            },
+            {
+              "label": "United States",
+              "route": "/usa"
+            },
+            {
+              "label": "Japan",
+              "route": "/japan"
+            },
+            {
+              "label": "Indonesia",
+              "route": "/indonesia"
+            }
+          ]
+        },
+        {
+          "title": "Company",
+          "links": [
+            {
+              "label": "About",
+              "route": "/about"
+            },
+            {
+              "label": "Contact",
+              "route": "/contact"
+            }
+          ]
+        },
+        {
+          "title": "Legal",
+          "links": [
+            {
+              "label": "Privacy Policy",
+              "route": "/privacy"
+            },
+            {
+              "label": "Terms of Use",
+              "route": "/terms"
+            }
+          ]
+        }
+      ],
+        "social": [
+          {
+            "name": "Instagram",
+            "url": "https://instagram.com/",
+            "icon": "/assets/images/social/instagram.svg"
+          },
+          {
+            "name": "Facebook",
+            "url": "https://facebook.com/",
+            "icon": "/assets/images/social/facebook.svg"
+          },
+          {
+            "name": "X",
+            "url": "https://x.com/",
+            "icon": "/assets/images/social/x.svg"
+          },
+          {
+            "name": "YouTube",
+            "url": "https://youtube.com/",
+            "icon": "/assets/images/social/youtube.svg"
+          }
+        ],
+          "copyright": "© 2026 Wonderly. All rights reserved."
+    }
+  }
+}
