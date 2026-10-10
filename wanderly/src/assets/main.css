@@ -1,35 +1,34 @@
 @import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+@theme {
+  --color-brand: hsla(160, 100%, 37%, 1);
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
+@layer base {
+  html {
+    scroll-behavior: auto;
   }
 
+  html,
+  body,
   #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    width: 100%;
+    min-height: 100%;
+  }
+
+  /* Overrides the bg-background set in base.css */
+  body {
+    @apply bg-transparent;
+    overflow-x: hidden; /* no sideways scroll from full-bleed sections */
+  }
+
+  /* Scoped to .link / .green so it doesn't restyle every <a> (buttons, cards, nav) */
+  .link,
+  .green {
+    @apply p-[3px] text-brand no-underline transition duration-[400ms];
+  }
+
+  .link {
+    @apply hover:bg-brand/20;
   }
 }

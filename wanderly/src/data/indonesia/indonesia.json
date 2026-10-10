@@ -1,0 +1,94 @@
+{
+  "id": "indonesia",
+  "name": "Indonesia",
+  "slug": "indonesia-travel-guide",
+  "route": "/indonesia",
+  "seo": {
+    "title": "Indonesia Travel Guide: Bali, Yogyakarta, Jakarta & Komodo",
+    "description": "Plan Indonesia travel with guides to Jakarta, Yogyakarta, Bali and Labuan Bajo: temples, culture, beaches, Komodo dragons, tips and itineraries.",
+    "h1": "Indonesia Travel Guide: Four Essential Destinations"
+  },
+  "heading": "Indonesia Travel Guide: Four Essential Destinations",
+  "description": [
+    "Indonesia is an island nation with Hindu, Buddhist, Islamic, colonial and indigenous heritage. Its main visitor circuit combines the capital Jakarta, the cultural city of Yogyakarta, the island of Bali and Labuan Bajo, the gateway to Komodo National Park.",
+    "Bali is an island destination rather than a single city, and Labuan Bajo is a small port town used as a base for national park trips. Both are best presented as destination pages in a travel website.",
+    "Indonesia has a tropical climate, and the dry season (roughly May to September) is generally the most popular time for travel."
+  ],
+  "quickFacts": {
+    "Capital": "Jakarta (a new capital, Nusantara, is under development; Jakarta remains the main commercial centre)",
+    "Languages": "Indonesian (Bahasa Indonesia); Javanese, Balinese and many local languages",
+    "Currency": "Indonesian rupiah (IDR)",
+    "Entry": "Visa or visa-on-arrival rules depend on nationality; check official Indonesian immigration sources",
+    "Best time overall": "May–September (dry season)",
+    "Suggested trip": "10–14 days"
+  },
+  "images": {
+    "hero": "/assets/images/countries/indonesia/hero.jpg",
+    "banner": "/assets/images/countries/indonesia/banner.jpg",
+    "primary": "/assets/images/countries/indonesia/primary.jpg",
+    "hover": "/assets/images/countries/indonesia/hover.jpg"
+  },
+  "citiesSection": {
+    "heading": "Top Cities in Indonesia",
+    "body": "Choose a city to see its main places to visit.",
+    "citiesFile": "/data/indonesiacities.json"
+  },
+  "cities": [
+    {
+      "id": "jakarta",
+      "name": "Jakarta",
+      "slug": "jakarta-travel-guide",
+      "route": "/indonesia/jakarta",
+      "intro": "Jakarta is Indonesia’s largest city and a major political, economic, cultural and commercial centre.",
+      "knownFor": "Capital city, colonial heritage, museums, food, Thousand Islands",
+      "suggestedStay": "2–3 days",
+      "bestTime": "May–September (dry season)",
+      "images": {
+        "primary": "/assets/images/cities/indonesia/jakarta/primary.jpg",
+        "hover": "/assets/images/cities/indonesia/jakarta/hover.jpg"
+      }
+    },
+    {
+      "id": "yogyakarta",
+      "name": "Yogyakarta",
+      "slug": "yogyakarta-travel-guide",
+      "route": "/indonesia/yogyakarta",
+      "intro": "Yogyakarta is one of Indonesia’s most important centres of Javanese culture, education, traditional arts, batik, dance and royal heritage.",
+      "knownFor": "Borobudur, Prambanan, Javanese royal culture, batik",
+      "suggestedStay": "3–4 days",
+      "bestTime": "May–September",
+      "images": {
+        "primary": "/assets/images/cities/indonesia/yogyakarta/primary.jpg",
+        "hover": "/assets/images/cities/indonesia/yogyakarta/hover.jpg"
+      }
+    },
+    {
+      "id": "bali",
+      "name": "Bali",
+      "slug": "bali-travel-guide",
+      "route": "/indonesia/bali",
+      "intro": "Bali is internationally known for Hindu culture, beaches, rice terraces, temples, dance, crafts, wellness tourism and hospitality.",
+      "knownFor": "Hindu temples, rice terraces, beaches, arts, wellness",
+      "suggestedStay": "4–6 days",
+      "bestTime": "April–October (dry season)",
+      "images": {
+        "primary": "/assets/images/cities/indonesia/bali/primary.jpg",
+        "hover": "/assets/images/cities/indonesia/bali/hover.jpg"
+      }
+    },
+    {
+      "id": "labuan-bajo-komodo",
+      "name": "Labuan Bajo and Komodo",
+      "slug": "labuan-bajo-komodo-travel-guide",
+      "route": "/indonesia/labuan-bajo-komodo",
+      "intro": "Labuan Bajo is a small port town on the western tip of Flores and the main gateway to Komodo National Park.",
+      "knownFor": "Komodo dragons, island cruises, diving, snorkelling",
+      "suggestedStay": "3–4 days",
+      "bestTime": "April–December (dry season); conditions vary by activity",
+      "images": {
+        "primary": "/assets/images/cities/indonesia/labuan-bajo-komodo/primary.jpg",
+        "hover": "/assets/images/cities/indonesia/labuan-bajo-komodo/hover.jpg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "china",
+  "name": "China",
+  "slug": "china-travel-guide",
+  "route": "/china",
+  "seo": {
+    "title": "China Travel Guide: Beijing, Xi’an, Shanghai & More",
+    "description": "Plan China travel with guides to Beijing, Xi’an, Shanghai, Guilin-Yangshuo and Chengdu: history, landscapes, food, UNESCO sites and itineraries.",
+    "h1": "China Travel Guide: Five Essential Destinations"
+  },
+  "heading": "China Travel Guide: Five Essential Destinations",
+  "description": [
+    "China offers imperial palaces, ancient archaeology, global cities, karst landscapes and regional food. This content set features Beijing, Xi’an, Shanghai, Guilin/Yangshuo and Chengdu.",
+    "Beijing and Xi’an are the strongest historic pages, Shanghai represents modern China, Guilin represents landscape tourism and Chengdu represents food and wildlife.",
+    "The five destinations are connected by flights and an extensive high-speed rail network."
+  ],
+  "quickFacts": {
+    "Capital": "Beijing",
+    "Language": "Mandarin Chinese (regional languages also spoken)",
+    "Currency": "Renminbi / yuan (CNY)",
+    "Entry": "Visa and visa-free rules depend on nationality and change; check official Chinese government sources",
+    "Best time overall": "April–May and September–October",
+    "Suggested trip": "12–14 days"
+  },
+  "images": {
+    "hero": "/assets/images/countries/china/hero.jpg",
+    "banner": "/assets/images/countries/china/banner.jpg",
+    "primary": "/assets/images/countries/china/primary.jpg",
+    "hover": "/assets/images/countries/china/hover.jpg"
+  },
+  "citiesSection": {
+    "heading": "Top Cities in China",
+    "body": "Choose a city to see its main places to visit.",
+    "citiesFile": "/data/chinacities.json"
+  },
+  "cities": [
+    {
+      "id": "beijing",
+      "name": "Beijing",
+      "slug": "beijing-travel-guide",
+      "route": "/china/beijing",
+      "intro": "Beijing has been China’s imperial and political centre for much of the last millennium.",
+      "knownFor": "Forbidden City, Great Wall, Temple of Heaven, imperial gardens",
+      "suggestedStay": "4–5 days",
+      "bestTime": "April–May and September–October",
+      "images": {
+        "primary": "/assets/images/cities/china/beijing/primary.jpg",
+        "hover": "/assets/images/cities/china/beijing/hover.jpg"
+      }
+    },
+    {
+      "id": "xian",
+      "name": "Xi’an",
+      "slug": "xian-travel-guide",
+      "route": "/china/xian",
+      "intro": "Xi’an was the capital of several Chinese dynasties and the eastern starting point of the Silk Road.",
+      "knownFor": "Terracotta Army, city wall, Silk Road heritage, Muslim Quarter",
+      "suggestedStay": "2–3 days",
+      "bestTime": "March–May and September–November",
+      "images": {
+        "primary": "/assets/images/cities/china/xian/primary.jpg",
+        "hover": "/assets/images/cities/china/xian/hover.jpg"
+      }
+    },
+    {
+      "id": "shanghai",
+      "name": "Shanghai",
+      "slug": "shanghai-travel-guide",
+      "route": "/china/shanghai",
+      "intro": "Shanghai grew from a river and coastal trading settlement into an international port and one of Asia’s leading financial cities.",
+      "knownFor": "The Bund, skyline, Yu Garden, Art Deco, shopping",
+      "suggestedStay": "3 days",
+      "bestTime": "March–May and October–November",
+      "images": {
+        "primary": "/assets/images/cities/china/shanghai/primary.jpg",
+        "hover": "/assets/images/cities/china/shanghai/hover.jpg"
+      }
+    },
+    {
+      "id": "guilin-yangshuo",
+      "name": "Guilin and Yangshuo",
+      "slug": "guilin-yangshuo-travel-guide",
+      "route": "/china/guilin-yangshuo",
+      "intro": "Guilin and Yangshuo are famous for karst mountains, rivers, caves, rural landscapes and Chinese landscape painting traditions.",
+      "knownFor": "Li River, karst peaks, rice terraces, cycling",
+      "suggestedStay": "3–4 days",
+      "bestTime": "April–October (avoid heavy rain periods)",
+      "images": {
+        "primary": "/assets/images/cities/china/guilin-yangshuo/primary.jpg",
+        "hover": "/assets/images/cities/china/guilin-yangshuo/hover.jpg"
+      }
+    },
+    {
+      "id": "chengdu",
+      "name": "Chengdu",
+      "slug": "chengdu-travel-guide",
+      "route": "/china/chengdu",
+      "intro": "Chengdu is the capital of Sichuan and a major centre of food, tea culture, technology and panda conservation.",
+      "knownFor": "Giant pandas, Sichuan food, teahouses, Three Kingdoms history",
+      "suggestedStay": "3–4 days",
+      "bestTime": "March–May and September–November",
+      "images": {
+        "primary": "/assets/images/cities/china/chengdu/primary.jpg",
+        "hover": "/assets/images/cities/china/chengdu/hover.jpg"
+      }
+    }
+  ]
+}

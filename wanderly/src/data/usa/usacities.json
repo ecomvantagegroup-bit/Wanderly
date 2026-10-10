@@ -1,0 +1,472 @@
+{
+  "countryId": "usa",
+  "countryName": "United States",
+  "cities": [
+    {
+      "id": "new-york-city",
+      "name": "New York City",
+      "seo": {
+        "title": "New York City Travel Guide: Top Attractions & Tips",
+        "description": "Explore the Statue of Liberty, Times Square, Central Park, the Empire State Building and the Met. Get tips, best time to visit and a 4-day NYC itinerary.",
+        "h1": "New York City Travel Guide: Landmarks, Museums and Neighbourhoods"
+      },
+      "heading": "New York City Travel Guide: Landmarks, Museums and Neighbourhoods",
+      "overview": [
+        "New York developed as a major Atlantic port and became one of the world’s leading centres of finance, immigration, publishing, fashion, art and entertainment. Its architecture ranges from colonial buildings and Beaux-Arts monuments to Art Deco skyscrapers and modern towers.",
+        "The city is made up of five boroughs, with Manhattan holding most major landmarks and museums. Neighbourhoods such as Brooklyn, Harlem, Greenwich Village and Chinatown add layers of immigrant and artistic history."
+      ],
+      "quickFacts": {
+        "bestTime": "April–June and September–November; December for holiday lights",
+        "suggestedStay": "3–5 days",
+        "knownFor": "Skyline, Broadway, museums, finance, global food"
+      },
+      "images": {
+        "hero": "/assets/images/cities/usa/new-york-city/hero.jpg",
+        "primary": "/assets/images/cities/usa/new-york-city/primary.jpg",
+        "hover": "/assets/images/cities/usa/new-york-city/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "statue-of-liberty",
+          "name": "Statue of Liberty",
+          "category": "UNESCO World Heritage Site",
+          "unesco": true,
+          "description": "A neoclassical copper statue given by France and dedicated in 1886, designed by Frédéric Auguste Bartholdi with engineering by Gustave Eiffel. It stands on Liberty Island and symbolises liberty and welcome to immigrants. Ellis Island, the former immigration station, is on the same ferry route.",
+          "visitorTip": "Book ferry tickets in advance; crown access needs an early reservation.",
+          "images": {
+            "primary": "/assets/images/places/usa/new-york-city/statue-of-liberty/primary.jpg",
+            "hover": "/assets/images/places/usa/new-york-city/statue-of-liberty/hover.jpg"
+          }
+        },
+        {
+          "id": "times-square",
+          "name": "Times Square",
+          "category": "Entertainment district",
+          "unesco": false,
+          "description": "A glowing intersection of Broadway theatres, billboards, shops and restaurants that symbolises New York’s entertainment and commercial identity.",
+          "visitorTip": "Visit at night for the lights; keep valuables secure in crowds.",
+          "images": {
+            "primary": "/assets/images/places/usa/new-york-city/times-square/primary.jpg",
+            "hover": "/assets/images/places/usa/new-york-city/times-square/hover.jpg"
+          }
+        },
+        {
+          "id": "central-park",
+          "name": "Central Park",
+          "category": "Landscape park",
+          "unesco": false,
+          "description": "Designed by Frederick Law Olmsted and Calvert Vaux and opened in stages from 1858, this large park shows 19th-century landscape design with lakes, lawns, bridges and walking paths.",
+          "visitorTip": "Rent a rowboat at the Loeb Boathouse or walk to Bethesda Terrace.",
+          "images": {
+            "primary": "/assets/images/places/usa/new-york-city/central-park/primary.jpg",
+            "hover": "/assets/images/places/usa/new-york-city/central-park/hover.jpg"
+          }
+        },
+        {
+          "id": "empire-state-building",
+          "name": "Empire State Building",
+          "category": "Art Deco skyscraper",
+          "unesco": false,
+          "description": "Completed in 1931, it was the world’s tallest building for decades and remains a defining example of 1930s American architecture. The observation decks give wide views over Manhattan.",
+          "visitorTip": "Go at sunset to see both daylight and city lights.",
+          "images": {
+            "primary": "/assets/images/places/usa/new-york-city/empire-state-building/primary.jpg",
+            "hover": "/assets/images/places/usa/new-york-city/empire-state-building/hover.jpg"
+          }
+        },
+        {
+          "id": "metropolitan-museum-of-art",
+          "name": "Metropolitan Museum of Art",
+          "category": "Museum",
+          "unesco": false,
+          "description": "Founded in 1870 on Fifth Avenue, the Met is one of the world’s major encyclopaedic museums, with Egyptian, Greek, Roman, Asian, Islamic, European and American collections.",
+          "visitorTip": "Allow half a day; pick two or three galleries rather than trying to see everything.",
+          "images": {
+            "primary": "/assets/images/places/usa/new-york-city/metropolitan-museum-of-art/primary.jpg",
+            "hover": "/assets/images/places/usa/new-york-city/metropolitan-museum-of-art/hover.jpg"
+          }
+        },
+        {
+          "id": "brooklyn-bridge",
+          "name": "Brooklyn Bridge",
+          "category": "Historic suspension bridge",
+          "unesco": false,
+          "description": "Opened in 1883 and designed by John A. Roebling, it connects Manhattan and Brooklyn. Its stone towers and steel cables make it a landmark of 19th-century engineering.",
+          "visitorTip": "Walk from Brooklyn toward Manhattan for skyline views; early morning is quieter.",
+          "images": {
+            "primary": "/assets/images/places/usa/new-york-city/brooklyn-bridge/primary.jpg",
+            "hover": "/assets/images/places/usa/new-york-city/brooklyn-bridge/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "washington-dc",
+      "name": "Washington, D.C.",
+      "seo": {
+        "title": "Washington DC Travel Guide: Monuments & Museums",
+        "description": "Plan a trip to Washington, D.C.: the National Mall, Capitol, White House, Lincoln Memorial and Smithsonian museums, with tips and a 3-day itinerary.",
+        "h1": "Washington, D.C. Travel Guide: Monuments, Museums and History"
+      },
+      "heading": "Washington, D.C. Travel Guide: Monuments, Museums and History",
+      "overview": [
+        "Washington, D.C. is the political and ceremonial capital of the United States. The city was planned with monumental avenues, government buildings, museums and memorials arranged around the National Mall.",
+        "Many of the city’s best attractions, including the Smithsonian museums, are free to enter, which makes it one of the most cost-effective cultural cities for travellers."
+      ],
+      "quickFacts": {
+        "bestTime": "Spring (cherry blossoms in late March–early April) and autumn",
+        "suggestedStay": "2–3 days",
+        "knownFor": "National monuments, museums, politics, free attractions"
+      },
+      "images": {
+        "hero": "/assets/images/cities/usa/washington-dc/hero.jpg",
+        "primary": "/assets/images/cities/usa/washington-dc/primary.jpg",
+        "hover": "/assets/images/cities/usa/washington-dc/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "national-mall",
+          "name": "National Mall",
+          "category": "Landscaped national axis",
+          "unesco": false,
+          "description": "A long, open park stretching from the Capitol to the Lincoln Memorial, lined with major museums and monuments. It represents American history and national identity and hosts public events.",
+          "visitorTip": "Plan for long walks; use shade and water in summer.",
+          "images": {
+            "primary": "/assets/images/places/usa/washington-dc/national-mall/primary.jpg",
+            "hover": "/assets/images/places/usa/washington-dc/national-mall/hover.jpg"
+          }
+        },
+        {
+          "id": "u-s-capitol",
+          "name": "U.S. Capitol",
+          "category": "Seat of Congress",
+          "unesco": false,
+          "description": "Neoclassical architecture with a cast-iron dome completed in 1866 and ceremonial interiors such as the Rotunda. Construction began in 1793 and the building has been expanded over time.",
+          "visitorTip": "Book tours in advance through the Capitol Visitor Center.",
+          "images": {
+            "primary": "/assets/images/places/usa/washington-dc/u-s-capitol/primary.jpg",
+            "hover": "/assets/images/places/usa/washington-dc/u-s-capitol/hover.jpg"
+          }
+        },
+        {
+          "id": "white-house",
+          "name": "White House",
+          "category": "Presidential residence",
+          "unesco": false,
+          "description": "Built between 1792 and 1800 to a design by James Hoban, it is a neoclassical mansion and symbol of the U.S. presidency.",
+          "visitorTip": "Interior tours require advance requests; the exterior is easily viewed from Lafayette Park.",
+          "images": {
+            "primary": "/assets/images/places/usa/washington-dc/white-house/primary.jpg",
+            "hover": "/assets/images/places/usa/washington-dc/white-house/hover.jpg"
+          }
+        },
+        {
+          "id": "lincoln-memorial",
+          "name": "Lincoln Memorial",
+          "category": "National memorial",
+          "unesco": false,
+          "description": "Dedicated in 1922 and designed by Henry Bacon, the temple-like memorial honours Abraham Lincoln and contains a large seated statue by Daniel Chester French.",
+          "visitorTip": "Visit at night when it is lit and quieter.",
+          "images": {
+            "primary": "/assets/images/places/usa/washington-dc/lincoln-memorial/primary.jpg",
+            "hover": "/assets/images/places/usa/washington-dc/lincoln-memorial/hover.jpg"
+          }
+        },
+        {
+          "id": "smithsonian-museums",
+          "name": "Smithsonian museums",
+          "category": "Museum complex",
+          "unesco": false,
+          "description": "Founded in 1846, the Smithsonian runs a large group of free museums, including Air and Space, Natural History and American History.",
+          "visitorTip": "Pick two or three museums per day to avoid fatigue.",
+          "images": {
+            "primary": "/assets/images/places/usa/washington-dc/smithsonian-museums/primary.jpg",
+            "hover": "/assets/images/places/usa/washington-dc/smithsonian-museums/hover.jpg"
+          }
+        },
+        {
+          "id": "national-museum-of-african-american-history-and-culture",
+          "name": "National Museum of African American History and Culture",
+          "category": "Museum",
+          "unesco": false,
+          "description": "Opened in 2016, the museum tells African American history and cultural contributions. Its façade uses a three-tiered, bronze-coloured design inspired by African American craft traditions.",
+          "visitorTip": "Timed-entry passes are often required; reserve ahead.",
+          "images": {
+            "primary": "/assets/images/places/usa/washington-dc/national-museum-of-african-american-history-and-culture/primary.jpg",
+            "hover": "/assets/images/places/usa/washington-dc/national-museum-of-african-american-history-and-culture/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "seo": {
+        "title": "Los Angeles Travel Guide: Hollywood, Beaches & Museums",
+        "description": "Discover Los Angeles: Hollywood Walk of Fame, Griffith Observatory, Getty Center, Santa Monica Pier and LACMA, with tips and a 4-day itinerary.",
+        "h1": "Los Angeles Travel Guide: Hollywood, Beaches and Culture"
+      },
+      "heading": "Los Angeles Travel Guide: Hollywood, Beaches and Culture",
+      "overview": [
+        "Los Angeles grew from a Spanish and Mexican settlement into the centre of the American film and television industry. Its identity is shaped by Hollywood, Pacific beaches, car culture, modern architecture and diverse immigrant communities.",
+        "The city is spread out, so visitors usually plan by area: Hollywood, Santa Monica and the coast, West Los Angeles and Downtown."
+      ],
+      "quickFacts": {
+        "bestTime": "March–May and September–November",
+        "suggestedStay": "3–4 days",
+        "knownFor": "Hollywood, beaches, museums, modern architecture"
+      },
+      "images": {
+        "hero": "/assets/images/cities/usa/los-angeles/hero.jpg",
+        "primary": "/assets/images/cities/usa/los-angeles/primary.jpg",
+        "hover": "/assets/images/cities/usa/los-angeles/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "hollywood-walk-of-fame",
+          "name": "Hollywood Walk of Fame",
+          "category": "Entertainment landmark",
+          "unesco": false,
+          "description": "Created in 1958, the Walk of Fame has thousands of stars on the sidewalk honouring figures in film, television, music and theatre. It represents the global influence of Hollywood.",
+          "visitorTip": "Combine with the TCL Chinese Theatre and Dolby Theatre; expect crowds.",
+          "images": {
+            "primary": "/assets/images/places/usa/los-angeles/hollywood-walk-of-fame/primary.jpg",
+            "hover": "/assets/images/places/usa/los-angeles/hollywood-walk-of-fame/hover.jpg"
+          }
+        },
+        {
+          "id": "griffith-observatory",
+          "name": "Griffith Observatory",
+          "category": "Observatory and viewpoint",
+          "unesco": false,
+          "description": "Opened in 1935 in Griffith Park, the Art Deco observatory has public telescopes, exhibits and views of the city and the Hollywood Sign. Entry to the building is free.",
+          "visitorTip": "Visit near sunset; parking is limited, so consider shuttles or ride-hailing.",
+          "images": {
+            "primary": "/assets/images/places/usa/los-angeles/griffith-observatory/primary.jpg",
+            "hover": "/assets/images/places/usa/los-angeles/griffith-observatory/hover.jpg"
+          }
+        },
+        {
+          "id": "getty-center",
+          "name": "Getty Center",
+          "category": "Art museum and gardens",
+          "unesco": false,
+          "description": "Opened in 1997, the complex was designed by Richard Meier in white travertine. It holds European paintings, sculpture and decorative arts and has gardens and city views.",
+          "visitorTip": "Admission is free but parking has a fee; reserve in advance if required.",
+          "images": {
+            "primary": "/assets/images/places/usa/los-angeles/getty-center/primary.jpg",
+            "hover": "/assets/images/places/usa/los-angeles/getty-center/hover.jpg"
+          }
+        },
+        {
+          "id": "santa-monica-pier",
+          "name": "Santa Monica Pier",
+          "category": "Coastal landmark",
+          "unesco": false,
+          "description": "A pier from 1909 with an amusement park, restaurants and sea views. It is a classic Pacific coast leisure spot.",
+          "visitorTip": "Come late afternoon for sunset and walk along the beach path.",
+          "images": {
+            "primary": "/assets/images/places/usa/los-angeles/santa-monica-pier/primary.jpg",
+            "hover": "/assets/images/places/usa/los-angeles/santa-monica-pier/hover.jpg"
+          }
+        },
+        {
+          "id": "universal-studios-hollywood",
+          "name": "Universal Studios Hollywood",
+          "category": "Theme park and studio",
+          "unesco": false,
+          "description": "A theme park built around a working film studio, with rides and studio tours that connect tourism to Hollywood production history.",
+          "visitorTip": "Arrive early and use express options on busy days.",
+          "images": {
+            "primary": "/assets/images/places/usa/los-angeles/universal-studios-hollywood/primary.jpg",
+            "hover": "/assets/images/places/usa/los-angeles/universal-studios-hollywood/hover.jpg"
+          }
+        },
+        {
+          "id": "los-angeles-county-museum-of-art-lacma",
+          "name": "Los Angeles County Museum of Art (LACMA)",
+          "category": "Art museum",
+          "unesco": false,
+          "description": "Founded in 1961, LACMA is one of the largest art museums in the western United States, with international collections and contemporary exhibitions.",
+          "visitorTip": "Check which buildings are open as the campus is undergoing redevelopment.",
+          "images": {
+            "primary": "/assets/images/places/usa/los-angeles/los-angeles-county-museum-of-art-lacma/primary.jpg",
+            "hover": "/assets/images/places/usa/los-angeles/los-angeles-county-museum-of-art-lacma/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "seo": {
+        "title": "San Francisco Travel Guide: Golden Gate & Alcatraz",
+        "description": "Explore San Francisco’s Golden Gate Bridge, Alcatraz, Chinatown, Painted Ladies and Palace of Fine Arts, with tips and a 4-day itinerary.",
+        "h1": "San Francisco Travel Guide: Bridges, Hills and Waterfront Sights"
+      },
+      "heading": "San Francisco Travel Guide: Bridges, Hills and Waterfront Sights",
+      "overview": [
+        "San Francisco is a historic Pacific port city shaped by the Gold Rush, Asian and Latin American migration, technology and maritime trade. Its visual identity includes steep streets, Victorian homes, bridges, waterfront districts and technology campuses.",
+        "The city is compact, hilly and often foggy in summer, which makes layered clothing useful year-round."
+      ],
+      "quickFacts": {
+        "bestTime": "September–October for warmer, clearer weather; summers are cool and foggy",
+        "suggestedStay": "3–4 days",
+        "knownFor": "Golden Gate Bridge, Alcatraz, cable cars, Victorian homes"
+      },
+      "images": {
+        "hero": "/assets/images/cities/usa/san-francisco/hero.jpg",
+        "primary": "/assets/images/cities/usa/san-francisco/primary.jpg",
+        "hover": "/assets/images/cities/usa/san-francisco/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "golden-gate-bridge",
+          "name": "Golden Gate Bridge",
+          "category": "Suspension bridge",
+          "unesco": false,
+          "description": "Opened in 1937, this “International Orange” suspension bridge spans the entrance to San Francisco Bay and is one of the world’s best-known engineering landmarks. Visitors can walk or cycle across.",
+          "visitorTip": "Fog is common; view from Battery Spencer or Crissy Field for clear shots.",
+          "images": {
+            "primary": "/assets/images/places/usa/san-francisco/golden-gate-bridge/primary.jpg",
+            "hover": "/assets/images/places/usa/san-francisco/golden-gate-bridge/hover.jpg"
+          }
+        },
+        {
+          "id": "alcatraz-island",
+          "name": "Alcatraz Island",
+          "category": "Former federal prison",
+          "unesco": false,
+          "description": "The island served as a federal penitentiary from 1934 to 1963 and is important to American criminal justice and military history. Visitors reach it by ferry and tour the cell house.",
+          "visitorTip": "Book tickets weeks ahead, especially in peak season.",
+          "images": {
+            "primary": "/assets/images/places/usa/san-francisco/alcatraz-island/primary.jpg",
+            "hover": "/assets/images/places/usa/san-francisco/alcatraz-island/hover.jpg"
+          }
+        },
+        {
+          "id": "fisherman-s-wharf",
+          "name": "Fisherman’s Wharf",
+          "category": "Waterfront district",
+          "unesco": false,
+          "description": "A historic maritime area now focused on seafood, boat tours and views. Pier 39 is known for its resident sea lions.",
+          "visitorTip": "Try clam chowder in sourdough bread bowls.",
+          "images": {
+            "primary": "/assets/images/places/usa/san-francisco/fisherman-s-wharf/primary.jpg",
+            "hover": "/assets/images/places/usa/san-francisco/fisherman-s-wharf/hover.jpg"
+          }
+        },
+        {
+          "id": "chinatown",
+          "name": "Chinatown",
+          "category": "Historic district",
+          "unesco": false,
+          "description": "One of the oldest and most significant Chinese communities in North America, with markets, temples, bakeries and the Dragon’s Gate.",
+          "visitorTip": "Visit in the morning for markets and dim sum.",
+          "images": {
+            "primary": "/assets/images/places/usa/san-francisco/chinatown/primary.jpg",
+            "hover": "/assets/images/places/usa/san-francisco/chinatown/hover.jpg"
+          }
+        },
+        {
+          "id": "painted-ladies",
+          "name": "Painted Ladies",
+          "category": "Victorian houses",
+          "unesco": false,
+          "description": "A row of colourful Queen Anne-style homes facing Alamo Square, symbolising San Francisco’s historic neighbourhoods.",
+          "visitorTip": "Walk up to the park for the skyline backdrop.",
+          "images": {
+            "primary": "/assets/images/places/usa/san-francisco/painted-ladies/primary.jpg",
+            "hover": "/assets/images/places/usa/san-francisco/painted-ladies/hover.jpg"
+          }
+        },
+        {
+          "id": "palace-of-fine-arts",
+          "name": "Palace of Fine Arts",
+          "category": "Classical monument",
+          "unesco": false,
+          "description": "Designed by Bernard Maybeck for the 1915 Panama-Pacific Exposition, the Roman- and Greek-inspired rotunda and lagoon were later rebuilt in permanent materials.",
+          "visitorTip": "Great for photography in morning light.",
+          "images": {
+            "primary": "/assets/images/places/usa/san-francisco/palace-of-fine-arts/primary.jpg",
+            "hover": "/assets/images/places/usa/san-francisco/palace-of-fine-arts/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "las-vegas",
+      "name": "Las Vegas",
+      "seo": {
+        "title": "Las Vegas Travel Guide: The Strip, Shows & Day Trips",
+        "description": "Plan Las Vegas: the Strip, Bellagio Fountains, Fremont Street and Red Rock Canyon, plus tips, best time to visit and a 3-day itinerary.",
+        "h1": "Las Vegas Travel Guide: Resorts, Entertainment and Desert Escapes"
+      },
+      "heading": "Las Vegas Travel Guide: Resorts, Entertainment and Desert Escapes",
+      "overview": [
+        "Las Vegas developed from a desert railway settlement into a global centre for casinos, entertainment, conventions, restaurants and themed hotels.",
+        "Beyond the resorts, the surrounding desert offers canyons, dams and national parks that make good day trips."
+      ],
+      "quickFacts": {
+        "bestTime": "March–May and October–November; summer is extremely hot",
+        "suggestedStay": "2–3 days",
+        "knownFor": "The Strip, shows, resorts, desert scenery"
+      },
+      "images": {
+        "hero": "/assets/images/cities/usa/las-vegas/hero.jpg",
+        "primary": "/assets/images/cities/usa/las-vegas/primary.jpg",
+        "hover": "/assets/images/cities/usa/las-vegas/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "las-vegas-strip",
+          "name": "Las Vegas Strip",
+          "category": "Entertainment boulevard",
+          "unesco": false,
+          "description": "A stretch of Las Vegas Boulevard lined with large resorts, casinos, theatres and restaurants. Themed architecture, replicas and dramatic lighting create a unique entertainment landscape.",
+          "visitorTip": "Distances are longer than they look; use rideshare or the monorail.",
+          "images": {
+            "primary": "/assets/images/places/usa/las-vegas/las-vegas-strip/primary.jpg",
+            "hover": "/assets/images/places/usa/las-vegas/las-vegas-strip/hover.jpg"
+          }
+        },
+        {
+          "id": "bellagio-fountains",
+          "name": "Bellagio Fountains",
+          "category": "Water show",
+          "unesco": false,
+          "description": "Choreographed jets of water set to music and lights on the Bellagio lake, a landmark example of integrated entertainment design. Shows are free.",
+          "visitorTip": "Check show times; evenings are most popular.",
+          "images": {
+            "primary": "/assets/images/places/usa/las-vegas/bellagio-fountains/primary.jpg",
+            "hover": "/assets/images/places/usa/las-vegas/bellagio-fountains/hover.jpg"
+          }
+        },
+        {
+          "id": "fremont-street",
+          "name": "Fremont Street",
+          "category": "Historic downtown",
+          "unesco": false,
+          "description": "The older downtown area with classic casinos and a long LED canopy with light shows. It represents the older identity of Las Vegas.",
+          "visitorTip": "Combine with the Neon Museum.",
+          "images": {
+            "primary": "/assets/images/places/usa/las-vegas/fremont-street/primary.jpg",
+            "hover": "/assets/images/places/usa/las-vegas/fremont-street/hover.jpg"
+          }
+        },
+        {
+          "id": "red-rock-canyon",
+          "name": "Red Rock Canyon",
+          "category": "Natural scenic area",
+          "unesco": false,
+          "description": "A conservation area west of the city with red sandstone cliffs, hiking trails and a scenic drive that shows the desert landscape outside the resort district.",
+          "visitorTip": "Reservations may be required in busy seasons; go early to avoid heat.",
+          "images": {
+            "primary": "/assets/images/places/usa/las-vegas/red-rock-canyon/primary.jpg",
+            "hover": "/assets/images/places/usa/las-vegas/red-rock-canyon/hover.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

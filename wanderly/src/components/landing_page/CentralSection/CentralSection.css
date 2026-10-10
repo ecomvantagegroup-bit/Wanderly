@@ -1,0 +1,242 @@
+@reference '../../../assets/main.css';
+
+/* =====================================================================
+   Default = tablet / desktop (768px and up): one screen tall, pinned,
+   cards sit in a horizontal row that GSAP moves sideways.
+   Phone layout (below 768px) is at the bottom of this file.
+   ===================================================================== */
+
+.central-section {
+  --ink: #14141a;
+  --ink-soft: rgba(20, 20, 26, 0.7);
+  --card-bg: rgba(255, 255, 255, 0.55);
+  --card-border: rgba(20, 20, 26, 0.12);
+  --card-shadow: 0 10px 30px rgba(20, 20, 26, 0.12);
+  --btn-bg: rgba(20, 20, 26, 0.06);
+  --btn-border: rgba(20, 20, 26, 0.2);
+
+  @apply relative w-full overflow-hidden flex items-center bg-white;
+  height: 100vh;
+  height: 100svh;
+}
+
+  .central-section.has-bg {
+    --ink: #ffffff;
+    --ink-soft: rgba(255, 255, 255, 0.82);
+    --card-bg: rgba(255, 255, 255, 0.12);
+    --card-border: rgba(255, 255, 255, 0.28);
+    --card-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+    --btn-bg: rgba(255, 255, 255, 0.2);
+    --btn-border: rgba(255, 255, 255, 0.35);
+  }
+
+/* ---------- Background: glass frame with space on every side ---------- */
+.bg-frame {
+  @apply absolute inset-4 lg:inset-5 z-0 p-3 rounded-[2rem] border border-white/60 bg-white/30 backdrop-blur-md opacity-0 transition-opacity duration-500 pointer-events-none;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.central-section.has-bg .bg-frame {
+  @apply opacity-100;
+}
+
+.bg-inner {
+  @apply relative w-full h-full overflow-hidden rounded-3xl bg-white;
+}
+
+  .bg-inner::after {
+    content: '';
+    @apply absolute inset-0 pointer-events-none;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4));
+  }
+
+.bg-layer {
+  @apply absolute inset-0 w-full h-full object-cover opacity-0 scale-105 transition-all duration-700 ease-out;
+}
+
+  .bg-layer.is-active {
+    @apply opacity-100 scale-100;
+  }
+
+/* ---------- Track: one long row, moved by GSAP ---------- */
+.central-track {
+  @apply relative z-10 flex w-max items-center;
+  gap: clamp(1.5rem, 3vw, 2.5rem);
+  padding-inline: 8vw;
+  will-change: transform;
+}
+
+/* ---------- Glass card ---------- */
+.glass-card {
+  @apply relative shrink-0 overflow-hidden rounded-3xl;
+  width: min(40vw, 380px);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--card-shadow), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  transform-style: preserve-3d;
+  transition: background-color 0.5s, border-color 0.5s, box-shadow 0.5s;
+  will-change: transform;
+}
+
+@media (min-width: 1024px) {
+  .glass-card {
+    width: min(28vw, 420px);
+  }
+}
+
+/* glossy diagonal sheen */
+.glass-card::before {
+  content: '';
+  @apply absolute inset-0 z-10 pointer-events-none;
+  background: linear-gradient( 135deg, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0.06) 40%, transparent 60% );
+}
+
+/* mouse-following shine (--mx / --my set in JSX) */
+.card-shine {
+  @apply absolute inset-0 z-10 pointer-events-none opacity-0 transition-opacity duration-300;
+  background: radial-gradient( circle at var(--mx, 50%) var(--my, 0%), rgba(255, 255, 255, 0.4), transparent 55% );
+}
+
+/* ---------- Card images ---------- */
+.card-media {
+  @apply relative w-full overflow-hidden;
+  height: clamp(8rem, 28svh, 14rem);
+}
+
+.card-img {
+  @apply absolute inset-0 block w-full h-full object-cover transition-opacity duration-500;
+}
+
+.img-hover {
+  @apply opacity-0;
+}
+
+/* hover effects only on devices that can really hover */
+@media (hover: hover) {
+  .glass-card:hover .img-hover {
+    @apply opacity-100;
+  }
+
+  .glass-card:hover .card-shine {
+    @apply opacity-100;
+  }
+}
+
+/* ---------- Card content ---------- */
+.card-body {
+  @apply relative z-20 p-5 lg:p-6;
+}
+
+.glass-card h3 {
+  @apply font-bold;
+  font-size: clamp(1.35rem, 2.4vw, 1.75rem);
+  line-height: 1.15;
+  color: var(--ink);
+  transition: color 0.5s;
+}
+
+.glass-card p {
+  @apply mt-2;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  transition: color 0.5s;
+}
+
+.card-btn {
+  @apply inline-block mt-4 px-5 py-2 rounded-full text-sm font-semibold backdrop-blur-md transition;
+  color: var(--ink);
+  background: var(--btn-bg);
+  border: 1px solid var(--btn-border);
+}
+
+  .card-btn:hover {
+    background: var(--btn-border);
+  }
+
+/* Short landscape screens (phones turned sideways, still in row mode) */
+@media (min-width: 768px) and (max-height: 520px) {
+  .card-media {
+    height: 6rem;
+  }
+
+  .card-body {
+    @apply p-3;
+  }
+
+  .glass-card p {
+    @apply mt-1;
+  }
+
+  .card-btn {
+    @apply mt-2 py-1;
+  }
+}
+
+/* =====================================================================
+   PHONE (below 768px): plain vertical scroll.
+   No pin. Cards are stacked in a column; the glass frame with the active
+   card's image stays "sticky" on screen behind them while you scroll.
+   ===================================================================== */
+@media (max-width: 767px) {
+  .central-section {
+    display: block;
+    height: auto;
+    min-height: 100svh;
+    /* "clip" (not "hidden") so the sticky frame below still works */
+    overflow: clip;
+  }
+
+  .bg-frame {
+    position: sticky;
+    inset: auto;
+    top: 0.5rem;
+    height: calc(100svh - 1rem);
+    /* pull the cards up so they sit on top of the frame */
+    margin: 0.5rem 0.5rem calc(0.5rem - 100svh);
+    padding: 0.375rem;
+    border-radius: 1.5rem;
+  }
+
+  .bg-inner {
+    border-radius: 1.125rem;
+  }
+
+  .central-track {
+    @apply flex-col w-full;
+    gap: 1.5rem;
+    padding: 2.5rem 1rem 3rem;
+    will-change: auto;
+  }
+
+  .glass-card {
+    width: 100%;
+    max-width: 26rem;
+  }
+
+  .card-media {
+    height: 13rem;
+  }
+
+  .card-body {
+    @apply p-4;
+  }
+
+  .glass-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .glass-card p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bg-layer,
+  .card-shine,
+  .card-img {
+    transition: none;
+  }
+}

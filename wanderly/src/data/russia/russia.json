@@ -1,0 +1,108 @@
+{
+  "id": "russia",
+  "name": "Russia",
+  "slug": "russia-travel-guide",
+  "route": "/russia",
+  "seo": {
+    "title": "Russia Travel Guide: Moscow, St Petersburg, Kazan & More",
+    "description": "Explore Russia’s heritage cities: Moscow, Saint Petersburg, Kazan, Sochi and Vladimir-Suzdal. History, UNESCO sites, museums and itinerary ideas.",
+    "h1": "Russia Travel Guide: Heritage Cities and Cultural Highlights"
+  },
+  "heading": "Russia Travel Guide: Heritage Cities and Cultural Highlights",
+  "description": [
+    "Russia’s main visitor destinations combine imperial palaces, Orthodox churches, museums, theatre, medieval towns and Black Sea or mountain landscapes. This content set features Moscow, Saint Petersburg, Kazan, Sochi and Vladimir/Suzdal.",
+    "Moscow and Saint Petersburg should be the main international pages because they contain Russia’s strongest concentration of political, religious, artistic, imperial and architectural attractions.",
+    "Travel conditions, entry rules, flights, payments and government travel advisories for Russia can change quickly. Content on this site should describe heritage and attractions, and travellers should check the latest advice from their own government before planning."
+  ],
+  "quickFacts": {
+    "Capital": "Moscow",
+    "Language": "Russian (Tatar also in Tatarstan)",
+    "Currency": "Russian ruble (RUB)",
+    "Entry": "Visa and entry rules depend on nationality and change; check official sources",
+    "Best time overall": "May–September; Saint Petersburg’s White Nights run late May to mid-July",
+    "Suggested trip": "10–14 days"
+  },
+  "images": {
+    "hero": "/assets/images/countries/russia/hero.jpg",
+    "banner": "/assets/images/countries/russia/banner.jpg",
+    "primary": "/assets/images/countries/russia/primary.jpg",
+    "hover": "/assets/images/countries/russia/hover.jpg"
+  },
+  "citiesSection": {
+    "heading": "Top Cities in Russia",
+    "body": "Choose a city to see its main places to visit.",
+    "citiesFile": "/data/russiacities.json"
+  },
+  "cities": [
+    {
+      "id": "moscow",
+      "name": "Moscow",
+      "slug": "moscow-travel-guide",
+      "route": "/russia/moscow",
+      "intro": "Moscow is Russia’s political and historical centre.",
+      "knownFor": "Kremlin, Red Square, St Basil’s, museums, theatre",
+      "suggestedStay": "3–4 days",
+      "bestTime": "May–September; winters are cold and snowy",
+      "images": {
+        "primary": "/assets/images/cities/russia/moscow/primary.jpg",
+        "hover": "/assets/images/cities/russia/moscow/hover.jpg"
+      }
+    },
+    {
+      "id": "saint-petersburg",
+      "name": "Saint Petersburg",
+      "slug": "saint-petersburg-travel-guide",
+      "route": "/russia/saint-petersburg",
+      "intro": "Saint Petersburg was founded by Peter the Great in 1703 and served as Russia’s imperial capital for more than two centuries.",
+      "knownFor": "Hermitage, imperial palaces, canals, White Nights",
+      "suggestedStay": "3–4 days",
+      "bestTime": "June–August (White Nights); winter for snowy scenery",
+      "images": {
+        "primary": "/assets/images/cities/russia/saint-petersburg/primary.jpg",
+        "hover": "/assets/images/cities/russia/saint-petersburg/hover.jpg"
+      }
+    },
+    {
+      "id": "kazan",
+      "name": "Kazan",
+      "slug": "kazan-travel-guide",
+      "route": "/russia/kazan",
+      "intro": "Kazan is the capital of Tatarstan and an important meeting point of Russian, Tatar, Islamic and Orthodox cultures.",
+      "knownFor": "Tatar and Russian culture, Kremlin, mosques, food",
+      "suggestedStay": "2 days",
+      "bestTime": "May–September",
+      "images": {
+        "primary": "/assets/images/cities/russia/kazan/primary.jpg",
+        "hover": "/assets/images/cities/russia/kazan/hover.jpg"
+      }
+    },
+    {
+      "id": "sochi",
+      "name": "Sochi",
+      "slug": "sochi-travel-guide",
+      "route": "/russia/sochi",
+      "intro": "Sochi is a Black Sea resort city known for beaches, subtropical vegetation, mountains, wellness tourism and winter sports.",
+      "knownFor": "Black Sea beaches, Caucasus mountains, skiing, wellness",
+      "suggestedStay": "3–5 days",
+      "bestTime": "June–September for beaches; December–March for skiing",
+      "images": {
+        "primary": "/assets/images/cities/russia/sochi/primary.jpg",
+        "hover": "/assets/images/cities/russia/sochi/hover.jpg"
+      }
+    },
+    {
+      "id": "vladimir-suzdal",
+      "name": "Vladimir and Suzdal",
+      "slug": "vladimir-suzdal-travel-guide",
+      "route": "/russia/vladimir-suzdal",
+      "intro": "Vladimir and Suzdal are historic cities of the Golden Ring, connected with medieval Russian state formation and Orthodox architecture.",
+      "knownFor": "Golden Ring towns, white-stone churches, wooden architecture",
+      "suggestedStay": "2 days",
+      "bestTime": "Summer and winter",
+      "images": {
+        "primary": "/assets/images/cities/russia/vladimir-suzdal/primary.jpg",
+        "hover": "/assets/images/cities/russia/vladimir-suzdal/hover.jpg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "countryId": "china",
+  "countryName": "China",
+  "cities": [
+    {
+      "id": "beijing",
+      "name": "Beijing",
+      "seo": {
+        "title": "Beijing Travel Guide: Forbidden City & Great Wall",
+        "description": "Explore Beijing: the Forbidden City, Great Wall, Temple of Heaven, Summer Palace and Ming Tombs. Booking tips, history and a 4-day itinerary.",
+        "h1": "Beijing Travel Guide: Imperial History and the Great Wall"
+      },
+      "heading": "Beijing Travel Guide: Imperial History and the Great Wall",
+      "overview": [
+        "Beijing has been China’s imperial and political centre for much of the last millennium. Its historic layout includes ceremonial avenues, imperial palaces, temples, gardens, hutongs and monumental government buildings.",
+        "The city’s central axis runs through the Forbidden City, and the surrounding hills hold sections of the Great Wall and imperial tombs."
+      ],
+      "quickFacts": {
+        "bestTime": "April–May and September–October",
+        "suggestedStay": "4–5 days",
+        "knownFor": "Forbidden City, Great Wall, Temple of Heaven, imperial gardens"
+      },
+      "images": {
+        "hero": "/assets/images/cities/china/beijing/hero.jpg",
+        "primary": "/assets/images/cities/china/beijing/primary.jpg",
+        "hover": "/assets/images/cities/china/beijing/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "forbidden-city",
+          "name": "Forbidden City",
+          "category": "UNESCO World Heritage Site",
+          "unesco": true,
+          "description": "Built in the early 15th century and used by Ming and Qing emperors, it is the world’s largest surviving wooden palace complex. It now houses the Palace Museum.",
+          "visitorTip": "Book timed tickets in advance; bring your passport; check closing days.",
+          "images": {
+            "primary": "/assets/images/places/china/beijing/forbidden-city/primary.jpg",
+            "hover": "/assets/images/places/china/beijing/forbidden-city/hover.jpg"
+          }
+        },
+        {
+          "id": "great-wall-of-china",
+          "name": "Great Wall of China",
+          "category": "UNESCO World Heritage Site",
+          "unesco": true,
+          "description": "Built and rebuilt across dynasties, the Wall represents China’s defensive history and engineering. Sections near Beijing include Badaling, Mutianyu and Juyongguan.",
+          "visitorTip": "Mutianyu is less crowded than Badaling; start early.",
+          "images": {
+            "primary": "/assets/images/places/china/beijing/great-wall-of-china/primary.jpg",
+            "hover": "/assets/images/places/china/beijing/great-wall-of-china/hover.jpg"
+          }
+        },
+        {
+          "id": "temple-of-heaven",
+          "name": "Temple of Heaven",
+          "category": "UNESCO World Heritage Site",
+          "unesco": true,
+          "description": "Imperial religious architecture where emperors performed ceremonies for good harvests, with circular halls and landscaped grounds.",
+          "visitorTip": "Visit in the morning to see locals exercising and playing music.",
+          "images": {
+            "primary": "/assets/images/places/china/beijing/temple-of-heaven/primary.jpg",
+            "hover": "/assets/images/places/china/beijing/temple-of-heaven/hover.jpg"
+          }
+        },
+        {
+          "id": "summer-palace",
+          "name": "Summer Palace",
+          "category": "UNESCO World Heritage Site",
+          "unesco": true,
+          "description": "A Qing dynasty imperial garden with lakes, bridges, pavilions and palace architecture.",
+          "visitorTip": "Allow half a day.",
+          "images": {
+            "primary": "/assets/images/places/china/beijing/summer-palace/primary.jpg",
+            "hover": "/assets/images/places/china/beijing/summer-palace/hover.jpg"
+          }
+        },
+        {
+          "id": "tiananmen-square",
+          "name": "Tiananmen Square",
+          "category": "Public square",
+          "unesco": false,
+          "description": "One of the world’s largest public squares and a central ceremonial space in modern China.",
+          "visitorTip": "Security checks and reservations may apply.",
+          "images": {
+            "primary": "/assets/images/places/china/beijing/tiananmen-square/primary.jpg",
+            "hover": "/assets/images/places/china/beijing/tiananmen-square/hover.jpg"
+          }
+        },
+        {
+          "id": "ming-tombs",
+          "name": "Ming Tombs",
+          "category": "UNESCO World Heritage Site",
+          "unesco": true,
+          "description": "A large burial complex for Ming emperors near Beijing with a ceremonial Sacred Way.",
+          "visitorTip": "Combine with a Great Wall visit.",
+          "images": {
+            "primary": "/assets/images/places/china/beijing/ming-tombs/primary.jpg",
+            "hover": "/assets/images/places/china/beijing/ming-tombs/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "xian",
+      "name": "Xi’an",
+      "seo": {
+        "title": "Xi’an Travel Guide: Terracotta Army & City Wall",
+        "description": "Visit Xi’an: the Terracotta Army, City Wall, Giant Wild Goose Pagoda, Muslim Quarter and Shaanxi History Museum. Tips and a 3-day itinerary.",
+        "h1": "Xi’an Travel Guide: Ancient Capital of the Silk Road"
+      },
+      "heading": "Xi’an Travel Guide: Ancient Capital of the Silk Road",
+      "overview": [
+        "Xi’an was the capital of several Chinese dynasties and the eastern starting point of the Silk Road. It is one of China’s most important cities for archaeology, ancient history and multicultural exchange.",
+        "The old walled city preserves Ming-period defences, a Tang-era pagoda and a long-established Muslim community."
+      ],
+      "quickFacts": {
+        "bestTime": "March–May and September–November",
+        "suggestedStay": "2–3 days",
+        "knownFor": "Terracotta Army, city wall, Silk Road heritage, Muslim Quarter"
+      },
+      "images": {
+        "hero": "/assets/images/cities/china/xian/hero.jpg",
+        "primary": "/assets/images/cities/china/xian/primary.jpg",
+        "hover": "/assets/images/cities/china/xian/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "terracotta-army",
+          "name": "Terracotta Army",
+          "category": "UNESCO World Heritage Site",
+          "unesco": true,
+          "description": "Discovered in 1974, thousands of life-sized soldiers, horses and chariots were created to protect Qin Shi Huang, China’s first emperor, in the afterlife. It is part of the UNESCO-listed Mausoleum of the First Qin Emperor.",
+          "visitorTip": "Go early; allow half a day with transport.",
+          "images": {
+            "primary": "/assets/images/places/china/xian/terracotta-army/primary.jpg",
+            "hover": "/assets/images/places/china/xian/terracotta-army/hover.jpg"
+          }
+        },
+        {
+          "id": "xi-an-city-wall",
+          "name": "Xi’an City Wall",
+          "category": "Ming defensive wall",
+          "unesco": false,
+          "description": "One of the most complete surviving city walls from the Ming period, with a perimeter of about 13.7 km, suitable for cycling or walking.",
+          "visitorTip": "Cycle the wall at sunset.",
+          "images": {
+            "primary": "/assets/images/places/china/xian/xi-an-city-wall/primary.jpg",
+            "hover": "/assets/images/places/china/xian/xi-an-city-wall/hover.jpg"
+          }
+        },
+        {
+          "id": "giant-wild-goose-pagoda",
+          "name": "Giant Wild Goose Pagoda",
+          "category": "Buddhist pagoda",
+          "unesco": false,
+          "description": "A Tang dynasty pagoda from the 7th century associated with the translation and preservation of Buddhist scriptures and with Silk Road connections.",
+          "visitorTip": "Visit in the evening for a fountain show.",
+          "images": {
+            "primary": "/assets/images/places/china/xian/giant-wild-goose-pagoda/primary.jpg",
+            "hover": "/assets/images/places/china/xian/giant-wild-goose-pagoda/hover.jpg"
+          }
+        },
+        {
+          "id": "muslim-quarter",
+          "name": "Muslim Quarter",
+          "category": "Historic food district",
+          "unesco": false,
+          "description": "A lively area of street food, markets and mosques reflecting historic interaction between Chinese and Islamic communities along the Silk Road.",
+          "visitorTip": "Try roujiamo and yangrou paomo.",
+          "images": {
+            "primary": "/assets/images/places/china/xian/muslim-quarter/primary.jpg",
+            "hover": "/assets/images/places/china/xian/muslim-quarter/hover.jpg"
+          }
+        },
+        {
+          "id": "shaanxi-history-museum",
+          "name": "Shaanxi History Museum",
+          "category": "Museum",
+          "unesco": false,
+          "description": "One of China’s strongest collections of ancient regional history, including bronzes, ceramics, sculptures and Tang dynasty art.",
+          "visitorTip": "Reserve tickets as needed.",
+          "images": {
+            "primary": "/assets/images/places/china/xian/shaanxi-history-museum/primary.jpg",
+            "hover": "/assets/images/places/china/xian/shaanxi-history-museum/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shanghai",
+      "name": "Shanghai",
+      "seo": {
+        "title": "Shanghai Travel Guide: The Bund, Yu Garden & Skyline",
+        "description": "Plan Shanghai: the Bund, Shanghai Tower, Yu Garden, Nanjing Road, the Former French Concession and Shanghai Museum. Tips and a 3-day itinerary.",
+        "h1": "Shanghai Travel Guide: Historic Bund and Modern Skyline"
+      },
+      "heading": "Shanghai Travel Guide: Historic Bund and Modern Skyline",
+      "overview": [
+        "Shanghai grew from a river and coastal trading settlement into an international port and one of Asia’s leading financial cities. Its architecture reflects Chinese, British, American, Art Deco, socialist and contemporary influences.",
+        "The city contrasts the historic Bund waterfront with the Pudong skyline across the Huangpu River."
+      ],
+      "quickFacts": {
+        "bestTime": "March–May and October–November",
+        "suggestedStay": "3 days",
+        "knownFor": "The Bund, skyline, Yu Garden, Art Deco, shopping"
+      },
+      "images": {
+        "hero": "/assets/images/cities/china/shanghai/hero.jpg",
+        "primary": "/assets/images/cities/china/shanghai/primary.jpg",
+        "hover": "/assets/images/cities/china/shanghai/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "the-bund",
+          "name": "The Bund",
+          "category": "Historic waterfront",
+          "unesco": false,
+          "description": "A row of former banks, hotels and trading offices that represent Shanghai’s international concession era, facing the modern towers of Pudong.",
+          "visitorTip": "Visit at dusk for the skyline lights.",
+          "images": {
+            "primary": "/assets/images/places/china/shanghai/the-bund/primary.jpg",
+            "hover": "/assets/images/places/china/shanghai/the-bund/hover.jpg"
+          }
+        },
+        {
+          "id": "shanghai-tower",
+          "name": "Shanghai Tower",
+          "category": "Skyscraper",
+          "unesco": false,
+          "description": "At 632 metres, it is one of the world’s tallest buildings, designed with a twisting form for wind efficiency.",
+          "visitorTip": "Book observation deck tickets in advance.",
+          "images": {
+            "primary": "/assets/images/places/china/shanghai/shanghai-tower/primary.jpg",
+            "hover": "/assets/images/places/china/shanghai/shanghai-tower/hover.jpg"
+          }
+        },
+        {
+          "id": "yu-garden",
+          "name": "Yu Garden",
+          "category": "Classical garden",
+          "unesco": false,
+          "description": "A Ming dynasty garden with rockeries, ponds, pavilions and traditional Chinese garden design.",
+          "visitorTip": "Go early to avoid crowds.",
+          "images": {
+            "primary": "/assets/images/places/china/shanghai/yu-garden/primary.jpg",
+            "hover": "/assets/images/places/china/shanghai/yu-garden/hover.jpg"
+          }
+        },
+        {
+          "id": "nanjing-road",
+          "name": "Nanjing Road",
+          "category": "Shopping street",
+          "unesco": false,
+          "description": "One of China’s most famous commercial streets, with department stores and neon signs.",
+          "visitorTip": "Walk toward the Bund at night.",
+          "images": {
+            "primary": "/assets/images/places/china/shanghai/nanjing-road/primary.jpg",
+            "hover": "/assets/images/places/china/shanghai/nanjing-road/hover.jpg"
+          }
+        },
+        {
+          "id": "former-french-concession",
+          "name": "Former French Concession",
+          "category": "Historic district",
+          "unesco": false,
+          "description": "A district of European-style villas, Art Deco buildings and tree-lined streets, good for walking and cafés.",
+          "visitorTip": "Explore Wukang Road and Fuxing Road.",
+          "images": {
+            "primary": "/assets/images/places/china/shanghai/former-french-concession/primary.jpg",
+            "hover": "/assets/images/places/china/shanghai/former-french-concession/hover.jpg"
+          }
+        },
+        {
+          "id": "shanghai-museum",
+          "name": "Shanghai Museum",
+          "category": "Museum",
+          "unesco": false,
+          "description": "A leading museum of Chinese art with bronzes, ceramics, calligraphy, paintings and jade.",
+          "visitorTip": "Reserve time slots if required.",
+          "images": {
+            "primary": "/assets/images/places/china/shanghai/shanghai-museum/primary.jpg",
+            "hover": "/assets/images/places/china/shanghai/shanghai-museum/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "guilin-yangshuo",
+      "name": "Guilin and Yangshuo",
+      "seo": {
+        "title": "Guilin & Yangshuo Travel Guide: Li River & Karst Peaks",
+        "description": "Plan Guilin and Yangshuo: Li River cruise, Reed Flute Cave, Elephant Trunk Hill, Yangshuo countryside and Longji Rice Terraces. Tips and itinerary.",
+        "h1": "Guilin and Yangshuo Travel Guide: Karst Landscapes"
+      },
+      "heading": "Guilin and Yangshuo Travel Guide: Karst Landscapes",
+      "overview": [
+        "Guilin and Yangshuo are famous for karst mountains, rivers, caves, rural landscapes and Chinese landscape painting traditions.",
+        "Guilin is part of the South China Karst serial UNESCO property, while Yangshuo is a popular base for cycling, rafting and village experiences."
+      ],
+      "quickFacts": {
+        "bestTime": "April–October (avoid heavy rain periods)",
+        "suggestedStay": "3–4 days",
+        "knownFor": "Li River, karst peaks, rice terraces, cycling"
+      },
+      "images": {
+        "hero": "/assets/images/cities/china/guilin-yangshuo/hero.jpg",
+        "primary": "/assets/images/cities/china/guilin-yangshuo/primary.jpg",
+        "hover": "/assets/images/cities/china/guilin-yangshuo/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "li-river-cruise",
+          "name": "Li River cruise",
+          "category": "River cruise",
+          "unesco": false,
+          "description": "A scenic river trip between Guilin and Yangshuo, past limestone peaks, villages and bamboo rafts. The landscape resembles traditional Chinese shanshui paintings.",
+          "visitorTip": "Choose a morning cruise for better light.",
+          "images": {
+            "primary": "/assets/images/places/china/guilin-yangshuo/li-river-cruise/primary.jpg",
+            "hover": "/assets/images/places/china/guilin-yangshuo/li-river-cruise/hover.jpg"
+          }
+        },
+        {
+          "id": "yangshuo-countryside",
+          "name": "Yangshuo countryside",
+          "category": "Rural landscape",
+          "unesco": false,
+          "description": "A karst area for cycling, hiking, rafting and village experiences, with farming communities and river life.",
+          "visitorTip": "Rent a bike for the Yulong River route.",
+          "images": {
+            "primary": "/assets/images/places/china/guilin-yangshuo/yangshuo-countryside/primary.jpg",
+            "hover": "/assets/images/places/china/guilin-yangshuo/yangshuo-countryside/hover.jpg"
+          }
+        },
+        {
+          "id": "reed-flute-cave",
+          "name": "Reed Flute Cave",
+          "category": "Limestone cave",
+          "unesco": false,
+          "description": "A major limestone cave with underground chambers, stalactites and coloured lighting.",
+          "visitorTip": "Combine with a city sightseeing day.",
+          "images": {
+            "primary": "/assets/images/places/china/guilin-yangshuo/reed-flute-cave/primary.jpg",
+            "hover": "/assets/images/places/china/guilin-yangshuo/reed-flute-cave/hover.jpg"
+          }
+        },
+        {
+          "id": "elephant-trunk-hill",
+          "name": "Elephant Trunk Hill",
+          "category": "Natural landmark",
+          "unesco": false,
+          "description": "An iconic Guilin limestone formation whose shape resembles an elephant drinking from the river.",
+          "visitorTip": "Visit at sunset from the riverside.",
+          "images": {
+            "primary": "/assets/images/places/china/guilin-yangshuo/elephant-trunk-hill/primary.jpg",
+            "hover": "/assets/images/places/china/guilin-yangshuo/elephant-trunk-hill/hover.jpg"
+          }
+        },
+        {
+          "id": "longji-rice-terraces",
+          "name": "Longji Rice Terraces",
+          "category": "Terraced landscape",
+          "unesco": false,
+          "description": "A centuries-old terraced farming landscape in the mountains with minority village culture.",
+          "visitorTip": "Check seasons for water-filled or golden terraces.",
+          "images": {
+            "primary": "/assets/images/places/china/guilin-yangshuo/longji-rice-terraces/primary.jpg",
+            "hover": "/assets/images/places/china/guilin-yangshuo/longji-rice-terraces/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chengdu",
+      "name": "Chengdu",
+      "seo": {
+        "title": "Chengdu Travel Guide: Pandas, Sichuan Food & Teahouses",
+        "description": "Explore Chengdu: Giant Panda Breeding Base, Jinli, Wuhou Shrine, Kuanzhai Alley and Sichuan cuisine. Tips, day trips and a 3-day itinerary.",
+        "h1": "Chengdu Travel Guide: Pandas, Food and Tea Culture"
+      },
+      "heading": "Chengdu Travel Guide: Pandas, Food and Tea Culture",
+      "overview": [
+        "Chengdu is the capital of Sichuan and a major centre of food, tea culture, technology and panda conservation. It has a relaxed urban character and strong regional identity.",
+        "It is a good base for day trips to Leshan Giant Buddha, Mount Emei and Dujiangyan Irrigation System, all UNESCO World Heritage properties."
+      ],
+      "quickFacts": {
+        "bestTime": "March–May and September–November",
+        "suggestedStay": "3–4 days",
+        "knownFor": "Giant pandas, Sichuan food, teahouses, Three Kingdoms history"
+      },
+      "images": {
+        "hero": "/assets/images/cities/china/chengdu/hero.jpg",
+        "primary": "/assets/images/cities/china/chengdu/primary.jpg",
+        "hover": "/assets/images/cities/china/chengdu/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "chengdu-research-base-of-giant-panda-breeding",
+          "name": "Chengdu Research Base of Giant Panda Breeding",
+          "category": "Wildlife centre",
+          "unesco": false,
+          "description": "A conservation and breeding centre where visitors can see giant pandas and learn about conservation.",
+          "visitorTip": "Go early when pandas are most active.",
+          "images": {
+            "primary": "/assets/images/places/china/chengdu/chengdu-research-base-of-giant-panda-breeding/primary.jpg",
+            "hover": "/assets/images/places/china/chengdu/chengdu-research-base-of-giant-panda-breeding/hover.jpg"
+          }
+        },
+        {
+          "id": "jinli-ancient-street",
+          "name": "Jinli Ancient Street",
+          "category": "Heritage-style street",
+          "unesco": false,
+          "description": "A tourism district inspired by historic Sichuan streets with snacks, crafts and lanterns.",
+          "visitorTip": "Visit in the evening for lights.",
+          "images": {
+            "primary": "/assets/images/places/china/chengdu/jinli-ancient-street/primary.jpg",
+            "hover": "/assets/images/places/china/chengdu/jinli-ancient-street/hover.jpg"
+          }
+        },
+        {
+          "id": "wuhou-shrine",
+          "name": "Wuhou Shrine",
+          "category": "Memorial complex",
+          "unesco": false,
+          "description": "A major memorial complex connected with Zhuge Liang and Shu Han history, with landscaped courtyards.",
+          "visitorTip": "Combine with Jinli, which is next door.",
+          "images": {
+            "primary": "/assets/images/places/china/chengdu/wuhou-shrine/primary.jpg",
+            "hover": "/assets/images/places/china/chengdu/wuhou-shrine/hover.jpg"
+          }
+        },
+        {
+          "id": "kuanzhai-alley",
+          "name": "Kuanzhai Alley",
+          "category": "Historic alleys",
+          "unesco": false,
+          "description": "Alleys with teahouses, local food and courtyard houses that preserve elements of old Chengdu’s urban architecture.",
+          "visitorTip": "Expect restoration and commercial shops.",
+          "images": {
+            "primary": "/assets/images/places/china/chengdu/kuanzhai-alley/primary.jpg",
+            "hover": "/assets/images/places/china/chengdu/kuanzhai-alley/hover.jpg"
+          }
+        },
+        {
+          "id": "sichuan-cuisine-districts",
+          "name": "Sichuan cuisine districts",
+          "category": "Food experience",
+          "unesco": false,
+          "description": "Sichuan cuisine, known for chilli, Sichuan pepper and complex seasoning, includes hotpot, mapo tofu and dan dan noodles.",
+          "visitorTip": "Ask for mild versions if you prefer less heat.",
+          "images": {
+            "primary": "/assets/images/places/china/chengdu/sichuan-cuisine-districts/primary.jpg",
+            "hover": "/assets/images/places/china/chengdu/sichuan-cuisine-districts/hover.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

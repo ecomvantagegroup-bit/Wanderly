@@ -1,0 +1,14 @@
+/* "clip" hides the sideways overflow of the incoming section
+   without creating a scroll container (unlike overflow: hidden) */
+.section-stack {
+  position: relative;
+  width: 100%;
+  overflow-x: clip;
+}
+
+/* One wrapper per section. Do NOT add will-change, filter or perspective here:
+   they would break sections that pin themselves. */
+.stack-panel {
+  position: relative;
+  width: 100%;
+}

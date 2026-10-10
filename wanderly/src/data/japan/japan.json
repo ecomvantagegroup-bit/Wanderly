@@ -1,0 +1,108 @@
+{
+  "id": "japan",
+  "name": "Japan",
+  "slug": "japan-travel-guide",
+  "route": "/japan",
+  "seo": {
+    "title": "Japan Travel Guide: Tokyo, Kyoto, Osaka, Hiroshima & Nara",
+    "description": "Plan Japan travel with city guides to Tokyo, Kyoto, Osaka, Hiroshima and Nara: temples, castles, food, UNESCO sites, tips and itineraries.",
+    "h1": "Japan Travel Guide: Five Essential Cities"
+  },
+  "heading": "Japan Travel Guide: Five Essential Cities",
+  "description": [
+    "Japan combines ancient temples, shrines and castles with modern cities, technology and food culture. This content set features Tokyo, Kyoto, Osaka, Hiroshima and Nara, which together cover imperial history, Buddhist and Shinto heritage, merchant culture and modern peace history.",
+    "Kyoto and Nara are especially important for traditional architecture, Buddhist art, Shinto shrines, imperial history and UNESCO heritage. Japan’s official tourism information highlights Kyoto, Nara, Hiroshima, Tokyo and Osaka among its major destinations.",
+    "The cities are linked by an efficient high-speed rail network, which makes multi-city trips simple."
+  ],
+  "quickFacts": {
+    "Capital": "Tokyo",
+    "Language": "Japanese",
+    "Currency": "Japanese yen (JPY)",
+    "Entry": "Visa rules depend on nationality; check Japan’s official foreign ministry sources",
+    "Best time overall": "Late March–April (cherry blossoms) and October–November (autumn colours)",
+    "Suggested trip": "10–12 days"
+  },
+  "images": {
+    "hero": "/assets/images/countries/japan/hero.jpg",
+    "banner": "/assets/images/countries/japan/banner.jpg",
+    "primary": "/assets/images/countries/japan/primary.jpg",
+    "hover": "/assets/images/countries/japan/hover.jpg"
+  },
+  "citiesSection": {
+    "heading": "Top Cities in Japan",
+    "body": "Choose a city to see its main places to visit.",
+    "citiesFile": "/data/japancities.json"
+  },
+  "cities": [
+    {
+      "id": "tokyo",
+      "name": "Tokyo",
+      "slug": "tokyo-travel-guide",
+      "route": "/japan/tokyo",
+      "intro": "Tokyo developed from the former Edo castle town into Japan’s political, economic, technological, fashion and entertainment capital.",
+      "knownFor": "Modern capital, shrines, museums, technology, food",
+      "suggestedStay": "3–4 days",
+      "bestTime": "March–May and October–November",
+      "images": {
+        "primary": "/assets/images/cities/japan/tokyo/primary.jpg",
+        "hover": "/assets/images/cities/japan/tokyo/hover.jpg"
+      }
+    },
+    {
+      "id": "kyoto",
+      "name": "Kyoto",
+      "slug": "kyoto-travel-guide",
+      "route": "/japan/kyoto",
+      "intro": "Kyoto was Japan’s imperial capital for more than a thousand years and remains the country’s leading centre for traditional culture, gardens, tea ceremony, crafts, temples and historic neighbourhoods.",
+      "knownFor": "Temples, shrines, gardens, geisha districts, UNESCO monuments",
+      "suggestedStay": "3–4 days",
+      "bestTime": "Late March–April and November",
+      "images": {
+        "primary": "/assets/images/cities/japan/kyoto/primary.jpg",
+        "hover": "/assets/images/cities/japan/kyoto/hover.jpg"
+      }
+    },
+    {
+      "id": "osaka",
+      "name": "Osaka",
+      "slug": "osaka-travel-guide",
+      "route": "/japan/osaka",
+      "intro": "Osaka developed as a commercial and merchant city and is known for food, entertainment, shopping, modern architecture and its historic castle.",
+      "knownFor": "Street food, Osaka Castle, nightlife, theme parks",
+      "suggestedStay": "2–3 days",
+      "bestTime": "March–May and October–November",
+      "images": {
+        "primary": "/assets/images/cities/japan/osaka/primary.jpg",
+        "hover": "/assets/images/cities/japan/osaka/hover.jpg"
+      }
+    },
+    {
+      "id": "hiroshima",
+      "name": "Hiroshima",
+      "slug": "hiroshima-travel-guide",
+      "route": "/japan/hiroshima",
+      "intro": "Hiroshima is known for peace education, modern reconstruction, islands, gardens and regional food.",
+      "knownFor": "Peace Memorial Park, Atomic Bomb Dome, Miyajima",
+      "suggestedStay": "2 days",
+      "bestTime": "March–May and October–November",
+      "images": {
+        "primary": "/assets/images/cities/japan/hiroshima/primary.jpg",
+        "hover": "/assets/images/cities/japan/hiroshima/hover.jpg"
+      }
+    },
+    {
+      "id": "nara",
+      "name": "Nara",
+      "slug": "nara-travel-guide",
+      "route": "/japan/nara",
+      "intro": "Nara was Japan’s capital from 710 to 784 and contains some of the country’s oldest Buddhist temples, Shinto shrines, palace remains, sculpture and wooden architecture.",
+      "knownFor": "Ancient capital, Todai-ji, deer, UNESCO heritage",
+      "suggestedStay": "1 day (half-day possible)",
+      "bestTime": "Spring and autumn",
+      "images": {
+        "primary": "/assets/images/cities/japan/nara/primary.jpg",
+        "hover": "/assets/images/cities/japan/nara/hover.jpg"
+      }
+    }
+  ]
+}

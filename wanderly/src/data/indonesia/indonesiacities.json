@@ -1,0 +1,398 @@
+{
+  "countryId": "indonesia",
+  "countryName": "Indonesia",
+  "cities": [
+    {
+      "id": "jakarta",
+      "name": "Jakarta",
+      "seo": {
+        "title": "Jakarta Travel Guide: Top Places, Old Town & Museums",
+        "description": "Explore Jakarta’s Monas, Kota Tua, Istiqlal Mosque, National Museum and Thousand Islands. Get history, tips, transport advice and a 3-day itinerary.",
+        "h1": "Jakarta Travel Guide: History, Museums and City Highlights"
+      },
+      "heading": "Jakarta Travel Guide: History, Museums and City Highlights",
+      "overview": [
+        "Jakarta is Indonesia’s largest city and a major political, economic, cultural and commercial centre. Its history includes the old port of Sunda Kelapa, Dutch colonial Batavia, independence and rapid modern development.",
+        "The city is large and busy, so visitors usually focus on the historic north (Kota Tua), the central monuments around Merdeka Square and a few museums."
+      ],
+      "quickFacts": {
+        "bestTime": "May–September (dry season)",
+        "suggestedStay": "2–3 days",
+        "knownFor": "Capital city, colonial heritage, museums, food, Thousand Islands"
+      },
+      "images": {
+        "hero": "/assets/images/cities/indonesia/jakarta/hero.jpg",
+        "primary": "/assets/images/cities/indonesia/jakarta/primary.jpg",
+        "hover": "/assets/images/cities/indonesia/jakarta/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "national-monument-monas",
+          "name": "National Monument (Monas)",
+          "category": "National landmark",
+          "unesco": false,
+          "description": "A tall obelisk topped by a gold-plated flame, begun in the early 1960s and opened in 1975 to commemorate the struggle for Indonesian independence. It stands in Merdeka Square, and an observation deck gives views of the city.",
+          "visitorTip": "Visit early to avoid queues for the viewing platform.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/jakarta/national-monument-monas/primary.jpg",
+            "hover": "/assets/images/places/indonesia/jakarta/national-monument-monas/hover.jpg"
+          }
+        },
+        {
+          "id": "kota-tua-old-town",
+          "name": "Kota Tua (Old Town)",
+          "category": "Historic district",
+          "unesco": false,
+          "description": "The old Dutch colonial centre of Batavia around Fatahillah Square, with colonial buildings, museums and cafés. It preserves architecture from the Dutch period.",
+          "visitorTip": "Rent a bicycle and visit the Jakarta History Museum.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/jakarta/kota-tua-old-town/primary.jpg",
+            "hover": "/assets/images/places/indonesia/jakarta/kota-tua-old-town/hover.jpg"
+          }
+        },
+        {
+          "id": "istiqlal-mosque",
+          "name": "Istiqlal Mosque",
+          "category": "Mosque",
+          "unesco": false,
+          "description": "Opened in 1978 and designed by Frederich Silaban, it is one of Southeast Asia’s largest mosques, with modern Indonesian Islamic architecture, a large dome and monumental scale.",
+          "visitorTip": "Dress modestly; visitors can join guided tours outside prayer times.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/jakarta/istiqlal-mosque/primary.jpg",
+            "hover": "/assets/images/places/indonesia/jakarta/istiqlal-mosque/hover.jpg"
+          }
+        },
+        {
+          "id": "jakarta-cathedral",
+          "name": "Jakarta Cathedral",
+          "category": "Neo-Gothic church",
+          "unesco": false,
+          "description": "A Catholic cathedral facing Istiqlal Mosque, in neo-Gothic style, completed in 1901. The two buildings together are a symbol of Indonesia’s religious diversity.",
+          "visitorTip": "Visit both buildings in the same trip to see the contrast.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/jakarta/jakarta-cathedral/primary.jpg",
+            "hover": "/assets/images/places/indonesia/jakarta/jakarta-cathedral/hover.jpg"
+          }
+        },
+        {
+          "id": "national-museum-of-indonesia",
+          "name": "National Museum of Indonesia",
+          "category": "Museum",
+          "unesco": false,
+          "description": "Founded in the 18th century, it holds archaeology, textiles, sculpture and regional cultural collections, and is also known as the Elephant Building.",
+          "visitorTip": "Allow two hours and focus on the archaeological galleries.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/jakarta/national-museum-of-indonesia/primary.jpg",
+            "hover": "/assets/images/places/indonesia/jakarta/national-museum-of-indonesia/hover.jpg"
+          }
+        },
+        {
+          "id": "thousand-islands-kepulauan-seribu",
+          "name": "Thousand Islands (Kepulauan Seribu)",
+          "category": "Island group",
+          "unesco": false,
+          "description": "A chain of small islands north of Jakarta with beaches, coral reefs, boating and diving. It offers a coastal escape from the dense urban environment.",
+          "visitorTip": "Go on weekdays for quieter boats and beaches.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/jakarta/thousand-islands-kepulauan-seribu/primary.jpg",
+            "hover": "/assets/images/places/indonesia/jakarta/thousand-islands-kepulauan-seribu/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yogyakarta",
+      "name": "Yogyakarta",
+      "seo": {
+        "title": "Yogyakarta Travel Guide: Borobudur, Prambanan & Palace",
+        "description": "Visit Yogyakarta: Borobudur, Prambanan, Kraton, Taman Sari and Malioboro. Get history, batik tips, how to reach and a 3-day itinerary.",
+        "h1": "Yogyakarta Travel Guide: Temples, Royal Culture and Batik"
+      },
+      "heading": "Yogyakarta Travel Guide: Temples, Royal Culture and Batik",
+      "overview": [
+        "Yogyakarta is one of Indonesia’s most important centres of Javanese culture, education, traditional arts, batik, dance and royal heritage. It is also the main base for visiting Borobudur and Prambanan.",
+        "The city is led by a sultanate that remains part of local government, and the Kraton (palace) is still a living centre of ceremony and court arts."
+      ],
+      "quickFacts": {
+        "bestTime": "May–September",
+        "suggestedStay": "3–4 days",
+        "knownFor": "Borobudur, Prambanan, Javanese royal culture, batik"
+      },
+      "images": {
+        "hero": "/assets/images/cities/indonesia/yogyakarta/hero.jpg",
+        "primary": "/assets/images/cities/indonesia/yogyakarta/primary.jpg",
+        "hover": "/assets/images/cities/indonesia/yogyakarta/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "borobudur-temple-compounds",
+          "name": "Borobudur Temple Compounds",
+          "category": "UNESCO World Heritage Site",
+          "unesco": true,
+          "description": "Built in the 8th–9th centuries, Borobudur is the world’s largest Buddhist monument. Terraces, stupas, more than 500 Buddha statues and thousands of relief panels guide pilgrims upward. It is a UNESCO World Heritage Site.",
+          "visitorTip": "Sunrise visits and upper-level access follow quotas; check current visitor rules and book early.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/yogyakarta/borobudur-temple-compounds/primary.jpg",
+            "hover": "/assets/images/places/indonesia/yogyakarta/borobudur-temple-compounds/hover.jpg"
+          }
+        },
+        {
+          "id": "prambanan-temple-compounds",
+          "name": "Prambanan Temple Compounds",
+          "category": "UNESCO World Heritage Site",
+          "unesco": true,
+          "description": "Built in the 9th–10th centuries and dedicated mainly to Shiva, this is Indonesia’s largest Hindu temple complex, with tall pointed temples and Ramayana reliefs.",
+          "visitorTip": "Come late afternoon and stay for the Ramayana ballet performances (seasonal).",
+          "images": {
+            "primary": "/assets/images/places/indonesia/yogyakarta/prambanan-temple-compounds/primary.jpg",
+            "hover": "/assets/images/places/indonesia/yogyakarta/prambanan-temple-compounds/hover.jpg"
+          }
+        },
+        {
+          "id": "kraton-yogyakarta",
+          "name": "Kraton Yogyakarta",
+          "category": "Royal palace",
+          "unesco": false,
+          "description": "A living palace complex where Javanese architecture, ceremonies, music and court arts remain important. It reflects the Sultanate’s role in local identity.",
+          "visitorTip": "Check performance schedules; dress modestly.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/yogyakarta/kraton-yogyakarta/primary.jpg",
+            "hover": "/assets/images/places/indonesia/yogyakarta/kraton-yogyakarta/hover.jpg"
+          }
+        },
+        {
+          "id": "taman-sari",
+          "name": "Taman Sari",
+          "category": "Water palace",
+          "unesco": false,
+          "description": "A former royal garden and bathing complex with underground passages and pools, showing Javanese and European influences.",
+          "visitorTip": "Hire a local guide to explain the layout.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/yogyakarta/taman-sari/primary.jpg",
+            "hover": "/assets/images/places/indonesia/yogyakarta/taman-sari/hover.jpg"
+          }
+        },
+        {
+          "id": "malioboro-street",
+          "name": "Malioboro Street",
+          "category": "Shopping and culture street",
+          "unesco": false,
+          "description": "A major commercial street for batik, crafts, food and souvenirs, lively in the evening.",
+          "visitorTip": "Bargain politely and compare prices.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/yogyakarta/malioboro-street/primary.jpg",
+            "hover": "/assets/images/places/indonesia/yogyakarta/malioboro-street/hover.jpg"
+          }
+        },
+        {
+          "id": "mount-merapi",
+          "name": "Mount Merapi",
+          "category": "Active volcano",
+          "unesco": false,
+          "description": "A volcano north of the city, a major part of Java’s volcanic landscape and spiritual life. Jeep tours explore lava-flow areas.",
+          "visitorTip": "Check volcanic activity alerts before booking.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/yogyakarta/mount-merapi/primary.jpg",
+            "hover": "/assets/images/places/indonesia/yogyakarta/mount-merapi/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bali",
+      "name": "Bali",
+      "seo": {
+        "title": "Bali Travel Guide: Temples, Rice Terraces & Beaches",
+        "description": "Plan Bali: Uluwatu, Tanah Lot, Ubud, rice terraces, Besakih and beach areas, with culture tips, best time to visit and a 5-day itinerary.",
+        "h1": "Bali Travel Guide: Temples, Rice Terraces and Beaches"
+      },
+      "heading": "Bali Travel Guide: Temples, Rice Terraces and Beaches",
+      "overview": [
+        "Bali is internationally known for Hindu culture, beaches, rice terraces, temples, dance, crafts, wellness tourism and hospitality. Its cultural landscape is based on the relationship between temples, water management, farming and community life.",
+        "Bali is an island destination rather than a single city, so trip planning usually groups areas such as Ubud (culture), Uluwatu (cliffs), Canggu and Seminyak (beaches) and Nusa Dua (resorts)."
+      ],
+      "quickFacts": {
+        "bestTime": "April–October (dry season)",
+        "suggestedStay": "4–6 days",
+        "knownFor": "Hindu temples, rice terraces, beaches, arts, wellness"
+      },
+      "images": {
+        "hero": "/assets/images/cities/indonesia/bali/hero.jpg",
+        "primary": "/assets/images/cities/indonesia/bali/primary.jpg",
+        "hover": "/assets/images/cities/indonesia/bali/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "uluwatu-temple",
+          "name": "Uluwatu Temple",
+          "category": "Sea temple",
+          "unesco": false,
+          "description": "A Balinese Hindu temple perched on a cliff above the Indian Ocean, famous for sunset views and Kecak fire dance performances nearby.",
+          "visitorTip": "Keep belongings secure from monkeys and arrive before sunset.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/bali/uluwatu-temple/primary.jpg",
+            "hover": "/assets/images/places/indonesia/bali/uluwatu-temple/hover.jpg"
+          }
+        },
+        {
+          "id": "tanah-lot",
+          "name": "Tanah Lot",
+          "category": "Sea temple",
+          "unesco": false,
+          "description": "A temple on a rock formation just offshore, famous for sunset photography and linking Balinese religion with the sea.",
+          "visitorTip": "Check tides; the temple interior is limited to worshippers.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/bali/tanah-lot/primary.jpg",
+            "hover": "/assets/images/places/indonesia/bali/tanah-lot/hover.jpg"
+          }
+        },
+        {
+          "id": "ubud",
+          "name": "Ubud",
+          "category": "Arts and culture town",
+          "unesco": false,
+          "description": "Bali’s main centre for traditional and contemporary arts, with galleries, dance, craft workshops, rice fields and wellness experiences.",
+          "visitorTip": "Watch a traditional dance performance and visit local art markets.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/bali/ubud/primary.jpg",
+            "hover": "/assets/images/places/indonesia/bali/ubud/hover.jpg"
+          }
+        },
+        {
+          "id": "tegallalang-rice-terraces",
+          "name": "Tegallalang Rice Terraces",
+          "category": "Rice terraces",
+          "unesco": false,
+          "description": "Terraced rice fields north of Ubud that demonstrate Bali’s farming and irrigation traditions. They are popular for photography.",
+          "visitorTip": "Go early to avoid crowds; note that they are not themselves part of the UNESCO subak listing.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/bali/tegallalang-rice-terraces/primary.jpg",
+            "hover": "/assets/images/places/indonesia/bali/tegallalang-rice-terraces/hover.jpg"
+          }
+        },
+        {
+          "id": "besakih-temple",
+          "name": "Besakih Temple",
+          "category": "Temple complex",
+          "unesco": false,
+          "description": "Bali’s largest and holiest Hindu temple complex, known as the Mother Temple, on the slopes of Mount Agung.",
+          "visitorTip": "Use an official guide and avoid touts at the entrance.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/bali/besakih-temple/primary.jpg",
+            "hover": "/assets/images/places/indonesia/bali/besakih-temple/hover.jpg"
+          }
+        },
+        {
+          "id": "subak-cultural-landscape",
+          "name": "Subak Cultural Landscape",
+          "category": "UNESCO World Heritage Site",
+          "unesco": true,
+          "description": "A UNESCO-listed cultural landscape of water temples and rice terraces whose subak irrigation system reflects the Tri Hita Karana philosophy. Key locations include Jatiluwih, Pura Taman Ayun and Pura Ulun Danu Batur and Bratan.",
+          "visitorTip": "Visit Jatiluwih for UNESCO-listed terraces.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/bali/subak-cultural-landscape/primary.jpg",
+            "hover": "/assets/images/places/indonesia/bali/subak-cultural-landscape/hover.jpg"
+          }
+        },
+        {
+          "id": "kuta-seminyak-and-nusa-dua",
+          "name": "Kuta, Seminyak and Nusa Dua",
+          "category": "Beach and resort areas",
+          "unesco": false,
+          "description": "Areas for beaches, surfing, resorts, restaurants and nightlife, representing Bali’s modern international tourism industry.",
+          "visitorTip": "Choose by style: Kuta for surf, Seminyak for dining, Nusa Dua for family resorts.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/bali/kuta-seminyak-and-nusa-dua/primary.jpg",
+            "hover": "/assets/images/places/indonesia/bali/kuta-seminyak-and-nusa-dua/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "labuan-bajo-komodo",
+      "name": "Labuan Bajo and Komodo",
+      "seo": {
+        "title": "Labuan Bajo & Komodo Travel Guide: Dragons & Islands",
+        "description": "Plan Labuan Bajo and Komodo National Park: Komodo dragons, Padar Island, Pink Beach, Manta Point and Rangko Cave, with tips and itineraries.",
+        "h1": "Labuan Bajo and Komodo Travel Guide: Island Cruises and Wildlife"
+      },
+      "heading": "Labuan Bajo and Komodo Travel Guide: Island Cruises and Wildlife",
+      "overview": [
+        "Labuan Bajo is a small port town on the western tip of Flores and the main gateway to Komodo National Park. Most visitors join day trips or multi-day boat cruises to the islands.",
+        "The park protects exceptional biodiversity, including the Komodo dragon, and has coral reefs, beaches and dramatic hills."
+      ],
+      "quickFacts": {
+        "bestTime": "April–December (dry season); conditions vary by activity",
+        "suggestedStay": "3–4 days",
+        "knownFor": "Komodo dragons, island cruises, diving, snorkelling"
+      },
+      "images": {
+        "hero": "/assets/images/cities/indonesia/labuan-bajo-komodo/hero.jpg",
+        "primary": "/assets/images/cities/indonesia/labuan-bajo-komodo/primary.jpg",
+        "hover": "/assets/images/cities/indonesia/labuan-bajo-komodo/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "komodo-national-park",
+          "name": "Komodo National Park",
+          "category": "UNESCO World Heritage Site",
+          "unesco": true,
+          "description": "A protected area of islands, coral reefs and savannah that is home to the Komodo dragon, the world’s largest living lizard. It is valued for exceptional biodiversity.",
+          "visitorTip": "Follow ranger guidance and keep a safe distance from dragons.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/labuan-bajo-komodo/komodo-national-park/primary.jpg",
+            "hover": "/assets/images/places/indonesia/labuan-bajo-komodo/komodo-national-park/hover.jpg"
+          }
+        },
+        {
+          "id": "padar-island",
+          "name": "Padar Island",
+          "category": "Viewpoint island",
+          "unesco": false,
+          "description": "A hike to the summit offers panoramic views of three curved bays with different sand colours, one of Indonesia’s most photographed landscapes.",
+          "visitorTip": "Start at sunrise for cooler hiking and better light.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/labuan-bajo-komodo/padar-island/primary.jpg",
+            "hover": "/assets/images/places/indonesia/labuan-bajo-komodo/padar-island/hover.jpg"
+          }
+        },
+        {
+          "id": "pink-beach",
+          "name": "Pink Beach",
+          "category": "Beach",
+          "unesco": false,
+          "description": "A beach with pink-tinged sand caused by red coral fragments, popular for swimming and snorkelling.",
+          "visitorTip": "Bring reef-safe sunscreen.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/labuan-bajo-komodo/pink-beach/primary.jpg",
+            "hover": "/assets/images/places/indonesia/labuan-bajo-komodo/pink-beach/hover.jpg"
+          }
+        },
+        {
+          "id": "manta-point",
+          "name": "Manta Point",
+          "category": "Dive and snorkel site",
+          "unesco": false,
+          "description": "A marine site known for encounters with manta rays and rich underwater biodiversity.",
+          "visitorTip": "Check conditions with your operator; rays are seasonal.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/labuan-bajo-komodo/manta-point/primary.jpg",
+            "hover": "/assets/images/places/indonesia/labuan-bajo-komodo/manta-point/hover.jpg"
+          }
+        },
+        {
+          "id": "rangko-cave",
+          "name": "Rangko Cave",
+          "category": "Cave swimming spot",
+          "unesco": false,
+          "description": "A limestone cave with a blue saltwater pool, reached by boat near Labuan Bajo.",
+          "visitorTip": "Visit with local guides and follow safety instructions.",
+          "images": {
+            "primary": "/assets/images/places/indonesia/labuan-bajo-komodo/rangko-cave/primary.jpg",
+            "hover": "/assets/images/places/indonesia/labuan-bajo-komodo/rangko-cave/hover.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

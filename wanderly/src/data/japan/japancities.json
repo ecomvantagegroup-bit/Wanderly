@@ -1,0 +1,484 @@
+{
+  "countryId": "japan",
+  "countryName": "Japan",
+  "cities": [
+    {
+      "id": "tokyo",
+      "name": "Tokyo",
+      "seo": {
+        "title": "Tokyo Travel Guide: Temples, Skytree & Shibuya",
+        "description": "Explore Tokyo: Senso-ji, Meiji Jingu, Shibuya Crossing, Tokyo Skytree and the National Museum. Get tips, transport advice and a 4-day itinerary.",
+        "h1": "Tokyo Travel Guide: Shrines, Skyline and Modern Culture"
+      },
+      "heading": "Tokyo Travel Guide: Shrines, Skyline and Modern Culture",
+      "overview": [
+        "Tokyo developed from the former Edo castle town into Japan’s political, economic, technological, fashion and entertainment capital. It is one of the world’s largest urban areas, yet it retains temples, gardens and quiet neighbourhoods.",
+        "Visitors usually explore by district: Asakusa and Ueno for tradition, Shibuya and Shinjuku for modern city life, and Marunouchi and the Imperial Palace area for history and business."
+      ],
+      "quickFacts": {
+        "bestTime": "March–May and October–November",
+        "suggestedStay": "3–4 days",
+        "knownFor": "Modern capital, shrines, museums, technology, food"
+      },
+      "images": {
+        "hero": "/assets/images/cities/japan/tokyo/hero.jpg",
+        "primary": "/assets/images/cities/japan/tokyo/primary.jpg",
+        "hover": "/assets/images/cities/japan/tokyo/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "senso-ji-temple",
+          "name": "Senso-ji Temple",
+          "category": "Buddhist temple",
+          "unesco": false,
+          "description": "Tokyo’s oldest major temple, in Asakusa, traditionally founded in the 7th century. Visitors pass the red Kaminarimon Gate and Nakamise shopping street to reach the main hall.",
+          "visitorTip": "Go early or late to avoid crowds.",
+          "images": {
+            "primary": "/assets/images/places/japan/tokyo/senso-ji-temple/primary.jpg",
+            "hover": "/assets/images/places/japan/tokyo/senso-ji-temple/hover.jpg"
+          }
+        },
+        {
+          "id": "meiji-jingu",
+          "name": "Meiji Jingu",
+          "category": "Shinto shrine",
+          "unesco": false,
+          "description": "Completed in 1920 and dedicated to Emperor Meiji and Empress Shoken, the shrine is set in a forest near Harajuku, with a quiet entrance path.",
+          "visitorTip": "Visit in the morning for a calm walk.",
+          "images": {
+            "primary": "/assets/images/places/japan/tokyo/meiji-jingu/primary.jpg",
+            "hover": "/assets/images/places/japan/tokyo/meiji-jingu/hover.jpg"
+          }
+        },
+        {
+          "id": "tokyo-skytree",
+          "name": "Tokyo Skytree",
+          "category": "Broadcasting tower",
+          "unesco": false,
+          "description": "Opened in 2012, this 634-metre tower is among the world’s tallest freestanding towers and has observation decks with city views.",
+          "visitorTip": "Book timed tickets and go near sunset.",
+          "images": {
+            "primary": "/assets/images/places/japan/tokyo/tokyo-skytree/primary.jpg",
+            "hover": "/assets/images/places/japan/tokyo/tokyo-skytree/hover.jpg"
+          }
+        },
+        {
+          "id": "shibuya-crossing",
+          "name": "Shibuya Crossing",
+          "category": "Urban landmark",
+          "unesco": false,
+          "description": "A busy pedestrian intersection that symbolises dense Japanese city life, retail, youth culture and technology.",
+          "visitorTip": "View from the surrounding buildings for photos.",
+          "images": {
+            "primary": "/assets/images/places/japan/tokyo/shibuya-crossing/primary.jpg",
+            "hover": "/assets/images/places/japan/tokyo/shibuya-crossing/hover.jpg"
+          }
+        },
+        {
+          "id": "tokyo-national-museum",
+          "name": "Tokyo National Museum",
+          "category": "Museum",
+          "unesco": false,
+          "description": "Founded in 1872 in Ueno Park, it is Japan’s oldest national museum, with Japanese paintings, Buddhist sculpture, samurai objects and archaeological collections.",
+          "visitorTip": "Allow two to three hours; check special exhibitions.",
+          "images": {
+            "primary": "/assets/images/places/japan/tokyo/tokyo-national-museum/primary.jpg",
+            "hover": "/assets/images/places/japan/tokyo/tokyo-national-museum/hover.jpg"
+          }
+        },
+        {
+          "id": "imperial-palace",
+          "name": "Imperial Palace",
+          "category": "Imperial residence and gardens",
+          "unesco": false,
+          "description": "The palace occupies the site of Edo Castle. The East Gardens are open to visitors, and show stone walls, moats and bridges.",
+          "visitorTip": "Inner palace tours need reservations.",
+          "images": {
+            "primary": "/assets/images/places/japan/tokyo/imperial-palace/primary.jpg",
+            "hover": "/assets/images/places/japan/tokyo/imperial-palace/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kyoto",
+      "name": "Kyoto",
+      "seo": {
+        "title": "Kyoto Travel Guide: Temples, Shrines & Gion",
+        "description": "Discover Kyoto: Kinkaku-ji, Kiyomizu-dera, Fushimi Inari, Arashiyama, Gion and Nijo Castle. Get UNESCO details, tips and a 3-day itinerary.",
+        "h1": "Kyoto Travel Guide: Temples, Gardens and Traditional Japan"
+      },
+      "heading": "Kyoto Travel Guide: Temples, Gardens and Traditional Japan",
+      "overview": [
+        "Kyoto was Japan’s imperial capital for more than a thousand years and remains the country’s leading centre for traditional culture, gardens, tea ceremony, crafts, temples and historic neighbourhoods.",
+        "The UNESCO property Historic Monuments of Ancient Kyoto includes 17 locations in Kyoto, Uji and Otsu, including temples, shrines and castles."
+      ],
+      "quickFacts": {
+        "bestTime": "Late March–April and November",
+        "suggestedStay": "3–4 days",
+        "knownFor": "Temples, shrines, gardens, geisha districts, UNESCO monuments"
+      },
+      "images": {
+        "hero": "/assets/images/cities/japan/kyoto/hero.jpg",
+        "primary": "/assets/images/cities/japan/kyoto/primary.jpg",
+        "hover": "/assets/images/cities/japan/kyoto/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "kinkaku-ji",
+          "name": "Kinkaku-ji",
+          "category": "Zen temple",
+          "unesco": false,
+          "description": "The Golden Pavilion, covered in gold leaf, reflects in its pond. It was originally built in the 14th century and the current structure was rebuilt in 1955 after a fire.",
+          "visitorTip": "Arrive early for fewer crowds.",
+          "images": {
+            "primary": "/assets/images/places/japan/kyoto/kinkaku-ji/primary.jpg",
+            "hover": "/assets/images/places/japan/kyoto/kinkaku-ji/hover.jpg"
+          }
+        },
+        {
+          "id": "kiyomizu-dera",
+          "name": "Kiyomizu-dera",
+          "category": "Temple",
+          "unesco": false,
+          "description": "A historic hillside temple, founded in the 8th century, famous for its large wooden terrace with city views.",
+          "visitorTip": "Visit at sunset and walk the Higashiyama lanes.",
+          "images": {
+            "primary": "/assets/images/places/japan/kyoto/kiyomizu-dera/primary.jpg",
+            "hover": "/assets/images/places/japan/kyoto/kiyomizu-dera/hover.jpg"
+          }
+        },
+        {
+          "id": "fushimi-inari-taisha",
+          "name": "Fushimi Inari Taisha",
+          "category": "Shinto shrine",
+          "unesco": false,
+          "description": "A major shrine dedicated to Inari, associated with rice, business and prosperity, known for thousands of red torii gates along mountain paths.",
+          "visitorTip": "Go early or in the evening for quiet.",
+          "images": {
+            "primary": "/assets/images/places/japan/kyoto/fushimi-inari-taisha/primary.jpg",
+            "hover": "/assets/images/places/japan/kyoto/fushimi-inari-taisha/hover.jpg"
+          }
+        },
+        {
+          "id": "arashiyama-bamboo-grove",
+          "name": "Arashiyama Bamboo Grove",
+          "category": "Natural and cultural landscape",
+          "unesco": false,
+          "description": "A bamboo path near temples and the riverside in Kyoto’s western hills.",
+          "visitorTip": "Combine with Tenryu-ji and the Togetsukyo Bridge.",
+          "images": {
+            "primary": "/assets/images/places/japan/kyoto/arashiyama-bamboo-grove/primary.jpg",
+            "hover": "/assets/images/places/japan/kyoto/arashiyama-bamboo-grove/hover.jpg"
+          }
+        },
+        {
+          "id": "gion",
+          "name": "Gion",
+          "category": "Historic district",
+          "unesco": false,
+          "description": "One of Kyoto’s most important historic entertainment districts, with wooden machiya houses and geisha culture.",
+          "visitorTip": "Be respectful; do not chase or block geiko and maiko.",
+          "images": {
+            "primary": "/assets/images/places/japan/kyoto/gion/primary.jpg",
+            "hover": "/assets/images/places/japan/kyoto/gion/hover.jpg"
+          }
+        },
+        {
+          "id": "nijo-castle",
+          "name": "Nijo Castle",
+          "category": "UNESCO-listed castle",
+          "unesco": true,
+          "description": "Built in the early 17th century for the Tokugawa shogunate, it features Ninomaru Palace with painted screens and ‘nightingale’ floors.",
+          "visitorTip": "Allow 1.5 hours.",
+          "images": {
+            "primary": "/assets/images/places/japan/kyoto/nijo-castle/primary.jpg",
+            "hover": "/assets/images/places/japan/kyoto/nijo-castle/hover.jpg"
+          }
+        },
+        {
+          "id": "historic-monuments-of-ancient-kyoto",
+          "name": "Historic Monuments of Ancient Kyoto",
+          "category": "UNESCO World Heritage property",
+          "unesco": true,
+          "description": "A set of 17 cultural locations in Kyoto, Uji and Otsu including temples, shrines, gardens and palaces.",
+          "visitorTip": "Plan by area to see several sites on one day.",
+          "images": {
+            "primary": "/assets/images/places/japan/kyoto/historic-monuments-of-ancient-kyoto/primary.jpg",
+            "hover": "/assets/images/places/japan/kyoto/historic-monuments-of-ancient-kyoto/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "osaka",
+      "name": "Osaka",
+      "seo": {
+        "title": "Osaka Travel Guide: Castle, Street Food & Dotonbori",
+        "description": "Plan Osaka: Osaka Castle, Dotonbori, Kuromon Market, Shitennoji, Umeda Sky Building and USJ. Get food tips, transport and a 3-day itinerary.",
+        "h1": "Osaka Travel Guide: Food, Castle and Nightlife"
+      },
+      "heading": "Osaka Travel Guide: Food, Castle and Nightlife",
+      "overview": [
+        "Osaka developed as a commercial and merchant city and is known for food, entertainment, shopping, modern architecture and its historic castle.",
+        "It is a convenient base for day trips to Kyoto, Nara and Himeji."
+      ],
+      "quickFacts": {
+        "bestTime": "March–May and October–November",
+        "suggestedStay": "2–3 days",
+        "knownFor": "Street food, Osaka Castle, nightlife, theme parks"
+      },
+      "images": {
+        "hero": "/assets/images/cities/japan/osaka/hero.jpg",
+        "primary": "/assets/images/cities/japan/osaka/primary.jpg",
+        "hover": "/assets/images/cities/japan/osaka/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "osaka-castle",
+          "name": "Osaka Castle",
+          "category": "Historic castle",
+          "unesco": false,
+          "description": "Associated with Toyotomi Hideyoshi and Japan’s late 16th-century unification. The current main tower is a 1931 reconstruction with a modern museum inside and views over the city.",
+          "visitorTip": "Walk the park and moat in the morning.",
+          "images": {
+            "primary": "/assets/images/places/japan/osaka/osaka-castle/primary.jpg",
+            "hover": "/assets/images/places/japan/osaka/osaka-castle/hover.jpg"
+          }
+        },
+        {
+          "id": "dotonbori",
+          "name": "Dotonbori",
+          "category": "Entertainment district",
+          "unesco": false,
+          "description": "A canal-side district famous for neon signs, street food and nightlife, reflecting Osaka’s informal food culture.",
+          "visitorTip": "Try takoyaki and okonomiyaki.",
+          "images": {
+            "primary": "/assets/images/places/japan/osaka/dotonbori/primary.jpg",
+            "hover": "/assets/images/places/japan/osaka/dotonbori/hover.jpg"
+          }
+        },
+        {
+          "id": "kuromon-market",
+          "name": "Kuromon Market",
+          "category": "Food market",
+          "unesco": false,
+          "description": "A traditional market for seafood, snacks, fruit and local specialities.",
+          "visitorTip": "Go in the morning when stalls are fresh.",
+          "images": {
+            "primary": "/assets/images/places/japan/osaka/kuromon-market/primary.jpg",
+            "hover": "/assets/images/places/japan/osaka/kuromon-market/hover.jpg"
+          }
+        },
+        {
+          "id": "shitennoji-temple",
+          "name": "Shitennoji Temple",
+          "category": "Buddhist temple",
+          "unesco": false,
+          "description": "One of Japan’s oldest Buddhist temples, traditionally dated to the 6th century and associated with the introduction of Buddhism.",
+          "visitorTip": "Visit on market days for local flea markets.",
+          "images": {
+            "primary": "/assets/images/places/japan/osaka/shitennoji-temple/primary.jpg",
+            "hover": "/assets/images/places/japan/osaka/shitennoji-temple/hover.jpg"
+          }
+        },
+        {
+          "id": "umeda-sky-building",
+          "name": "Umeda Sky Building",
+          "category": "Observation tower",
+          "unesco": false,
+          "description": "A 1993 building with twin towers connected by the Floating Garden Observatory, giving city views.",
+          "visitorTip": "Visit at sunset.",
+          "images": {
+            "primary": "/assets/images/places/japan/osaka/umeda-sky-building/primary.jpg",
+            "hover": "/assets/images/places/japan/osaka/umeda-sky-building/hover.jpg"
+          }
+        },
+        {
+          "id": "universal-studios-japan",
+          "name": "Universal Studios Japan",
+          "category": "Theme park",
+          "unesco": false,
+          "description": "A major theme park with film-themed attractions and Super Nintendo World.",
+          "visitorTip": "Buy timed entry in advance.",
+          "images": {
+            "primary": "/assets/images/places/japan/osaka/universal-studios-japan/primary.jpg",
+            "hover": "/assets/images/places/japan/osaka/universal-studios-japan/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hiroshima",
+      "name": "Hiroshima",
+      "seo": {
+        "title": "Hiroshima Travel Guide: Peace Park & Miyajima",
+        "description": "Visit Hiroshima: Peace Memorial Park, Atomic Bomb Dome, the Peace Museum and Miyajima’s Itsukushima Shrine. Tips, history and a 2-day itinerary.",
+        "h1": "Hiroshima Travel Guide: Peace Memorial and Miyajima"
+      },
+      "heading": "Hiroshima Travel Guide: Peace Memorial and Miyajima",
+      "overview": [
+        "Hiroshima is known for peace education, modern reconstruction, islands, gardens and regional food. The city has powerful historical importance because of the atomic bombing in 1945.",
+        "Visitors usually combine the Peace Memorial area with a trip to nearby Miyajima Island."
+      ],
+      "quickFacts": {
+        "bestTime": "March–May and October–November",
+        "suggestedStay": "2 days",
+        "knownFor": "Peace Memorial Park, Atomic Bomb Dome, Miyajima"
+      },
+      "images": {
+        "hero": "/assets/images/cities/japan/hiroshima/hero.jpg",
+        "primary": "/assets/images/cities/japan/hiroshima/primary.jpg",
+        "hover": "/assets/images/cities/japan/hiroshima/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "hiroshima-peace-memorial-park",
+          "name": "Hiroshima Peace Memorial Park",
+          "category": "Memorial park",
+          "unesco": false,
+          "description": "A memorial landscape of museums, monuments and remembrance spaces dedicated to the victims of the atomic bombing and to peace.",
+          "visitorTip": "Allow time for quiet reflection.",
+          "images": {
+            "primary": "/assets/images/places/japan/hiroshima/hiroshima-peace-memorial-park/primary.jpg",
+            "hover": "/assets/images/places/japan/hiroshima/hiroshima-peace-memorial-park/hover.jpg"
+          }
+        },
+        {
+          "id": "atomic-bomb-dome",
+          "name": "Atomic Bomb Dome",
+          "category": "UNESCO World Heritage Site",
+          "unesco": true,
+          "description": "The ruined structure near the explosion’s hypocentre is preserved as an international symbol of nuclear destruction and peace.",
+          "visitorTip": "Visit at dusk when it is lit.",
+          "images": {
+            "primary": "/assets/images/places/japan/hiroshima/atomic-bomb-dome/primary.jpg",
+            "hover": "/assets/images/places/japan/hiroshima/atomic-bomb-dome/hover.jpg"
+          }
+        },
+        {
+          "id": "hiroshima-peace-memorial-museum",
+          "name": "Hiroshima Peace Memorial Museum",
+          "category": "Museum",
+          "unesco": false,
+          "description": "Displays documents, objects, photographs and survivor testimonies that explain the human effects of the bombing.",
+          "visitorTip": "Allow at least 90 minutes; content is emotionally heavy.",
+          "images": {
+            "primary": "/assets/images/places/japan/hiroshima/hiroshima-peace-memorial-museum/primary.jpg",
+            "hover": "/assets/images/places/japan/hiroshima/hiroshima-peace-memorial-museum/hover.jpg"
+          }
+        },
+        {
+          "id": "itsukushima-shrine",
+          "name": "Itsukushima Shrine",
+          "category": "UNESCO World Heritage Site",
+          "unesco": true,
+          "description": "A Shinto shrine on Miyajima Island, built to appear connected with the sea, and known for its large torii gate standing in the water.",
+          "visitorTip": "Check tide times for the best views.",
+          "images": {
+            "primary": "/assets/images/places/japan/hiroshima/itsukushima-shrine/primary.jpg",
+            "hover": "/assets/images/places/japan/hiroshima/itsukushima-shrine/hover.jpg"
+          }
+        },
+        {
+          "id": "miyajima-island",
+          "name": "Miyajima Island",
+          "category": "Sacred island",
+          "unesco": false,
+          "description": "A sacred island with temples, deer, forests, seafood and Mount Misen views; reached by a short ferry ride.",
+          "visitorTip": "Try oysters and momiji manju; a small visitor fee may apply.",
+          "images": {
+            "primary": "/assets/images/places/japan/hiroshima/miyajima-island/primary.jpg",
+            "hover": "/assets/images/places/japan/hiroshima/miyajima-island/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nara",
+      "name": "Nara",
+      "seo": {
+        "title": "Nara Travel Guide: Todai-ji, Deer Park & Shrines",
+        "description": "Plan Nara: Todai-ji and the Great Buddha, Nara Park deer, Kasuga Taisha, Naramachi and UNESCO monuments. Tips and a one-day itinerary.",
+        "h1": "Nara Travel Guide: Ancient Temples and Deer"
+      },
+      "heading": "Nara Travel Guide: Ancient Temples and Deer",
+      "overview": [
+        "Nara was Japan’s capital from 710 to 784 and contains some of the country’s oldest Buddhist temples, Shinto shrines, palace remains, sculpture and wooden architecture.",
+        "It is compact and walkable, which makes it an easy day trip from Kyoto or Osaka."
+      ],
+      "quickFacts": {
+        "bestTime": "Spring and autumn",
+        "suggestedStay": "1 day (half-day possible)",
+        "knownFor": "Ancient capital, Todai-ji, deer, UNESCO heritage"
+      },
+      "images": {
+        "hero": "/assets/images/cities/japan/nara/hero.jpg",
+        "primary": "/assets/images/cities/japan/nara/primary.jpg",
+        "hover": "/assets/images/cities/japan/nara/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "todai-ji-temple",
+          "name": "Todai-ji Temple",
+          "category": "Buddhist temple",
+          "unesco": false,
+          "description": "Home to the Great Buddha Hall, one of the world’s largest historic wooden buildings, which houses a 14.98-metre bronze Vairocana Buddha.",
+          "visitorTip": "Go early for fewer crowds.",
+          "images": {
+            "primary": "/assets/images/places/japan/nara/todai-ji-temple/primary.jpg",
+            "hover": "/assets/images/places/japan/nara/todai-ji-temple/hover.jpg"
+          }
+        },
+        {
+          "id": "nara-park",
+          "name": "Nara Park",
+          "category": "Park",
+          "unesco": false,
+          "description": "A large park with free-roaming deer, which are culturally associated with the sacred environment of Kasuga Taisha.",
+          "visitorTip": "Buy deer crackers from official sellers and be careful with food.",
+          "images": {
+            "primary": "/assets/images/places/japan/nara/nara-park/primary.jpg",
+            "hover": "/assets/images/places/japan/nara/nara-park/hover.jpg"
+          }
+        },
+        {
+          "id": "kasuga-taisha",
+          "name": "Kasuga Taisha",
+          "category": "Shinto shrine",
+          "unesco": false,
+          "description": "An important shrine of the Fujiwara family and ancient Nara, famous for lanterns and forest paths.",
+          "visitorTip": "Walk the path through the forest.",
+          "images": {
+            "primary": "/assets/images/places/japan/nara/kasuga-taisha/primary.jpg",
+            "hover": "/assets/images/places/japan/nara/kasuga-taisha/hover.jpg"
+          }
+        },
+        {
+          "id": "naramachi",
+          "name": "Naramachi",
+          "category": "Historic neighbourhood",
+          "unesco": false,
+          "description": "Preserves traditional merchant houses and local crafts, showing historic urban architecture.",
+          "visitorTip": "Browse small shops and cafés.",
+          "images": {
+            "primary": "/assets/images/places/japan/nara/naramachi/primary.jpg",
+            "hover": "/assets/images/places/japan/nara/naramachi/hover.jpg"
+          }
+        },
+        {
+          "id": "historic-monuments-of-ancient-nara",
+          "name": "Historic Monuments of Ancient Nara",
+          "category": "UNESCO World Heritage property",
+          "unesco": true,
+          "description": "A UNESCO property of six Buddhist temples and shrines, Heijo Palace and the Kasugayama Primeval Forest.",
+          "visitorTip": "Use a map to plan route.",
+          "images": {
+            "primary": "/assets/images/places/japan/nara/historic-monuments-of-ancient-nara/primary.jpg",
+            "hover": "/assets/images/places/japan/nara/historic-monuments-of-ancient-nara/hover.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

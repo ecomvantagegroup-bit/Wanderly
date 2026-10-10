@@ -1,9 +1,10 @@
 {
   "hero": {
-    "brand": "Wonderly",
+    "brand": "Wanderly",
     "heading": "Wander the World's Great Cities",
     "body": "World heritage, culture and city travel guides for India, Russia, China, the USA, Japan and Indonesia.",
-    "image": "/assets/images/hero/hero.jpg"
+    "background": "/assets/landing_page/images/hero/background_hero.jpg",
+    "animation_card": "/assets/landing_page/animated/hero_animation.webm"
   },
   "countries": [
     {
@@ -13,9 +14,10 @@
       "heading": "India",
       "body": "Mughal monuments, palaces, Pink City forts and Goa beaches across Delhi, Agra, Jaipur, Mumbai and Goa.",
       "images": {
-        "primary": "/assets/images/countries/india/primary.jpg",
-        "hover": "/assets/images/countries/india/hover.jpg"
-      }
+        "primary": "/assets/landing_page/images/countries/india/primary.jpg",
+        "hover": "/assets/landing_page/images/countries/india/hover.jpg"
+      },
+      "dataFile": "/data/india.json"
     },
     {
       "id": "russia",
@@ -24,9 +26,10 @@
       "heading": "Russia",
       "body": "Imperial palaces, the Kremlin and Red Square, plus Saint Petersburg, Kazan, Sochi and the Golden Ring towns.",
       "images": {
-        "primary": "/assets/images/countries/russia/primary.jpg",
-        "hover": "/assets/images/countries/russia/hover.jpg"
-      }
+        "primary": "/assets/landing_page/images/countries/russia/primary.jpg",
+        "hover": "/assets/landing_page/images/countries/russia/hover.jpg"
+      },
+      "dataFile": "/data/russia.json"
     },
     {
       "id": "china",
@@ -35,9 +38,10 @@
       "heading": "China",
       "body": "The Great Wall, Terracotta Army, Shanghai skyline, Li River peaks and Sichuan food in five essential destinations.",
       "images": {
-        "primary": "/assets/images/countries/china/primary.jpg",
-        "hover": "/assets/images/countries/china/hover.jpg"
-      }
+        "primary": "/assets/landing_page/images/countries/china/primary.jpg",
+        "hover": "/assets/landing_page/images/countries/china/hover.jpg"
+      },
+      "dataFile": "/data/china.json"
     },
     {
       "id": "usa",
@@ -46,9 +50,10 @@
       "heading": "United States",
       "body": "Iconic city breaks: New York, Washington D.C., Los Angeles, San Francisco's Golden Gate Bridge and Las Vegas.",
       "images": {
-        "primary": "/assets/images/countries/usa/primary.jpg",
-        "hover": "/assets/images/countries/usa/hover.jpg"
-      }
+        "primary": "/assets/landing_page/images/countries/usa/primary.jpg",
+        "hover": "/assets/landing_page/images/countries/usa/hover.jpg"
+      },
+      "dataFile": "/data/usa.json"
     },
     {
       "id": "japan",
@@ -57,9 +62,10 @@
       "heading": "Japan",
       "body": "Temples, shrines, castles and cherry blossoms from Tokyo and Kyoto to Osaka, Hiroshima and Nara.",
       "images": {
-        "primary": "/assets/images/countries/japan/primary.jpg",
-        "hover": "/assets/images/countries/japan/hover.jpg"
-      }
+        "primary": "/assets/landing_page/images/countries/japan/primary.jpg",
+        "hover": "/assets/landing_page/images/countries/japan/hover.jpg"
+      },
+      "dataFile": "/data/japan.json"
     },
     {
       "id": "indonesia",
@@ -68,17 +74,18 @@
       "heading": "Indonesia",
       "body": "Borobudur and Prambanan, Bali's temples and rice terraces, Jakarta, and Komodo dragons from Labuan Bajo.",
       "images": {
-        "primary": "/assets/images/countries/indonesia/primary.jpg",
-        "hover": "/assets/images/countries/indonesia/hover.jpg"
-      }
+        "primary": "/assets/landing_page/images/countries/indonesia/primary.jpg",
+        "hover": "/assets/landing_page/images/countries/indonesia/hover.jpg"
+      },
+      "dataFile": "/data/indonesia.json"
     }
   ],
-    "patternSection": {
+  "patternSection": {
     "heading": "Plan Your Next Trail",
     "body": "Pick a country above to explore its top cities, UNESCO sites, best times to visit and itineraries.",
     "patternImages": [
-       "/assets/images/patterns/world-map.jpg",
-       "/assets/images/patterns/travel-map.jpg"
+      "/assets/images/patterns/world-map.jpg",
+      "/assets/images/patterns/travel-map.jpg"
     ]
   },
   "globeSection": {
@@ -86,15 +93,15 @@
     "heading": "Explore the World in 3D",
     "body": "Drag to rotate the globe and select a country to start planning your trail.",
     "model": {
-     "type": "glb",
-     "path": "/assets/models/globe.glb",
-     "poster": "/assets/images/globe/globe-poster.jpg"
+      "type": "glb",
+      "path": "/assets/models/globe.glb",
+      "poster": "/assets/images/globe/globe-poster.jpg"
     },
     "interaction": {
-     "rotate": true,
-     "zoom": true,
-     "autoRotate": true,
-     "autoRotateSpeed": 0.5
+      "rotate": true,
+      "zoom": true,
+      "autoRotate": true,
+      "autoRotateSpeed": 0.5
     },
     "markers": [
       {
@@ -213,29 +220,29 @@
           ]
         }
       ],
-        "social": [
-          {
-            "name": "Instagram",
-            "url": "https://instagram.com/",
-            "icon": "/assets/images/social/instagram.svg"
-          },
-          {
-            "name": "Facebook",
-            "url": "https://facebook.com/",
-            "icon": "/assets/images/social/facebook.svg"
-          },
-          {
-            "name": "X",
-            "url": "https://x.com/",
-            "icon": "/assets/images/social/x.svg"
-          },
-          {
-            "name": "YouTube",
-            "url": "https://youtube.com/",
-            "icon": "/assets/images/social/youtube.svg"
-          }
-        ],
-          "copyright": "© 2026 Wonderly. All rights reserved."
+      "social": [
+        {
+          "name": "Instagram",
+          "url": "https://instagram.com/",
+          "icon": "/assets/images/social/instagram.svg"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://facebook.com/",
+          "icon": "/assets/images/social/facebook.svg"
+        },
+        {
+          "name": "X",
+          "url": "https://x.com/",
+          "icon": "/assets/images/social/x.svg"
+        },
+        {
+          "name": "YouTube",
+          "url": "https://youtube.com/",
+          "icon": "/assets/images/social/youtube.svg"
+        }
+      ],
+      "copyright": "© 2026 Global City Trails. All rights reserved."
     }
   }
 }

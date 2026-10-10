@@ -1,0 +1,104 @@
+{
+  "id": "india",
+  "name": "India",
+  "slug": "india-travel-guide",
+  "route": "/india",
+  "seo": {
+    "title": "India Travel Guide: Delhi, Agra, Jaipur, Mumbai & Goa",
+    "description": "Plan your India trip with detailed guides to Delhi, Agra, Jaipur, Mumbai and Goa: top places to visit, UNESCO sites, food, best time to visit and itineraries.",
+    "h1": "India Travel Guide: Five Iconic Cities"
+  },
+  "heading": "India Travel Guide: Five Iconic Cities",
+  "description": [
+    "India’s five most iconic tourist cities cover heritage, architecture, art, food, business, beaches and culture. UNESCO listings below are based on official UNESCO and Indian government information."
+  ],
+  "quickFacts": {
+    "Capital": "New Delhi",
+    "Currency": "Indian rupee (INR)",
+    "Best time overall": "October–March (Delhi, Agra, Jaipur); November–February (Mumbai, Goa)",
+    "Suggested trip": "Delhi–Agra–Jaipur Golden Triangle plus Mumbai and Goa"
+  },
+  "images": {
+    "hero": "/assets/images/countries/india/hero.jpg",
+    "banner": "/assets/images/countries/india/banner.jpg",
+    "primary": "/assets/images/countries/india/primary.jpg",
+    "hover": "/assets/images/countries/india/hover.jpg"
+  },
+  "citiesSection": {
+    "heading": "Top Cities in India",
+    "body": "Choose a city to see its main places to visit.",
+    "citiesFile": "/data/indiacities.json"
+  },
+  "cities": [
+    {
+      "id": "delhi",
+      "name": "Delhi",
+      "slug": "delhi-travel-guide",
+      "route": "/india/delhi",
+      "intro": "Delhi is India’s capital and one of the country’s oldest continuously important urban centres.",
+      "knownFor": "Mughal monuments, colonial architecture, Old Delhi food",
+      "suggestedStay": "2–3 days",
+      "bestTime": "October to March (pleasant weather); April to June is very hot; July to September is monsoon",
+      "images": {
+        "primary": "/assets/images/cities/india/delhi/primary.jpg",
+        "hover": "/assets/images/cities/india/delhi/hover.jpg"
+      }
+    },
+    {
+      "id": "agra",
+      "name": "Agra",
+      "slug": "agra-travel-guide",
+      "route": "/india/agra",
+      "intro": "Agra is a historic city on the banks of the Yamuna River in Uttar Pradesh.",
+      "knownFor": "Taj Mahal, Mughal forts, marble inlay craft",
+      "suggestedStay": "1–2 days",
+      "bestTime": "October to March; summers are very hot",
+      "images": {
+        "primary": "/assets/images/cities/india/agra/primary.jpg",
+        "hover": "/assets/images/cities/india/agra/hover.jpg"
+      }
+    },
+    {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "slug": "jaipur-travel-guide",
+      "route": "/india/jaipur",
+      "intro": "Jaipur is the capital of Rajasthan and is widely known as the Pink City.",
+      "knownFor": "Pink City, palaces, forts, jewellery and textiles",
+      "suggestedStay": "2–3 days",
+      "bestTime": "October to March; summers are very hot",
+      "images": {
+        "primary": "/assets/images/cities/india/jaipur/primary.jpg",
+        "hover": "/assets/images/cities/india/jaipur/hover.jpg"
+      }
+    },
+    {
+      "id": "mumbai",
+      "name": "Mumbai",
+      "slug": "mumbai-travel-guide",
+      "route": "/india/mumbai",
+      "intro": "Mumbai is India’s financial, commercial, media and entertainment capital.",
+      "knownFor": "Colonial Gothic and Art Deco, Bollywood, street food, sea views",
+      "suggestedStay": "2–3 days",
+      "bestTime": "November to February; June to September is heavy monsoon",
+      "images": {
+        "primary": "/assets/images/cities/india/mumbai/primary.jpg",
+        "hover": "/assets/images/cities/india/mumbai/hover.jpg"
+      }
+    },
+    {
+      "id": "goa",
+      "name": "Goa",
+      "slug": "goa-travel-guide",
+      "route": "/india/goa",
+      "intro": "Goa is a coastal state on India’s west coast, best presented as a region rather than a single city.",
+      "knownFor": "Beaches, Portuguese heritage, seafood, nightlife",
+      "suggestedStay": "3–5 days",
+      "bestTime": "November to February; June to September is monsoon with many beach shacks closed",
+      "images": {
+        "primary": "/assets/images/cities/india/goa/primary.jpg",
+        "hover": "/assets/images/cities/india/goa/hover.jpg"
+      }
+    }
+  ]
+}

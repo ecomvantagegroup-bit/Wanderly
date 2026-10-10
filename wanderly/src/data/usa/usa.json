@@ -1,0 +1,108 @@
+{
+  "id": "usa",
+  "name": "United States",
+  "slug": "usa-travel-guide",
+  "route": "/usa",
+  "seo": {
+    "title": "USA Travel Guide: Best Cities & Places to Visit",
+    "description": "Plan a USA trip with guides to New York City, Washington D.C., Los Angeles, San Francisco and Las Vegas: top sights, tips, itineraries and best time.",
+    "h1": "USA Travel Guide: Five Iconic Cities to Visit"
+  },
+  "heading": "USA Travel Guide: Five Iconic Cities to Visit",
+  "description": [
+    "The United States offers a wide range of city experiences, from the skyscrapers and museums of New York to the monuments of Washington, D.C., the film industry of Los Angeles, the bridges and hills of San Francisco and the resort landscape of Las Vegas.",
+    "This content set focuses on five cities that suit a visitor-focused travel website. National parks such as the Grand Canyon and Yellowstone are best presented as separate destination pages rather than city pages.",
+    "Most visitors combine an East Coast leg (New York and Washington, D.C.) with a West Coast leg (Los Angeles, San Francisco and Las Vegas), connected by domestic flights."
+  ],
+  "quickFacts": {
+    "Capital": "Washington, D.C.",
+    "Languages": "English (widely used); Spanish common in many cities",
+    "Currency": "US dollar (USD)",
+    "Entry": "Visa or ESTA requirements depend on nationality; check official US government sources",
+    "Best time overall": "Spring (April–June) and autumn (September–November) for most cities",
+    "Suggested trip": "10–14 days for five cities"
+  },
+  "images": {
+    "hero": "/assets/images/countries/usa/hero.jpg",
+    "banner": "/assets/images/countries/usa/banner.jpg",
+    "primary": "/assets/images/countries/usa/primary.jpg",
+    "hover": "/assets/images/countries/usa/hover.jpg"
+  },
+  "citiesSection": {
+    "heading": "Top Cities in United States",
+    "body": "Choose a city to see its main places to visit.",
+    "citiesFile": "/data/usacities.json"
+  },
+  "cities": [
+    {
+      "id": "new-york-city",
+      "name": "New York City",
+      "slug": "new-york-city-travel-guide",
+      "route": "/usa/new-york-city",
+      "intro": "New York developed as a major Atlantic port and became one of the world’s leading centres of finance, immigration, publishing, fashion, art and entertainment.",
+      "knownFor": "Skyline, Broadway, museums, finance, global food",
+      "suggestedStay": "3–5 days",
+      "bestTime": "April–June and September–November; December for holiday lights",
+      "images": {
+        "primary": "/assets/images/cities/usa/new-york-city/primary.jpg",
+        "hover": "/assets/images/cities/usa/new-york-city/hover.jpg"
+      }
+    },
+    {
+      "id": "washington-dc",
+      "name": "Washington, D.C.",
+      "slug": "washington-dc-travel-guide",
+      "route": "/usa/washington-dc",
+      "intro": "Washington, D.C.",
+      "knownFor": "National monuments, museums, politics, free attractions",
+      "suggestedStay": "2–3 days",
+      "bestTime": "Spring (cherry blossoms in late March–early April) and autumn",
+      "images": {
+        "primary": "/assets/images/cities/usa/washington-dc/primary.jpg",
+        "hover": "/assets/images/cities/usa/washington-dc/hover.jpg"
+      }
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "slug": "los-angeles-travel-guide",
+      "route": "/usa/los-angeles",
+      "intro": "Los Angeles grew from a Spanish and Mexican settlement into the centre of the American film and television industry.",
+      "knownFor": "Hollywood, beaches, museums, modern architecture",
+      "suggestedStay": "3–4 days",
+      "bestTime": "March–May and September–November",
+      "images": {
+        "primary": "/assets/images/cities/usa/los-angeles/primary.jpg",
+        "hover": "/assets/images/cities/usa/los-angeles/hover.jpg"
+      }
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "slug": "san-francisco-travel-guide",
+      "route": "/usa/san-francisco",
+      "intro": "San Francisco is a historic Pacific port city shaped by the Gold Rush, Asian and Latin American migration, technology and maritime trade.",
+      "knownFor": "Golden Gate Bridge, Alcatraz, cable cars, Victorian homes",
+      "suggestedStay": "3–4 days",
+      "bestTime": "September–October for warmer, clearer weather; summers are cool and foggy",
+      "images": {
+        "primary": "/assets/images/cities/usa/san-francisco/primary.jpg",
+        "hover": "/assets/images/cities/usa/san-francisco/hover.jpg"
+      }
+    },
+    {
+      "id": "las-vegas",
+      "name": "Las Vegas",
+      "slug": "las-vegas-travel-guide",
+      "route": "/usa/las-vegas",
+      "intro": "Las Vegas developed from a desert railway settlement into a global centre for casinos, entertainment, conventions, restaurants and themed hotels.",
+      "knownFor": "The Strip, shows, resorts, desert scenery",
+      "suggestedStay": "2–3 days",
+      "bestTime": "March–May and October–November; summer is extremely hot",
+      "images": {
+        "primary": "/assets/images/cities/usa/las-vegas/primary.jpg",
+        "hover": "/assets/images/cities/usa/las-vegas/hover.jpg"
+      }
+    }
+  ]
+}

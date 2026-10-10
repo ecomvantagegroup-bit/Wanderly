@@ -1,0 +1,460 @@
+{
+  "countryId": "russia",
+  "countryName": "Russia",
+  "cities": [
+    {
+      "id": "moscow",
+      "name": "Moscow",
+      "seo": {
+        "title": "Moscow Travel Guide: Red Square, Kremlin & Museums",
+        "description": "Explore Moscow’s Red Square, Kremlin, St Basil’s Cathedral, Tretyakov Gallery and Bolshoi Theatre. History, tips and a 4-day itinerary.",
+        "h1": "Moscow Travel Guide: Kremlin, Red Square and Russian Art"
+      },
+      "heading": "Moscow Travel Guide: Kremlin, Red Square and Russian Art",
+      "overview": [
+        "Moscow is Russia’s political and historical centre. It developed around the Kremlin and became the capital of the Soviet Union and the modern Russian Federation.",
+        "The city’s core is arranged in rings around the Kremlin, with historic churches, monasteries, Soviet-era landmarks and modern parks. The Moscow Metro is known for decorated stations that function as public art."
+      ],
+      "quickFacts": {
+        "bestTime": "May–September; winters are cold and snowy",
+        "suggestedStay": "3–4 days",
+        "knownFor": "Kremlin, Red Square, St Basil’s, museums, theatre"
+      },
+      "images": {
+        "hero": "/assets/images/cities/russia/moscow/hero.jpg",
+        "primary": "/assets/images/cities/russia/moscow/primary.jpg",
+        "hover": "/assets/images/cities/russia/moscow/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "red-square",
+          "name": "Red Square",
+          "category": "UNESCO World Heritage Site",
+          "unesco": true,
+          "description": "Russia’s most famous public square, surrounded by the Kremlin, St Basil’s Cathedral, GUM department store and the State Historical Museum. It is part of the UNESCO-listed Kremlin and Red Square.",
+          "visitorTip": "Visit early morning or evening for photographs; some areas close for events.",
+          "images": {
+            "primary": "/assets/images/places/russia/moscow/red-square/primary.jpg",
+            "hover": "/assets/images/places/russia/moscow/red-square/hover.jpg"
+          }
+        },
+        {
+          "id": "moscow-kremlin",
+          "name": "Moscow Kremlin",
+          "category": "UNESCO World Heritage Site",
+          "unesco": true,
+          "description": "A fortified complex that includes cathedrals, palaces and the Armoury Chamber, combining medieval Russian, Orthodox, imperial and state architecture. It is also a working government complex, so access is limited to some areas.",
+          "visitorTip": "Book tickets for the cathedral square and Armoury Chamber in advance.",
+          "images": {
+            "primary": "/assets/images/places/russia/moscow/moscow-kremlin/primary.jpg",
+            "hover": "/assets/images/places/russia/moscow/moscow-kremlin/hover.jpg"
+          }
+        },
+        {
+          "id": "st-basil-s-cathedral",
+          "name": "St Basil’s Cathedral",
+          "category": "Orthodox cathedral",
+          "unesco": false,
+          "description": "Built between 1555 and 1561 under Ivan the Terrible, its colourful onion domes form one of Russia’s most recognisable silhouettes. It is formally called the Cathedral of the Intercession on the Moat.",
+          "visitorTip": "Interior is small; allow 30–45 minutes.",
+          "images": {
+            "primary": "/assets/images/places/russia/moscow/st-basil-s-cathedral/primary.jpg",
+            "hover": "/assets/images/places/russia/moscow/st-basil-s-cathedral/hover.jpg"
+          }
+        },
+        {
+          "id": "tretyakov-gallery",
+          "name": "Tretyakov Gallery",
+          "category": "Museum",
+          "unesco": false,
+          "description": "Founded in 1856 by Pavel Tretyakov, it is the leading museum of Russian national art, with icons and paintings from medieval to modern times.",
+          "visitorTip": "Visit the main gallery in Lavrushinsky Lane for classical works.",
+          "images": {
+            "primary": "/assets/images/places/russia/moscow/tretyakov-gallery/primary.jpg",
+            "hover": "/assets/images/places/russia/moscow/tretyakov-gallery/hover.jpg"
+          }
+        },
+        {
+          "id": "bolshoi-theatre",
+          "name": "Bolshoi Theatre",
+          "category": "Theatre",
+          "unesco": false,
+          "description": "One of the world’s most famous institutions for Russian ballet and opera, in a neoclassical building that reopened in 2011 after renovation.",
+          "visitorTip": "Book performance tickets well ahead.",
+          "images": {
+            "primary": "/assets/images/places/russia/moscow/bolshoi-theatre/primary.jpg",
+            "hover": "/assets/images/places/russia/moscow/bolshoi-theatre/hover.jpg"
+          }
+        },
+        {
+          "id": "gorky-park-and-zaryadye-park",
+          "name": "Gorky Park and Zaryadye Park",
+          "category": "Public parks",
+          "unesco": false,
+          "description": "Gorky Park and Zaryadye Park by the Kremlin demonstrate Moscow’s contemporary public-space development, with walks, events and river views.",
+          "visitorTip": "Walk along the Moscow River in summer.",
+          "images": {
+            "primary": "/assets/images/places/russia/moscow/gorky-park-and-zaryadye-park/primary.jpg",
+            "hover": "/assets/images/places/russia/moscow/gorky-park-and-zaryadye-park/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "saint-petersburg",
+      "name": "Saint Petersburg",
+      "seo": {
+        "title": "Saint Petersburg Travel Guide: Hermitage & Palaces",
+        "description": "Discover Saint Petersburg: the Hermitage, Peterhof, Church of the Savior on Spilled Blood, St Isaac’s and Nevsky Prospekt. Tips and itinerary.",
+        "h1": "Saint Petersburg Travel Guide: Imperial Palaces and Museums"
+      },
+      "heading": "Saint Petersburg Travel Guide: Imperial Palaces and Museums",
+      "overview": [
+        "Saint Petersburg was founded by Peter the Great in 1703 and served as Russia’s imperial capital for more than two centuries. It was planned as a European-style city of canals, palaces, avenues and monumental public buildings.",
+        "The Historic Centre of Saint Petersburg and Related Groups of Monuments is a UNESCO World Heritage property, which includes major Baroque and Neoclassical landmarks."
+      ],
+      "quickFacts": {
+        "bestTime": "June–August (White Nights); winter for snowy scenery",
+        "suggestedStay": "3–4 days",
+        "knownFor": "Hermitage, imperial palaces, canals, White Nights"
+      },
+      "images": {
+        "hero": "/assets/images/cities/russia/saint-petersburg/hero.jpg",
+        "primary": "/assets/images/cities/russia/saint-petersburg/primary.jpg",
+        "hover": "/assets/images/cities/russia/saint-petersburg/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "hermitage-museum-and-winter-palace",
+          "name": "Hermitage Museum and Winter Palace",
+          "category": "Museum and imperial palace",
+          "unesco": false,
+          "description": "The Hermitage grew from Catherine the Great’s collection in the 18th century and occupies the Baroque Winter Palace. It holds millions of objects from Europe, Asia, Egypt, Greece and Russia.",
+          "visitorTip": "Buy tickets online and plan a focused route.",
+          "images": {
+            "primary": "/assets/images/places/russia/saint-petersburg/hermitage-museum-and-winter-palace/primary.jpg",
+            "hover": "/assets/images/places/russia/saint-petersburg/hermitage-museum-and-winter-palace/hover.jpg"
+          }
+        },
+        {
+          "id": "peterhof-palace",
+          "name": "Peterhof Palace",
+          "category": "Palace and park",
+          "unesco": false,
+          "description": "A grand palace-and-park complex begun in 1714 and inspired partly by Versailles, famed for the Grand Cascade and golden fountains.",
+          "visitorTip": "Fountains operate seasonally (roughly late spring to early autumn).",
+          "images": {
+            "primary": "/assets/images/places/russia/saint-petersburg/peterhof-palace/primary.jpg",
+            "hover": "/assets/images/places/russia/saint-petersburg/peterhof-palace/hover.jpg"
+          }
+        },
+        {
+          "id": "church-of-the-savior-on-spilled-blood",
+          "name": "Church of the Savior on Spilled Blood",
+          "category": "Church",
+          "unesco": false,
+          "description": "Built between 1883 and 1907 on the site where Alexander II was assassinated, with Russian Revival architecture and extensive interior mosaics.",
+          "visitorTip": "Allow 45 minutes to see the mosaics.",
+          "images": {
+            "primary": "/assets/images/places/russia/saint-petersburg/church-of-the-savior-on-spilled-blood/primary.jpg",
+            "hover": "/assets/images/places/russia/saint-petersburg/church-of-the-savior-on-spilled-blood/hover.jpg"
+          }
+        },
+        {
+          "id": "st-isaac-s-cathedral",
+          "name": "St Isaac’s Cathedral",
+          "category": "Cathedral",
+          "unesco": false,
+          "description": "A monumental 19th-century cathedral with a huge dome, marble interiors and a colonnade with city views.",
+          "visitorTip": "Climb the colonnade for panoramas.",
+          "images": {
+            "primary": "/assets/images/places/russia/saint-petersburg/st-isaac-s-cathedral/primary.jpg",
+            "hover": "/assets/images/places/russia/saint-petersburg/st-isaac-s-cathedral/hover.jpg"
+          }
+        },
+        {
+          "id": "nevsky-prospekt",
+          "name": "Nevsky Prospekt",
+          "category": "Main avenue",
+          "unesco": false,
+          "description": "The city’s main avenue for shopping, cafés, churches and historic city life.",
+          "visitorTip": "Walk from the Admiralty to the Moika River.",
+          "images": {
+            "primary": "/assets/images/places/russia/saint-petersburg/nevsky-prospekt/primary.jpg",
+            "hover": "/assets/images/places/russia/saint-petersburg/nevsky-prospekt/hover.jpg"
+          }
+        },
+        {
+          "id": "historic-centre-of-saint-petersburg",
+          "name": "Historic Centre of Saint Petersburg",
+          "category": "UNESCO World Heritage property",
+          "unesco": true,
+          "description": "UNESCO describes the area as a planned cultural landscape combining Baroque and Neoclassical architecture, including the Admiralty, Winter Palace and related palace complexes.",
+          "visitorTip": "Use canal boat tours for different views.",
+          "images": {
+            "primary": "/assets/images/places/russia/saint-petersburg/historic-centre-of-saint-petersburg/primary.jpg",
+            "hover": "/assets/images/places/russia/saint-petersburg/historic-centre-of-saint-petersburg/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kazan",
+      "name": "Kazan",
+      "seo": {
+        "title": "Kazan Travel Guide: Kremlin, Mosque & Tatar Culture",
+        "description": "Visit Kazan: the Kazan Kremlin, Qol Sharif Mosque, Bauman Street, Old Tatar Quarter and Tatar cuisine. Tips and a 2-day itinerary.",
+        "h1": "Kazan Travel Guide: Where Russian and Tatar Cultures Meet"
+      },
+      "heading": "Kazan Travel Guide: Where Russian and Tatar Cultures Meet",
+      "overview": [
+        "Kazan is the capital of Tatarstan and an important meeting point of Russian, Tatar, Islamic and Orthodox cultures. It stands on the Volga River and is known for its Kremlin and food culture.",
+        "The compact centre is easy to explore on foot."
+      ],
+      "quickFacts": {
+        "bestTime": "May–September",
+        "suggestedStay": "2 days",
+        "knownFor": "Tatar and Russian culture, Kremlin, mosques, food"
+      },
+      "images": {
+        "hero": "/assets/images/cities/russia/kazan/hero.jpg",
+        "primary": "/assets/images/cities/russia/kazan/primary.jpg",
+        "hover": "/assets/images/cities/russia/kazan/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "kazan-kremlin",
+          "name": "Kazan Kremlin",
+          "category": "UNESCO World Heritage Site",
+          "unesco": true,
+          "description": "A historic fortress with both Islamic and Orthodox monuments, including the Qol Sharif Mosque, Annunciation Cathedral, defensive walls and museums.",
+          "visitorTip": "Allow half a day and walk the walls.",
+          "images": {
+            "primary": "/assets/images/places/russia/kazan/kazan-kremlin/primary.jpg",
+            "hover": "/assets/images/places/russia/kazan/kazan-kremlin/hover.jpg"
+          }
+        },
+        {
+          "id": "qol-sharif-mosque",
+          "name": "Qol Sharif Mosque",
+          "category": "Mosque",
+          "unesco": false,
+          "description": "A modern reconstruction of a historic Tatar mosque, opened in 2005, with large domes and minarets that symbolise Islamic cultural importance.",
+          "visitorTip": "Dress modestly.",
+          "images": {
+            "primary": "/assets/images/places/russia/kazan/qol-sharif-mosque/primary.jpg",
+            "hover": "/assets/images/places/russia/kazan/qol-sharif-mosque/hover.jpg"
+          }
+        },
+        {
+          "id": "bauman-street",
+          "name": "Bauman Street",
+          "category": "Pedestrian street",
+          "unesco": false,
+          "description": "Kazan’s main historic commercial street, with cafés, shops and churches.",
+          "visitorTip": "Evening is lively.",
+          "images": {
+            "primary": "/assets/images/places/russia/kazan/bauman-street/primary.jpg",
+            "hover": "/assets/images/places/russia/kazan/bauman-street/hover.jpg"
+          }
+        },
+        {
+          "id": "temple-of-all-religions",
+          "name": "Temple of All Religions",
+          "category": "Symbolic complex",
+          "unesco": false,
+          "description": "A contemporary complex with architectural references from several religions, with a visual design that reflects multi-faith themes.",
+          "visitorTip": "Treat it as an architectural curiosity rather than an active temple.",
+          "images": {
+            "primary": "/assets/images/places/russia/kazan/temple-of-all-religions/primary.jpg",
+            "hover": "/assets/images/places/russia/kazan/temple-of-all-religions/hover.jpg"
+          }
+        },
+        {
+          "id": "old-tatar-quarter",
+          "name": "Old Tatar Quarter",
+          "category": "Historic quarter",
+          "unesco": false,
+          "description": "Traditional wooden houses, mosques, food and local history that preserve Tatar urban culture.",
+          "visitorTip": "Try Tatar dishes in local cafés.",
+          "images": {
+            "primary": "/assets/images/places/russia/kazan/old-tatar-quarter/primary.jpg",
+            "hover": "/assets/images/places/russia/kazan/old-tatar-quarter/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sochi",
+      "name": "Sochi",
+      "seo": {
+        "title": "Sochi Travel Guide: Black Sea Beaches & Rosa Khutor",
+        "description": "Explore Sochi: Black Sea beaches, Rosa Khutor, Sochi Arboretum, Olympic Park and Agur waterfalls. Tips, seasons and an itinerary.",
+        "h1": "Sochi Travel Guide: Black Sea Resort and Mountain Adventure"
+      },
+      "heading": "Sochi Travel Guide: Black Sea Resort and Mountain Adventure",
+      "overview": [
+        "Sochi is a Black Sea resort city known for beaches, subtropical vegetation, mountains, wellness tourism and winter sports. It hosted the 2014 Winter Olympics.",
+        "The coast is mild in summer, while the Krasnaya Polyana mountain area offers skiing in winter and hiking in summer."
+      ],
+      "quickFacts": {
+        "bestTime": "June–September for beaches; December–March for skiing",
+        "suggestedStay": "3–5 days",
+        "knownFor": "Black Sea beaches, Caucasus mountains, skiing, wellness"
+      },
+      "images": {
+        "hero": "/assets/images/cities/russia/sochi/hero.jpg",
+        "primary": "/assets/images/cities/russia/sochi/primary.jpg",
+        "hover": "/assets/images/cities/russia/sochi/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "rosa-khutor",
+          "name": "Rosa Khutor",
+          "category": "Mountain resort",
+          "unesco": false,
+          "description": "A major Caucasus resort developed for the 2014 Olympics, with skiing, hiking, cable cars and mountain scenery.",
+          "visitorTip": "Ride cable cars for summer views.",
+          "images": {
+            "primary": "/assets/images/places/russia/sochi/rosa-khutor/primary.jpg",
+            "hover": "/assets/images/places/russia/sochi/rosa-khutor/hover.jpg"
+          }
+        },
+        {
+          "id": "sochi-arboretum",
+          "name": "Sochi Arboretum",
+          "category": "Botanical park",
+          "unesco": false,
+          "description": "A landscaped collection of subtropical plants with garden paths and views over the city.",
+          "visitorTip": "Allow two hours.",
+          "images": {
+            "primary": "/assets/images/places/russia/sochi/sochi-arboretum/primary.jpg",
+            "hover": "/assets/images/places/russia/sochi/sochi-arboretum/hover.jpg"
+          }
+        },
+        {
+          "id": "sochi-olympic-park",
+          "name": "Sochi Olympic Park",
+          "category": "Sports complex",
+          "unesco": false,
+          "description": "A modern complex of stadiums and public spaces that shows the legacy of the 2014 Winter Olympics.",
+          "visitorTip": "Visit in the evening when fountains and lights are on.",
+          "images": {
+            "primary": "/assets/images/places/russia/sochi/sochi-olympic-park/primary.jpg",
+            "hover": "/assets/images/places/russia/sochi/sochi-olympic-park/hover.jpg"
+          }
+        },
+        {
+          "id": "black-sea-promenade",
+          "name": "Black Sea promenade",
+          "category": "Seafront",
+          "unesco": false,
+          "description": "The centre of Sochi’s resort identity with beaches, restaurants and evening walks.",
+          "visitorTip": "Swim in summer; water is warm from July to September.",
+          "images": {
+            "primary": "/assets/images/places/russia/sochi/black-sea-promenade/primary.jpg",
+            "hover": "/assets/images/places/russia/sochi/black-sea-promenade/hover.jpg"
+          }
+        },
+        {
+          "id": "agur-waterfalls-and-trails",
+          "name": "Agur Waterfalls and trails",
+          "category": "Nature area",
+          "unesco": false,
+          "description": "Waterfalls and forest trails that show the contrast between the coastal resort and the Caucasus landscape.",
+          "visitorTip": "Wear sturdy shoes.",
+          "images": {
+            "primary": "/assets/images/places/russia/sochi/agur-waterfalls-and-trails/primary.jpg",
+            "hover": "/assets/images/places/russia/sochi/agur-waterfalls-and-trails/hover.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vladimir-suzdal",
+      "name": "Vladimir and Suzdal",
+      "seo": {
+        "title": "Vladimir & Suzdal Travel Guide: Golden Ring Towns",
+        "description": "Visit Vladimir and Suzdal: white-stone churches, Golden Gate, Suzdal Kremlin and the wooden architecture museum. Tips and a 2-day itinerary.",
+        "h1": "Vladimir and Suzdal Travel Guide: Medieval Russia"
+      },
+      "heading": "Vladimir and Suzdal Travel Guide: Medieval Russia",
+      "overview": [
+        "Vladimir and Suzdal are historic cities of the Golden Ring, connected with medieval Russian state formation and Orthodox architecture. Their white-stone churches are among the country’s oldest surviving monuments.",
+        "They are reached from Moscow in a few hours and give a slower cultural experience than the capitals."
+      ],
+      "quickFacts": {
+        "bestTime": "Summer and winter",
+        "suggestedStay": "2 days",
+        "knownFor": "Golden Ring towns, white-stone churches, wooden architecture"
+      },
+      "images": {
+        "hero": "/assets/images/cities/russia/vladimir-suzdal/hero.jpg",
+        "primary": "/assets/images/cities/russia/vladimir-suzdal/primary.jpg",
+        "hover": "/assets/images/cities/russia/vladimir-suzdal/hover.jpg"
+      },
+      "places": [
+        {
+          "id": "golden-gate-of-vladimir",
+          "name": "Golden Gate of Vladimir",
+          "category": "Medieval gateway",
+          "unesco": false,
+          "description": "A 12th-century gateway that served as both a defensive and ceremonial entrance to the medieval city.",
+          "visitorTip": "Visit with the museum for context.",
+          "images": {
+            "primary": "/assets/images/places/russia/vladimir-suzdal/golden-gate-of-vladimir/primary.jpg",
+            "hover": "/assets/images/places/russia/vladimir-suzdal/golden-gate-of-vladimir/hover.jpg"
+          }
+        },
+        {
+          "id": "assumption-cathedral-vladimir",
+          "name": "Assumption Cathedral, Vladimir",
+          "category": "Orthodox cathedral",
+          "unesco": false,
+          "description": "Built in the 12th century, it is an important model for later Russian Orthodox cathedral design and holds frescoes.",
+          "visitorTip": "Dress modestly.",
+          "images": {
+            "primary": "/assets/images/places/russia/vladimir-suzdal/assumption-cathedral-vladimir/primary.jpg",
+            "hover": "/assets/images/places/russia/vladimir-suzdal/assumption-cathedral-vladimir/hover.jpg"
+          }
+        },
+        {
+          "id": "suzdal-kremlin",
+          "name": "Suzdal Kremlin",
+          "category": "Historic centre",
+          "unesco": false,
+          "description": "A quiet historic centre with religious buildings that represent medieval Russian urban and ecclesiastical architecture.",
+          "visitorTip": "Walk the river embankment nearby.",
+          "images": {
+            "primary": "/assets/images/places/russia/vladimir-suzdal/suzdal-kremlin/primary.jpg",
+            "hover": "/assets/images/places/russia/vladimir-suzdal/suzdal-kremlin/hover.jpg"
+          }
+        },
+        {
+          "id": "museum-of-wooden-architecture",
+          "name": "Museum of Wooden Architecture",
+          "category": "Open-air museum",
+          "unesco": false,
+          "description": "Traditional wooden churches, houses and farm buildings that preserve vernacular countryside construction.",
+          "visitorTip": "Spend two hours exploring.",
+          "images": {
+            "primary": "/assets/images/places/russia/vladimir-suzdal/museum-of-wooden-architecture/primary.jpg",
+            "hover": "/assets/images/places/russia/vladimir-suzdal/museum-of-wooden-architecture/hover.jpg"
+          }
+        },
+        {
+          "id": "white-monuments-of-vladimir-and-suzdal",
+          "name": "White Monuments of Vladimir and Suzdal",
+          "category": "UNESCO World Heritage property",
+          "unesco": true,
+          "description": "A UNESCO-listed group of monuments showing the development of Russian Orthodox architecture, including the Church of the Intercession on the Nerl.",
+          "visitorTip": "Combine with Bogolyubovo.",
+          "images": {
+            "primary": "/assets/images/places/russia/vladimir-suzdal/white-monuments-of-vladimir-and-suzdal/primary.jpg",
+            "hover": "/assets/images/places/russia/vladimir-suzdal/white-monuments-of-vladimir-and-suzdal/hover.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}
