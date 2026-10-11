@@ -80,82 +80,74 @@
       "dataFile": "/data/indonesia.json"
     }
   ],
-  "patternSection": {
-    "heading": "Plan Your Next Trail",
-    "body": "Pick a country above to explore its top cities, UNESCO sites, best times to visit and itineraries.",
-    "patternImages": [
-      "/assets/images/patterns/world-map.jpg",
-      "/assets/images/patterns/travel-map.jpg"
-    ]
-  },
-  "globeSection": {
-    "id": "globe",
-    "heading": "Explore the World in 3D",
-    "body": "Drag to rotate the globe and select a country to start planning your trail.",
-    "model": {
-      "type": "glb",
-      "path": "/assets/models/globe.glb",
-      "poster": "/assets/images/globe/globe-poster.jpg"
-    },
-    "interaction": {
-      "rotate": true,
-      "zoom": true,
-      "autoRotate": true,
-      "autoRotateSpeed": 0.5
-    },
-    "markers": [
-      {
-        "countryId": "india",
-        "label": "India",
-        "lat": 20.59,
-        "lng": 78.96,
-        "route": "/india"
-      },
-      {
-        "countryId": "russia",
-        "label": "Russia",
-        "lat": 61.52,
-        "lng": 105.32,
-        "route": "/russia"
-      },
-      {
-        "countryId": "china",
-        "label": "China",
-        "lat": 35.86,
-        "lng": 104.2,
-        "route": "/china"
-      },
-      {
-        "countryId": "usa",
-        "label": "United States",
-        "lat": 37.09,
-        "lng": -95.71,
-        "route": "/usa"
-      },
-      {
-        "countryId": "japan",
-        "label": "Japan",
-        "lat": 36.2,
-        "lng": 138.25,
-        "route": "/japan"
-      },
-      {
-        "countryId": "indonesia",
-        "label": "Indonesia",
-        "lat": -0.79,
-        "lng": 113.92,
-        "route": "/indonesia"
-      }
-    ]
+  "storySection": {
+    "id": "story",
+    "heading": "Every Trail Has a Story",
+    "body": "Wanderly turns world heritage, city life and local culture into guides you can actually plan a trip with.",
+    "visuals": {
+      "animation": "/assets/landing_page/animated/story_animation.webm",
+      "image": "/assets/landing_page/images/story/story_image.jpg"
+    }
   },
   "footer": {
     "background": {
-      "type": "video",
-      "src": "/assets/animations/footer-bg.webm",
-      "fallbackImage": "/assets/images/footer/footer-bg.jpg",
-      "autoplay": true,
-      "loop": true,
-      "muted": true
+      "type": "globe",
+      "model": {
+        "type": "glb",
+        "path": "/assets/models/globe.glb",
+        "poster": "/assets/images/globe/globe-poster.jpg"
+      },
+      "interaction": {
+        "rotate": true,
+        "zoom": true,
+        "autoRotate": true,
+        "autoRotateSpeed": 0.5
+      },
+      "markers": [
+        {
+          "countryId": "india",
+          "label": "India",
+          "lat": 20.59,
+          "lng": 78.96,
+          "route": "/india"
+        },
+        {
+          "countryId": "russia",
+          "label": "Russia",
+          "lat": 61.52,
+          "lng": 105.32,
+          "route": "/russia"
+        },
+        {
+          "countryId": "china",
+          "label": "China",
+          "lat": 35.86,
+          "lng": 104.2,
+          "route": "/china"
+        },
+        {
+          "countryId": "usa",
+          "label": "United States",
+          "lat": 37.09,
+          "lng": -95.71,
+          "route": "/usa"
+        },
+        {
+          "countryId": "japan",
+          "label": "Japan",
+          "lat": 36.2,
+          "lng": 138.25,
+          "route": "/japan"
+        },
+        {
+          "countryId": "indonesia",
+          "label": "Indonesia",
+          "lat": -0.79,
+          "lng": 113.92,
+          "route": "/indonesia"
+        }
+      ],
+      "fallbackImage": "/assets/images/footer/footer-bg.jpg"
     },
     "content": {
       "brand": {
