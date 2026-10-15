@@ -1,0 +1,162 @@
+/* ---------- Country page shell ---------- */
+.country-page {
+  --ink: #17110e;
+  --sand: #efe3cf;
+  --accent: #c9a15b; /* brass. A country can override it with "accent" in its json */
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+  background: var(--ink);
+  color: var(--sand);
+}
+
+.country-track {
+  display: flex;
+  width: max-content;
+  height: 100%;
+  will-change: transform;
+}
+
+/* ---------- Top bar ---------- */
+.country-hud {
+  position: absolute;
+  inset: 0 0 auto 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem clamp(1rem, 3vw, 2.5rem);
+  pointer-events: none;
+}
+
+  .country-hud > * {
+    pointer-events: auto;
+  }
+
+.hud-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1rem 0.55rem 0.8rem;
+  border: 1px solid rgba(239, 227, 207, 0.22);
+  border-radius: 999px;
+  background: rgba(23, 17, 14, 0.38);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  color: var(--sand);
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+  .hud-back:hover,
+  .hud-back:focus-visible {
+    background: rgba(239, 227, 207, 0.16);
+    border-color: rgba(239, 227, 207, 0.5);
+    outline: none;
+  }
+
+.hud-brand {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.hud-progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+  height: 3px;
+  background: rgba(239, 227, 207, 0.12);
+}
+
+  .hud-progress i {
+    display: block;
+    height: 100%;
+    background: var(--accent);
+    transform: scaleX(0);
+    transform-origin: left center;
+  }
+
+/* ---------- Loading / missing ---------- */
+.country-state {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+  .country-state h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+  }
+
+  .country-state p {
+    margin: 0.75rem 0 1.75rem;
+    color: rgba(239, 227, 207, 0.7);
+  }
+
+.state-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.state-ring {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2px solid rgba(239, 227, 207, 0.2);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: state-spin 0.9s linear infinite;
+}
+
+@keyframes state-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---------- Phones: ordinary vertical page ---------- */
+@media (max-width: 767px) {
+  .country-page {
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
+  }
+
+  .country-track {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .country-hud {
+    position: fixed;
+    background: linear-gradient(to bottom, rgba(23, 17, 14, 0.75), transparent);
+  }
+
+  .hud-progress {
+    display: none;
+  }
+
+  .country-state {
+    min-height: 100vh;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .state-ring {
+    animation-duration: 2.5s;
+  }
+}

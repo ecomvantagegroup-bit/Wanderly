@@ -1,0 +1,36 @@
+.page-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 1.25rem;
+  background: #17110e;
+  color: #efe3cf;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.page-curtain-label {
+  overflow: hidden;
+  padding: 0.08em 0.1em;
+  font-family: inherit;
+  font-size: clamp(3rem, 12vw, 11rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.page-curtain-label span {
+  display: block;
+}
+
+.page-curtain-line {
+  display: block;
+  width: min(18rem, 40vw);
+  height: 2px;
+  background: #c9a15b;
+  transform: scaleX(0);
+}

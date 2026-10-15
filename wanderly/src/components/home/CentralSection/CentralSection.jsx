@@ -1,7 +1,9 @@
 import { defineComponent, ref, onMounted, onBeforeUnmount } from 'vue';
+import { RouterLink } from 'vue-router';
 import { gsap, ScrollTrigger, SplitText } from '../../../utils/gsap.js';
 import './CentralSection.css';
 import data from '../../../data/landing.json';
+import { asset } from '../../../utils/router.jsx';
 
 // Phones: do not re-measure every time the browser address bar shows/hides
 ScrollTrigger.config({ ignoreMobileResize: true });
@@ -296,7 +298,7 @@ export default defineComponent({
               <img
                 key={country.id}
                 class={['bg-layer', active.value === i && 'is-active']}
-                src={country.images.primary}
+                src={asset(country.images.primary)}
                 alt=""
               />
             ))}
@@ -315,13 +317,13 @@ export default defineComponent({
               <div class="card-media">
                 <img
                   class="card-img img-primary"
-                  src={country.images.primary}
+                  src={asset(country.images.primary)}
                   alt={country.heading}
                   loading="lazy"
                 />
                 <img
                   class="card-img img-hover"
-                  src={country.images.hover}
+                  src={asset(country.images.hover)}
                   alt=""
                   aria-hidden="true"
                   loading="lazy"
@@ -330,9 +332,9 @@ export default defineComponent({
               <div class="card-body">
                 <h3>{country.heading}</h3>
                 <p>{country.body}</p>
-                <a href={country.route} class="card-btn">
+                <RouterLink to={country.route} class="card-btn">
                   Explore {country.heading}
-                </a>
+                </RouterLink>
               </div>
               <span class="card-shine" />
             </article>

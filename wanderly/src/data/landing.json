@@ -17,7 +17,7 @@
         "primary": "/assets/landing_page/images/countries/india/primary.jpg",
         "hover": "/assets/landing_page/images/countries/india/hover.jpg"
       },
-      "dataFile": "/data/india.json"
+      "dataFile": "/src/data/india/india.json"
     },
     {
       "id": "russia",
@@ -29,7 +29,7 @@
         "primary": "/assets/landing_page/images/countries/russia/primary.jpg",
         "hover": "/assets/landing_page/images/countries/russia/hover.jpg"
       },
-      "dataFile": "/data/russia.json"
+      "dataFile": "/src/data/russia/russia.json"
     },
     {
       "id": "china",
@@ -41,7 +41,7 @@
         "primary": "/assets/landing_page/images/countries/china/primary.jpg",
         "hover": "/assets/landing_page/images/countries/china/hover.jpg"
       },
-      "dataFile": "/data/china.json"
+      "dataFile": "/src/data/china/china.json"
     },
     {
       "id": "usa",
@@ -53,7 +53,7 @@
         "primary": "/assets/landing_page/images/countries/usa/primary.jpg",
         "hover": "/assets/landing_page/images/countries/usa/hover.jpg"
       },
-      "dataFile": "/data/usa.json"
+      "dataFile": "/src/data/usa/usa.json"
     },
     {
       "id": "japan",
@@ -65,7 +65,7 @@
         "primary": "/assets/landing_page/images/countries/japan/primary.jpg",
         "hover": "/assets/landing_page/images/countries/japan/hover.jpg"
       },
-      "dataFile": "/data/japan.json"
+      "dataFile": "/src/data/japan/japan.json"
     },
     {
       "id": "indonesia",
@@ -77,7 +77,7 @@
         "primary": "/assets/landing_page/images/countries/indonesia/primary.jpg",
         "hover": "/assets/landing_page/images/countries/indonesia/hover.jpg"
       },
-      "dataFile": "/data/indonesia.json"
+      "dataFile": "/src/data/indonesia/indonesia.json"
     }
   ],
   "storySection": {
@@ -85,7 +85,7 @@
     "heading": "Every Trail Has a Story",
     "body": "Wanderly turns world heritage, city life and local culture into guides you can actually plan a trip with.",
     "visuals": {
-      "animation": "/assets/landing_page/animated/story_animation.webm",
+      "animation": "/assets/landing_page/animated/story_animation.mp4",
       "image": "/assets/landing_page/images/story/story_image.jpg"
     }
   },
@@ -94,8 +94,7 @@
       "type": "globe",
       "model": {
         "type": "glb",
-        "path": "/assets/models/globe.glb",
-        "poster": "/assets/images/globe/globe-poster.jpg"
+        "path": "/assets/landing_page/model/globe.glb"
       },
       "interaction": {
         "rotate": true,
@@ -103,57 +102,13 @@
         "autoRotate": true,
         "autoRotateSpeed": 0.5
       },
-      "markers": [
-        {
-          "countryId": "india",
-          "label": "India",
-          "lat": 20.59,
-          "lng": 78.96,
-          "route": "/india"
-        },
-        {
-          "countryId": "russia",
-          "label": "Russia",
-          "lat": 61.52,
-          "lng": 105.32,
-          "route": "/russia"
-        },
-        {
-          "countryId": "china",
-          "label": "China",
-          "lat": 35.86,
-          "lng": 104.2,
-          "route": "/china"
-        },
-        {
-          "countryId": "usa",
-          "label": "United States",
-          "lat": 37.09,
-          "lng": -95.71,
-          "route": "/usa"
-        },
-        {
-          "countryId": "japan",
-          "label": "Japan",
-          "lat": 36.2,
-          "lng": 138.25,
-          "route": "/japan"
-        },
-        {
-          "countryId": "indonesia",
-          "label": "Indonesia",
-          "lat": -0.79,
-          "lng": 113.92,
-          "route": "/indonesia"
-        }
-      ],
-      "fallbackImage": "/assets/images/footer/footer-bg.jpg"
+      "fallbackImage": "/assets/landing_page/images/footer/footer-bg.png"
     },
     "content": {
       "brand": {
         "name": "Wanderly",
         "tagline": "World Heritage, Culture and City Travel Guides",
-        "logo": "/assets/images/brand/logo.svg"
+        "logo": "/favicon.png"
       },
       "columns": [
         {
@@ -234,7 +189,7 @@
           "icon": "/assets/images/social/youtube.svg"
         }
       ],
-      "copyright": "© 2026 Global City Trails. All rights reserved."
+      "copyright": "© 2026 Wanderly. All rights reserved."
     }
   }
 }
