@@ -93,15 +93,19 @@
   isolation: isolate;
 }
 
+  /* wider than the tile so the photo can slide sideways (GSAP owns transform,
+     the hover zoom uses the separate "scale" property so they don't fight) */
   .foot-tile img {
     position: absolute;
-    inset: 0;
+    top: 0;
+    left: -15%;
     z-index: -2;
-    width: 100%;
+    width: 130%;
+    max-width: none;
     height: 100%;
     object-fit: cover;
     filter: brightness(0.7);
-    transition: transform 1.2s cubic-bezier(0.2, 0.8, 0.2, 1), filter 0.6s;
+    transition: scale 1.2s cubic-bezier(0.2, 0.8, 0.2, 1), filter 0.6s;
   }
 
   .foot-tile::after {
@@ -114,7 +118,7 @@
 
   .foot-tile:hover img,
   .foot-tile:focus-visible img {
-    transform: scale(1.08);
+    scale: 1.08;
     filter: brightness(0.95);
   }
 
@@ -212,6 +216,14 @@
   .foot-tile {
     aspect-ratio: 3 / 4;
   }
+
+    /* taller than the tile so the photo can slide vertically */
+    .foot-tile img {
+      top: -15%;
+      left: 0;
+      width: 100%;
+      height: 130%;
+    }
 
   .foot-bar {
     flex-direction: column;

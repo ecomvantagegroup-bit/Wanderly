@@ -1,0 +1,200 @@
+.place-sheet {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  visibility: hidden;
+  color: var(--ink);
+}
+
+.sheet-scrim {
+  position: absolute;
+  inset: 0;
+  background: rgba(233, 230, 223, 0.86);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  opacity: 0;
+}
+
+/* position and size of the panel are driven by GSAP (it grows from the card) */
+.sheet-panel {
+  position: absolute;
+  overflow: hidden;
+  border-radius: 4px;
+  background: var(--paper);
+  box-shadow: 0 40px 120px -40px rgba(20, 23, 26, 0.45);
+}
+
+.sheet-media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background: var(--paper-2);
+  cursor: pointer;
+}
+
+.sheet-imgs {
+  position: absolute;
+  inset: 0;
+}
+
+.sheet-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.7s;
+}
+
+.sheet-img.on {
+  opacity: 1;
+}
+
+.sheet-view {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  background: var(--paper);
+  font-size: 0.78rem;
+  pointer-events: none;
+}
+
+/* ---------- Details ---------- */
+.sheet-body {
+  position: absolute;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  padding: clamp(1.5rem, 3vw, 2.75rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.sheet-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 1rem;
+  padding-right: 2.5rem; /* room for the close button */
+  font-size: 0.8rem;
+  color: var(--mute);
+}
+
+.sheet-unesco {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.25rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--ink);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.sheet-unesco::before {
+  content: '';
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.sheet-title {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(1.9rem, 3vw, 2.75rem);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.sheet-desc {
+  margin: 0;
+  max-width: 34rem;
+  font-size: 0.96rem;
+  line-height: 1.75;
+}
+
+.sheet-tip {
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.sheet-tip h3 {
+  margin: 0 0 0.35rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.sheet-tip p {
+  margin: 0;
+  max-width: 34rem;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--mute);
+}
+
+.sheet-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.sheet-count {
+  font-size: 0.8rem;
+  color: var(--mute);
+}
+
+.sheet-step,
+.sheet-close {
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--paper);
+  color: var(--ink);
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.sheet-step:hover,
+.sheet-close:hover,
+.sheet-step:focus-visible,
+.sheet-close:focus-visible {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+  outline: none;
+}
+
+.sheet-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 3;
+}
+
+@media (max-width: 767px) {
+  .sheet-panel {
+    border-radius: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sheet-img,
+  .sheet-step,
+  .sheet-close {
+    transition: none;
+  }
+}

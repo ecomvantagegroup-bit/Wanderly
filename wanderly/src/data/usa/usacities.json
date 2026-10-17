@@ -21,9 +21,7 @@
         "knownFor": "Skyline, Broadway, museums, finance, global food"
       },
       "images": {
-        "hero": "/assets/images/cities/usa/new-york-city/hero.jpg",
-        "primary": "/assets/images/cities/usa/new-york-city/primary.jpg",
-        "hover": "/assets/images/cities/usa/new-york-city/hover.jpg"
+        "hero": "/assets/cities/usa/new-york-city/hero.jpg"
       },
       "places": [
         {
@@ -34,8 +32,8 @@
           "description": "A neoclassical copper statue given by France and dedicated in 1886, designed by Frédéric Auguste Bartholdi with engineering by Gustave Eiffel. It stands on Liberty Island and symbolises liberty and welcome to immigrants. Ellis Island, the former immigration station, is on the same ferry route.",
           "visitorTip": "Book ferry tickets in advance; crown access needs an early reservation.",
           "images": {
-            "primary": "/assets/images/places/usa/new-york-city/statue-of-liberty/primary.jpg",
-            "hover": "/assets/images/places/usa/new-york-city/statue-of-liberty/hover.jpg"
+            "primary": "/assets/cities/usa/new-york-city/statue-of-liberty/primary.jpg",
+            "hover": "/assets/cities/usa/new-york-city/statue-of-liberty/hover.jpg"
           }
         },
         {
@@ -46,8 +44,8 @@
           "description": "A glowing intersection of Broadway theatres, billboards, shops and restaurants that symbolises New York’s entertainment and commercial identity.",
           "visitorTip": "Visit at night for the lights; keep valuables secure in crowds.",
           "images": {
-            "primary": "/assets/images/places/usa/new-york-city/times-square/primary.jpg",
-            "hover": "/assets/images/places/usa/new-york-city/times-square/hover.jpg"
+            "primary": "/assets/cities/usa/new-york-city/times-square/primary.jpg",
+            "hover": "/assets/cities/usa/new-york-city/times-square/hover.jpg"
           }
         },
         {
@@ -58,8 +56,8 @@
           "description": "Designed by Frederick Law Olmsted and Calvert Vaux and opened in stages from 1858, this large park shows 19th-century landscape design with lakes, lawns, bridges and walking paths.",
           "visitorTip": "Rent a rowboat at the Loeb Boathouse or walk to Bethesda Terrace.",
           "images": {
-            "primary": "/assets/images/places/usa/new-york-city/central-park/primary.jpg",
-            "hover": "/assets/images/places/usa/new-york-city/central-park/hover.jpg"
+            "primary": "/assets/cities/usa/new-york-city/central-park/primary.jpg",
+            "hover": "/assets/cities/usa/new-york-city/central-park/hover.jpg"
           }
         },
         {
@@ -70,8 +68,8 @@
           "description": "Completed in 1931, it was the world’s tallest building for decades and remains a defining example of 1930s American architecture. The observation decks give wide views over Manhattan.",
           "visitorTip": "Go at sunset to see both daylight and city lights.",
           "images": {
-            "primary": "/assets/images/places/usa/new-york-city/empire-state-building/primary.jpg",
-            "hover": "/assets/images/places/usa/new-york-city/empire-state-building/hover.jpg"
+            "primary": "/assets/cities/usa/new-york-city/empire-state-building/primary.jpg",
+            "hover": "/assets/cities/usa/new-york-city/empire-state-building/hover.jpg"
           }
         },
         {
@@ -82,8 +80,8 @@
           "description": "Founded in 1870 on Fifth Avenue, the Met is one of the world’s major encyclopaedic museums, with Egyptian, Greek, Roman, Asian, Islamic, European and American collections.",
           "visitorTip": "Allow half a day; pick two or three galleries rather than trying to see everything.",
           "images": {
-            "primary": "/assets/images/places/usa/new-york-city/metropolitan-museum-of-art/primary.jpg",
-            "hover": "/assets/images/places/usa/new-york-city/metropolitan-museum-of-art/hover.jpg"
+            "primary": "/assets/cities/usa/new-york-city/metropolitan-museum-of-art/primary.jpg",
+            "hover": "/assets/cities/usa/new-york-city/metropolitan-museum-of-art/hover.jpg"
           }
         },
         {
@@ -94,8 +92,8 @@
           "description": "Opened in 1883 and designed by John A. Roebling, it connects Manhattan and Brooklyn. Its stone towers and steel cables make it a landmark of 19th-century engineering.",
           "visitorTip": "Walk from Brooklyn toward Manhattan for skyline views; early morning is quieter.",
           "images": {
-            "primary": "/assets/images/places/usa/new-york-city/brooklyn-bridge/primary.jpg",
-            "hover": "/assets/images/places/usa/new-york-city/brooklyn-bridge/hover.jpg"
+            "primary": "/assets/cities/usa/new-york-city/brooklyn-bridge/primary.jpg",
+            "hover": "/assets/cities/usa/new-york-city/brooklyn-bridge/hover.jpg"
           }
         }
       ]
@@ -119,9 +117,7 @@
         "knownFor": "National monuments, museums, politics, free attractions"
       },
       "images": {
-        "hero": "/assets/images/cities/usa/washington-dc/hero.jpg",
-        "primary": "/assets/images/cities/usa/washington-dc/primary.jpg",
-        "hover": "/assets/images/cities/usa/washington-dc/hover.jpg"
+        "hero": "/assets/cities/usa/washington-dc/hero.jpg"
       },
       "places": [
         {
@@ -132,8 +128,8 @@
           "description": "A long, open park stretching from the Capitol to the Lincoln Memorial, lined with major museums and monuments. It represents American history and national identity and hosts public events.",
           "visitorTip": "Plan for long walks; use shade and water in summer.",
           "images": {
-            "primary": "/assets/images/places/usa/washington-dc/national-mall/primary.jpg",
-            "hover": "/assets/images/places/usa/washington-dc/national-mall/hover.jpg"
+            "primary": "/assets/cities/usa/washington-dc/national-mall/primary.jpg",
+            "hover": "/assets/cities/usa/washington-dc/national-mall/hover.jpg"
           }
         },
         {
@@ -144,8 +140,8 @@
           "description": "Neoclassical architecture with a cast-iron dome completed in 1866 and ceremonial interiors such as the Rotunda. Construction began in 1793 and the building has been expanded over time.",
           "visitorTip": "Book tours in advance through the Capitol Visitor Center.",
           "images": {
-            "primary": "/assets/images/places/usa/washington-dc/u-s-capitol/primary.jpg",
-            "hover": "/assets/images/places/usa/washington-dc/u-s-capitol/hover.jpg"
+            "primary": "/assets/cities/usa/washington-dc/u-s-capitol/primary.jpg",
+            "hover": "/assets/cities/usa/washington-dc/u-s-capitol/hover.jpg"
           }
         },
         {
@@ -156,8 +152,8 @@
           "description": "Built between 1792 and 1800 to a design by James Hoban, it is a neoclassical mansion and symbol of the U.S. presidency.",
           "visitorTip": "Interior tours require advance requests; the exterior is easily viewed from Lafayette Park.",
           "images": {
-            "primary": "/assets/images/places/usa/washington-dc/white-house/primary.jpg",
-            "hover": "/assets/images/places/usa/washington-dc/white-house/hover.jpg"
+            "primary": "/assets/cities/usa/washington-dc/white-house/primary.jpg",
+            "hover": "/assets/cities/usa/washington-dc/white-house/hover.jpg"
           }
         },
         {
@@ -168,8 +164,8 @@
           "description": "Dedicated in 1922 and designed by Henry Bacon, the temple-like memorial honours Abraham Lincoln and contains a large seated statue by Daniel Chester French.",
           "visitorTip": "Visit at night when it is lit and quieter.",
           "images": {
-            "primary": "/assets/images/places/usa/washington-dc/lincoln-memorial/primary.jpg",
-            "hover": "/assets/images/places/usa/washington-dc/lincoln-memorial/hover.jpg"
+            "primary": "/assets/cities/usa/washington-dc/lincoln-memorial/primary.jpg",
+            "hover": "/assets/cities/usa/washington-dc/lincoln-memorial/hover.jpg"
           }
         },
         {
@@ -180,8 +176,8 @@
           "description": "Founded in 1846, the Smithsonian runs a large group of free museums, including Air and Space, Natural History and American History.",
           "visitorTip": "Pick two or three museums per day to avoid fatigue.",
           "images": {
-            "primary": "/assets/images/places/usa/washington-dc/smithsonian-museums/primary.jpg",
-            "hover": "/assets/images/places/usa/washington-dc/smithsonian-museums/hover.jpg"
+            "primary": "/assets/cities/usa/washington-dc/smithsonian-museums/primary.jpg",
+            "hover": "/assets/cities/usa/washington-dc/smithsonian-museums/hover.jpg"
           }
         },
         {
@@ -192,8 +188,8 @@
           "description": "Opened in 2016, the museum tells African American history and cultural contributions. Its façade uses a three-tiered, bronze-coloured design inspired by African American craft traditions.",
           "visitorTip": "Timed-entry passes are often required; reserve ahead.",
           "images": {
-            "primary": "/assets/images/places/usa/washington-dc/national-museum-of-african-american-history-and-culture/primary.jpg",
-            "hover": "/assets/images/places/usa/washington-dc/national-museum-of-african-american-history-and-culture/hover.jpg"
+            "primary": "/assets/cities/usa/washington-dc/national-museum-of-african-american-history-and-culture/primary.jpg",
+            "hover": "/assets/cities/usa/washington-dc/national-museum-of-african-american-history-and-culture/hover.jpg"
           }
         }
       ]
@@ -217,9 +213,7 @@
         "knownFor": "Hollywood, beaches, museums, modern architecture"
       },
       "images": {
-        "hero": "/assets/images/cities/usa/los-angeles/hero.jpg",
-        "primary": "/assets/images/cities/usa/los-angeles/primary.jpg",
-        "hover": "/assets/images/cities/usa/los-angeles/hover.jpg"
+        "hero": "/assets/cities/usa/los-angeles/hero.jpg"
       },
       "places": [
         {
@@ -230,8 +224,8 @@
           "description": "Created in 1958, the Walk of Fame has thousands of stars on the sidewalk honouring figures in film, television, music and theatre. It represents the global influence of Hollywood.",
           "visitorTip": "Combine with the TCL Chinese Theatre and Dolby Theatre; expect crowds.",
           "images": {
-            "primary": "/assets/images/places/usa/los-angeles/hollywood-walk-of-fame/primary.jpg",
-            "hover": "/assets/images/places/usa/los-angeles/hollywood-walk-of-fame/hover.jpg"
+            "primary": "/assets/cities/usa/los-angeles/hollywood-walk-of-fame/primary.jpg",
+            "hover": "/assets/cities/usa/los-angeles/hollywood-walk-of-fame/hover.jpg"
           }
         },
         {
@@ -242,8 +236,8 @@
           "description": "Opened in 1935 in Griffith Park, the Art Deco observatory has public telescopes, exhibits and views of the city and the Hollywood Sign. Entry to the building is free.",
           "visitorTip": "Visit near sunset; parking is limited, so consider shuttles or ride-hailing.",
           "images": {
-            "primary": "/assets/images/places/usa/los-angeles/griffith-observatory/primary.jpg",
-            "hover": "/assets/images/places/usa/los-angeles/griffith-observatory/hover.jpg"
+            "primary": "/assets/cities/usa/los-angeles/griffith-observatory/primary.jpg",
+            "hover": "/assets/cities/usa/los-angeles/griffith-observatory/hover.jpg"
           }
         },
         {
@@ -254,8 +248,8 @@
           "description": "Opened in 1997, the complex was designed by Richard Meier in white travertine. It holds European paintings, sculpture and decorative arts and has gardens and city views.",
           "visitorTip": "Admission is free but parking has a fee; reserve in advance if required.",
           "images": {
-            "primary": "/assets/images/places/usa/los-angeles/getty-center/primary.jpg",
-            "hover": "/assets/images/places/usa/los-angeles/getty-center/hover.jpg"
+            "primary": "/assets/cities/usa/los-angeles/getty-center/primary.jpg",
+            "hover": "/assets/cities/usa/los-angeles/getty-center/hover.jpg"
           }
         },
         {
@@ -266,8 +260,8 @@
           "description": "A pier from 1909 with an amusement park, restaurants and sea views. It is a classic Pacific coast leisure spot.",
           "visitorTip": "Come late afternoon for sunset and walk along the beach path.",
           "images": {
-            "primary": "/assets/images/places/usa/los-angeles/santa-monica-pier/primary.jpg",
-            "hover": "/assets/images/places/usa/los-angeles/santa-monica-pier/hover.jpg"
+            "primary": "/assets/cities/usa/los-angeles/santa-monica-pier/primary.jpg",
+            "hover": "/assets/cities/usa/los-angeles/santa-monica-pier/hover.jpg"
           }
         },
         {
@@ -278,8 +272,8 @@
           "description": "A theme park built around a working film studio, with rides and studio tours that connect tourism to Hollywood production history.",
           "visitorTip": "Arrive early and use express options on busy days.",
           "images": {
-            "primary": "/assets/images/places/usa/los-angeles/universal-studios-hollywood/primary.jpg",
-            "hover": "/assets/images/places/usa/los-angeles/universal-studios-hollywood/hover.jpg"
+            "primary": "/assets/cities/usa/los-angeles/universal-studios-hollywood/primary.jpg",
+            "hover": "/assets/cities/usa/los-angeles/universal-studios-hollywood/hover.jpg"
           }
         },
         {
@@ -290,8 +284,8 @@
           "description": "Founded in 1961, LACMA is one of the largest art museums in the western United States, with international collections and contemporary exhibitions.",
           "visitorTip": "Check which buildings are open as the campus is undergoing redevelopment.",
           "images": {
-            "primary": "/assets/images/places/usa/los-angeles/los-angeles-county-museum-of-art-lacma/primary.jpg",
-            "hover": "/assets/images/places/usa/los-angeles/los-angeles-county-museum-of-art-lacma/hover.jpg"
+            "primary": "/assets/cities/usa/los-angeles/los-angeles-county-museum-of-art-lacma/primary.jpg",
+            "hover": "/assets/cities/usa/los-angeles/los-angeles-county-museum-of-art-lacma/hover.jpg"
           }
         }
       ]
@@ -315,9 +309,7 @@
         "knownFor": "Golden Gate Bridge, Alcatraz, cable cars, Victorian homes"
       },
       "images": {
-        "hero": "/assets/images/cities/usa/san-francisco/hero.jpg",
-        "primary": "/assets/images/cities/usa/san-francisco/primary.jpg",
-        "hover": "/assets/images/cities/usa/san-francisco/hover.jpg"
+        "hero": "/assets/cities/usa/san-francisco/hero.jpg"
       },
       "places": [
         {
@@ -328,8 +320,8 @@
           "description": "Opened in 1937, this “International Orange” suspension bridge spans the entrance to San Francisco Bay and is one of the world’s best-known engineering landmarks. Visitors can walk or cycle across.",
           "visitorTip": "Fog is common; view from Battery Spencer or Crissy Field for clear shots.",
           "images": {
-            "primary": "/assets/images/places/usa/san-francisco/golden-gate-bridge/primary.jpg",
-            "hover": "/assets/images/places/usa/san-francisco/golden-gate-bridge/hover.jpg"
+            "primary": "/assets/cities/usa/san-francisco/golden-gate-bridge/primary.jpg",
+            "hover": "/assets/cities/usa/san-francisco/golden-gate-bridge/hover.jpg"
           }
         },
         {
@@ -340,8 +332,8 @@
           "description": "The island served as a federal penitentiary from 1934 to 1963 and is important to American criminal justice and military history. Visitors reach it by ferry and tour the cell house.",
           "visitorTip": "Book tickets weeks ahead, especially in peak season.",
           "images": {
-            "primary": "/assets/images/places/usa/san-francisco/alcatraz-island/primary.jpg",
-            "hover": "/assets/images/places/usa/san-francisco/alcatraz-island/hover.jpg"
+            "primary": "/assets/cities/usa/san-francisco/alcatraz-island/primary.jpg",
+            "hover": "/assets/cities/usa/san-francisco/alcatraz-island/hover.jpg"
           }
         },
         {
@@ -352,8 +344,8 @@
           "description": "A historic maritime area now focused on seafood, boat tours and views. Pier 39 is known for its resident sea lions.",
           "visitorTip": "Try clam chowder in sourdough bread bowls.",
           "images": {
-            "primary": "/assets/images/places/usa/san-francisco/fisherman-s-wharf/primary.jpg",
-            "hover": "/assets/images/places/usa/san-francisco/fisherman-s-wharf/hover.jpg"
+            "primary": "/assets/cities/usa/san-francisco/fisherman-s-wharf/primary.jpg",
+            "hover": "/assets/cities/usa/san-francisco/fisherman-s-wharf/hover.jpg"
           }
         },
         {
@@ -364,8 +356,8 @@
           "description": "One of the oldest and most significant Chinese communities in North America, with markets, temples, bakeries and the Dragon’s Gate.",
           "visitorTip": "Visit in the morning for markets and dim sum.",
           "images": {
-            "primary": "/assets/images/places/usa/san-francisco/chinatown/primary.jpg",
-            "hover": "/assets/images/places/usa/san-francisco/chinatown/hover.jpg"
+            "primary": "/assets/cities/usa/san-francisco/chinatown/primary.jpg",
+            "hover": "/assets/cities/usa/san-francisco/chinatown/hover.jpg"
           }
         },
         {
@@ -376,8 +368,8 @@
           "description": "A row of colourful Queen Anne-style homes facing Alamo Square, symbolising San Francisco’s historic neighbourhoods.",
           "visitorTip": "Walk up to the park for the skyline backdrop.",
           "images": {
-            "primary": "/assets/images/places/usa/san-francisco/painted-ladies/primary.jpg",
-            "hover": "/assets/images/places/usa/san-francisco/painted-ladies/hover.jpg"
+            "primary": "/assets/cities/usa/san-francisco/painted-ladies/primary.jpg",
+            "hover": "/assets/cities/usa/san-francisco/painted-ladies/hover.jpg"
           }
         },
         {
@@ -388,8 +380,8 @@
           "description": "Designed by Bernard Maybeck for the 1915 Panama-Pacific Exposition, the Roman- and Greek-inspired rotunda and lagoon were later rebuilt in permanent materials.",
           "visitorTip": "Great for photography in morning light.",
           "images": {
-            "primary": "/assets/images/places/usa/san-francisco/palace-of-fine-arts/primary.jpg",
-            "hover": "/assets/images/places/usa/san-francisco/palace-of-fine-arts/hover.jpg"
+            "primary": "/assets/cities/usa/san-francisco/palace-of-fine-arts/primary.jpg",
+            "hover": "/assets/cities/usa/san-francisco/palace-of-fine-arts/hover.jpg"
           }
         }
       ]
@@ -413,9 +405,7 @@
         "knownFor": "The Strip, shows, resorts, desert scenery"
       },
       "images": {
-        "hero": "/assets/images/cities/usa/las-vegas/hero.jpg",
-        "primary": "/assets/images/cities/usa/las-vegas/primary.jpg",
-        "hover": "/assets/images/cities/usa/las-vegas/hover.jpg"
+        "hero": "/assets/cities/usa/las-vegas/hero.jpg"
       },
       "places": [
         {
@@ -426,8 +416,8 @@
           "description": "A stretch of Las Vegas Boulevard lined with large resorts, casinos, theatres and restaurants. Themed architecture, replicas and dramatic lighting create a unique entertainment landscape.",
           "visitorTip": "Distances are longer than they look; use rideshare or the monorail.",
           "images": {
-            "primary": "/assets/images/places/usa/las-vegas/las-vegas-strip/primary.jpg",
-            "hover": "/assets/images/places/usa/las-vegas/las-vegas-strip/hover.jpg"
+            "primary": "/assets/cities/usa/las-vegas/las-vegas-strip/primary.jpg",
+            "hover": "/assets/cities/usa/las-vegas/las-vegas-strip/hover.jpg"
           }
         },
         {
@@ -438,8 +428,8 @@
           "description": "Choreographed jets of water set to music and lights on the Bellagio lake, a landmark example of integrated entertainment design. Shows are free.",
           "visitorTip": "Check show times; evenings are most popular.",
           "images": {
-            "primary": "/assets/images/places/usa/las-vegas/bellagio-fountains/primary.jpg",
-            "hover": "/assets/images/places/usa/las-vegas/bellagio-fountains/hover.jpg"
+            "primary": "/assets/cities/usa/las-vegas/bellagio-fountains/primary.jpg",
+            "hover": "/assets/cities/usa/las-vegas/bellagio-fountains/hover.jpg"
           }
         },
         {
@@ -450,8 +440,8 @@
           "description": "The older downtown area with classic casinos and a long LED canopy with light shows. It represents the older identity of Las Vegas.",
           "visitorTip": "Combine with the Neon Museum.",
           "images": {
-            "primary": "/assets/images/places/usa/las-vegas/fremont-street/primary.jpg",
-            "hover": "/assets/images/places/usa/las-vegas/fremont-street/hover.jpg"
+            "primary": "/assets/cities/usa/las-vegas/fremont-street/primary.jpg",
+            "hover": "/assets/cities/usa/las-vegas/fremont-street/hover.jpg"
           }
         },
         {
@@ -462,8 +452,8 @@
           "description": "A conservation area west of the city with red sandstone cliffs, hiking trails and a scenic drive that shows the desert landscape outside the resort district.",
           "visitorTip": "Reservations may be required in busy seasons; go early to avoid heat.",
           "images": {
-            "primary": "/assets/images/places/usa/las-vegas/red-rock-canyon/primary.jpg",
-            "hover": "/assets/images/places/usa/las-vegas/red-rock-canyon/hover.jpg"
+            "primary": "/assets/cities/usa/las-vegas/red-rock-canyon/primary.jpg",
+            "hover": "/assets/cities/usa/las-vegas/red-rock-canyon/hover.jpg"
           }
         }
       ]

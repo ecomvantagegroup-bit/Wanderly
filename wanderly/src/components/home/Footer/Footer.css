@@ -1,45 +1,41 @@
-/* ---------- 1. Root & Variables ---------- */
+/* ---------- Root: sharp dark frame, brass accent (tokens come from HorizontalStack.css) ---------- */
 .footer {
   --gap: clamp(0.5rem, 1.2vw, 1rem);
-  --radius: clamp(1.5rem, 3vw, 2.25rem);
-  --ink: #ffffff;
-  --ink-soft: rgba(255, 255, 255, 0.65);
-  --line: rgba(255, 255, 255, 0.1);
-  --accent: #e5c185; /* Refined luxury satin gold */
-
+  --radius: 2px;
+  --ink: var(--paper, #efece6);
+  --ink-soft: rgba(239, 236, 230, 0.62);
+  --line: rgba(239, 236, 230, 0.14);
+  --accent: var(--accent, #c8a96a);
   width: 100%;
+  height: 100%;
   padding: var(--gap);
-  background: transparent;
+  background: var(--bg, #0a0b0d);
   font-family: 'Cormorant Garamond', Georgia, serif;
 }
 
-/* ---------- 2. Frame Container ---------- */
 .footer-frame {
   position: relative;
   isolation: isolate;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  min-height: 100svh;
+  min-height: calc(100svh - 2 * var(--gap));
+  height: 100%;
   border-radius: var(--radius);
-  clip-path: inset(0 round var(--radius));
-  /* Ultra-smooth premium obsidian dark gradient */
-  background: linear-gradient(180deg, #07090e 0%, #020305 100%);
+  background: radial-gradient(ellipse at 50% 45%, #14161b 0%, #07080a 75%);
   box-shadow: inset 0 0 0 1px var(--line);
   color: var(--ink);
 }
 
-/* ---------- 3. The Interactive Globe Layer ---------- */
+/* ---------- 3D globe layer (fallback image uses the same box) ---------- */
 #footer-globe {
   position: absolute;
   inset: 0;
   z-index: 0;
   width: 100%;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-size: cover;
+  background-position: center;
 }
 
 #footer-canvas {
@@ -47,7 +43,7 @@
   inset: 0;
   width: 100%;
   height: 100%;
-  opacity: 0; /* Animated via GSAP */
+  opacity: 0; /* faded in by GSAP once the model is ready */
   pointer-events: none;
 }
 
@@ -62,27 +58,26 @@
       cursor: grabbing;
     }
 
-/* ---------- 4. Premium Contrast Shields (Crucial Fix) ---------- */
-/* Adds a sleek dark radial vignette behind text so the white globe never blinds the links */
+/* Soft vignette: keeps the globe bright in the middle, text readable at the edges */
 .footer-frame::before {
   content: '';
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: radial-gradient(circle at center, rgba(7, 9, 14, 0.1) 0%, rgba(2, 3, 5, 0.85) 70%);
+  background: radial-gradient(circle at center, rgba(7, 8, 10, 0) 0%, rgba(7, 8, 10, 0.8) 85%);
   pointer-events: none;
 }
 
-/* ---------- 5. Content Layout Wrapper ---------- */
+/* ---------- Content (clicks pass through to the globe except on links) ---------- */
 #footer-content {
   position: relative;
-  z-index: 2; /* Sits perfectly safe on top of all shields and globe layers */
+  z-index: 2;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 3rem;
-  padding: clamp(2rem, 5vw, 4.5rem) clamp(1.5rem, 5vw, 4.5rem) clamp(1.5rem, 4vw, 2.5rem);
+  padding: clamp(2rem, 5vw, 4rem) clamp(1.5rem, 5vw, 4.5rem) clamp(3.5rem, 5vw, 4.5rem);
   pointer-events: none;
 }
 
@@ -90,7 +85,7 @@
     pointer-events: auto;
   }
 
-/* ---------- 6. Header Section ---------- */
+/* ---------- Top ---------- */
 #footer-top {
   display: flex;
   flex-direction: column;
@@ -107,38 +102,39 @@
 
   #footer-logo img {
     display: block;
-    width: 2.4rem;
-    height: 2.4rem;
-    border-radius: 0.5rem;
+    width: 2.2rem;
+    height: 2.2rem;
     object-fit: cover;
     border: 1px solid var(--line);
   }
 
   #footer-logo span {
     font-weight: 600;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     letter-spacing: 0.5em;
     text-transform: uppercase;
     color: var(--accent);
   }
 
 .footer-tagline {
-  max-width: 32rem;
+  max-width: 34rem;
   font-weight: 400;
-  font-size: clamp(1.3rem, 3.5vw, 1.85rem);
-  line-height: 1.4;
+  font-size: clamp(1.4rem, 3.2vw, 2.2rem);
+  line-height: 1.25;
+  letter-spacing: -0.005em;
   color: var(--ink);
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Guarantees readability */
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.6);
 }
 
 #footer-hint {
+  opacity: 0; /* shown once by GSAP */
   font-style: italic;
   font-size: 0.9rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
   color: var(--ink-soft);
 }
 
-/* ---------- 7. Grid Alignment Fix (Frames the Globe) ---------- */
+/* ---------- Link columns ---------- */
 .footer-links {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -146,25 +142,26 @@
 }
 
 .footer-col h4 {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.1rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--line);
   font-weight: 600;
-  font-size: 0.75rem;
-  letter-spacing: 0.35em;
+  font-size: 0.7rem;
+  letter-spacing: 0.38em;
   text-transform: uppercase;
   color: var(--accent);
 }
 
 .footer-col ul {
   display: grid;
-  gap: 0.75rem;
+  gap: 0.7rem;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .footer-col a {
-  font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.05rem;
   color: var(--ink-soft);
   text-decoration: none;
   background: linear-gradient(var(--accent), var(--accent)) left bottom / 0 1px no-repeat;
@@ -173,67 +170,75 @@
 
   .footer-col a:hover,
   .footer-col a:focus-visible {
-    color: #ffffff;
+    color: var(--ink);
     background-size: 100% 1px;
   }
 
-/* ---------- 8. Bottom Utility Bar ---------- */
+/* ---------- Bottom bar ---------- */
 .footer-bar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 1.5rem;
-  margin-top: auto;
+  margin-top: 2rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--line);
 }
 
 .footer-social {
   display: flex;
-  gap: 0.75rem;
+  gap: 0.6rem;
 }
 
   .footer-social a {
     display: grid;
     place-items: center;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.4rem;
+    height: 2.4rem;
     border: 1px solid var(--line);
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.03);
-    backdrop-filter: blur(4px); /* Premium glass look */
-    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.02);
+    transition: border-color 0.3s, background-color 0.3s, transform 0.3s;
   }
 
     .footer-social a:hover,
     .footer-social a:focus-visible {
-      background: rgba(255, 255, 255, 0.12);
       border-color: var(--accent);
+      background: rgba(200, 169, 106, 0.12);
       transform: translateY(-2px);
     }
 
   .footer-social img {
     display: block;
-    width: 1.1rem;
-    height: 1.1rem;
-    /* Fixes your broken/dark icons by forcing them to display as clean white icons */
-    filter: brightness(0) invert(1);
+    width: 1.05rem;
+    height: 1.05rem;
+    filter: brightness(0) invert(1); /* any icon colour becomes clean white */
     opacity: 0.8;
   }
 
 .footer-copy {
   font-size: 0.85rem;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
   color: var(--ink-soft);
 }
 
-/* ---------- 9. Desktop Optimization (Push columns apart to frame the globe) ---------- */
+/* ---------- Tablet / desktop: columns pushed to the sides so the globe sits between ---------- */
 @media (min-width: 768px) {
   .footer-links {
     grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between;
-    gap: 2rem clamp(4rem, 10vw, 12rem); /* Spaces columns out significantly to embrace the globe canvas in the center */
+    gap: 2rem clamp(4rem, 10vw, 12rem);
+  }
+}
+
+/* ---------- Phone: normal vertical page, so the footer sizes itself ---------- */
+@media (max-width: 767px) {
+  .footer {
+    height: auto;
+  }
+
+  .footer-frame {
+    min-height: 100svh;
+    height: auto;
   }
 }
 

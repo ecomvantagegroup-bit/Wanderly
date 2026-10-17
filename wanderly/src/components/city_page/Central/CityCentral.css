@@ -1,0 +1,271 @@
+.city-central {
+  position: relative;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: clamp(4rem, 8vw, 9rem);
+  height: 100%;
+  padding: 0 clamp(4rem, 9vw, 9rem) 0 clamp(2rem, 6vw, 6rem);
+  background: var(--paper);
+}
+
+/* ---------- Intro: two quiet columns ---------- */
+.ccentral-intro {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  gap: clamp(2rem, 4vw, 4.5rem);
+}
+
+.ccentral-col {
+  width: clamp(16rem, 21vw, 22rem);
+}
+
+.ccentral-col h2 {
+  margin: 0 0 1.25rem;
+  font-family: var(--serif);
+  font-size: clamp(2.4rem, 4vw, 4rem);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.ccentral-count {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--mute);
+}
+
+.ccentral-facts {
+  display: grid;
+  gap: 0.9rem;
+  margin: 1.75rem 0 0;
+}
+
+.ccentral-facts > div {
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--line);
+}
+
+.ccentral-facts dt {
+  font-size: 0.78rem;
+  color: var(--mute);
+}
+
+.ccentral-facts dd {
+  margin: 0.2rem 0 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.ccentral-text {
+  padding-top: 0.4rem;
+}
+
+.ccentral-text p {
+  margin: 0 0 1.1rem;
+  font-family: var(--serif);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+/* ---------- Places ---------- */
+.place-row {
+  display: flex;
+  align-items: flex-end;
+  gap: clamp(1.5rem, 2.5vw, 3rem);
+  height: min(80vh, 700px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.place-card {
+  flex: 0 0 auto;
+  width: clamp(14rem, 19vw, 19rem);
+}
+
+.place-open {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.place-open:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 6px;
+}
+
+/* tall and short frames alternate along a shared baseline */
+.place-frame {
+  position: relative;
+  display: block;
+  height: min(54vh, 480px);
+  overflow: hidden;
+  border-radius: 4px;
+  background: var(--paper-2);
+}
+
+.place-card:nth-child(even) .place-frame {
+  height: min(44vh, 390px);
+}
+
+.place-parallax {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -10%; /* extra width for the slide */
+  width: 120%;
+  will-change: transform;
+}
+
+.place-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.place-img-alt {
+  opacity: 0;
+  transition: opacity 0.7s, transform 1.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.place-open:hover .place-img-alt,
+.place-open:focus-visible .place-img-alt {
+  opacity: 1;
+}
+
+.place-open:hover .place-img {
+  transform: scale(1.04);
+}
+
+.place-badge {
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  background: var(--paper);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.place-badge::before {
+  content: '';
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* the small plus says "this opens" */
+.place-plus {
+  position: absolute;
+  right: 0.8rem;
+  bottom: 0.8rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  background: var(--paper);
+  transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.place-plus::before,
+.place-plus::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0.9rem;
+  height: 1.5px;
+  background: var(--ink);
+  transform: translate(-50%, -50%);
+}
+
+.place-plus::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.place-open:hover .place-plus {
+  transform: rotate(90deg) scale(1.08);
+}
+
+.place-cap {
+  display: block;
+  min-height: 5rem;
+  padding-top: 1rem;
+}
+
+.place-name {
+  display: block;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+.place-cat {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--mute);
+}
+
+/* ---------- Phones ---------- */
+@media (max-width: 767px) {
+  .city-central {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 3rem;
+    height: auto;
+    padding: 3rem 1rem 4rem;
+  }
+
+  .ccentral-intro {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .ccentral-col {
+    width: auto;
+  }
+
+  .place-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2.5rem;
+    height: auto;
+  }
+
+  .place-card {
+    width: auto;
+  }
+
+  .place-frame,
+  .place-card:nth-child(even) .place-frame {
+    height: 80vw;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .place-img,
+  .place-img-alt,
+  .place-plus {
+    transition: none;
+  }
+}

@@ -70,6 +70,10 @@
   cursor: pointer;
 }
 
+.city-parallax {
+  will-change: transform;
+}
+
 /* unfocused cards sit back; the one in the middle (or hovered) opens up */
 .city-dim {
   opacity: 1;
@@ -135,6 +139,14 @@
     flex-direction: column;
     align-items: stretch;
     gap: 1.5rem;
+  }
+
+  /* taller than the card so the photo can slide vertically */
+  .city-card .city-parallax {
+    top: -12%;
+    bottom: -12%;
+    left: 0;
+    width: 100%;
   }
 
   .city-dim {

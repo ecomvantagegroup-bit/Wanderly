@@ -158,6 +158,8 @@
   }
 
   .hero-bg {
+    top: -10%; /* extra height so the photo can slide vertically */
+    bottom: -10%;
     left: 0;
     width: 100%;
   }

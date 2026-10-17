@@ -22,9 +22,7 @@
         "knownFor": "Mughal monuments, colonial architecture, Old Delhi food"
       },
       "images": {
-        "hero": "/assets/images/cities/india/delhi/hero.jpg",
-        "primary": "/assets/images/cities/india/delhi/primary.jpg",
-        "hover": "/assets/images/cities/india/delhi/hover.jpg"
+        "hero": "/assets/cities/india/delhi/hero.jpg"
       },
       "places": [
         {
@@ -35,8 +33,8 @@
           "description": "Built by Shah Jahan and completed in the mid-17th century as the palace-fort of his new capital, Shahjahanabad. Its massive red sandstone walls enclose audience halls, pavilions, gardens and the Mughal royal apartments. The architecture blends Persian, Timurid and Indian traditions. The fort is also the site of India’s Independence Day address by the Prime Minister each year.",
           "visitorTip": "Visit in the morning to avoid heat and crowds. An evening sound-and-light show narrates Mughal history; check current schedule and language options.",
           "images": {
-            "primary": "/assets/images/places/india/delhi/red-fort-lal-qila/primary.jpg",
-            "hover": "/assets/images/places/india/delhi/red-fort-lal-qila/hover.jpg"
+            "primary": "/assets/cities/india/delhi/red-fort-lal-qila/primary.jpg",
+            "hover": "/assets/cities/india/delhi/red-fort-lal-qila/hover.jpg"
           }
         },
         {
@@ -47,8 +45,8 @@
           "description": "Begun in 1193 by Qutb-ud-din Aibak and completed by later Sultanate rulers, this 72.5-metre tower is among the tallest brick minarets in the world. It is decorated with bands of Quranic inscriptions and carved balconies. The complex includes the Quwwat-ul-Islam Mosque, Alai Darwaza and the famous Iron Pillar, which has stood for well over a millennium.",
           "visitorTip": "Combine with nearby Mehrauli Archaeological Park. Visit early morning or late afternoon for the best photographs.",
           "images": {
-            "primary": "/assets/images/places/india/delhi/qutb-minar-and-monuments/primary.jpg",
-            "hover": "/assets/images/places/india/delhi/qutb-minar-and-monuments/hover.jpg"
+            "primary": "/assets/cities/india/delhi/qutb-minar-and-monuments/primary.jpg",
+            "hover": "/assets/cities/india/delhi/qutb-minar-and-monuments/hover.jpg"
           }
         },
         {
@@ -59,8 +57,8 @@
           "description": "Completed in 1570, this is the first large garden tomb of the Mughal dynasty in India, commissioned by Humayun’s widow Bega Begum. Its charbagh (four-part garden) layout, high double dome, arches and red sandstone with white marble detailing became a template for later Mughal tombs, including the Taj Mahal.",
           "visitorTip": "Allow 1.5–2 hours. Nearby Nizamuddin and Sunder Nursery are easy additions.",
           "images": {
-            "primary": "/assets/images/places/india/delhi/humayun-s-tomb/primary.jpg",
-            "hover": "/assets/images/places/india/delhi/humayun-s-tomb/hover.jpg"
+            "primary": "/assets/cities/india/delhi/humayun-s-tomb/primary.jpg",
+            "hover": "/assets/cities/india/delhi/humayun-s-tomb/hover.jpg"
           }
         },
         {
@@ -71,8 +69,8 @@
           "description": "Designed by Edwin Lutyens and completed in 1931, the 42-metre arch commemorates Indian soldiers of the British Indian Army who died in the First World War and the Third Anglo-Afghan War. It anchors the ceremonial axis of New Delhi, which runs toward Rashtrapati Bhavan.",
           "visitorTip": "Best in the evening when the lawns are busy and the monument is lit.",
           "images": {
-            "primary": "/assets/images/places/india/delhi/india-gate-and-kartavya-path/primary.jpg",
-            "hover": "/assets/images/places/india/delhi/india-gate-and-kartavya-path/hover.jpg"
+            "primary": "/assets/cities/india/delhi/india-gate-and-kartavya-path/primary.jpg",
+            "hover": "/assets/cities/india/delhi/india-gate-and-kartavya-path/hover.jpg"
           }
         },
         {
@@ -83,8 +81,8 @@
           "description": "Opened in 1986 and designed by architect Fariborz Sahba, the building has 27 marble-clad petals arranged in a lotus form. It is open to people of all faiths and is known for its silent, meditative interior.",
           "visitorTip": "Photography inside the prayer hall is not permitted; dress modestly and keep silence.",
           "images": {
-            "primary": "/assets/images/places/india/delhi/lotus-temple/primary.jpg",
-            "hover": "/assets/images/places/india/delhi/lotus-temple/hover.jpg"
+            "primary": "/assets/cities/india/delhi/lotus-temple/primary.jpg",
+            "hover": "/assets/cities/india/delhi/lotus-temple/hover.jpg"
           }
         },
         {
@@ -95,20 +93,20 @@
           "description": "Built by Shah Jahan between 1650 and 1656, it is one of India’s largest mosques. Red sandstone and white marble domes, three gateways and tall minarets surround a courtyard that holds thousands of worshippers.",
           "visitorTip": "Dress modestly and avoid prayer times. Climbing a minaret offers views over Old Delhi.",
           "images": {
-            "primary": "/assets/images/places/india/delhi/jama-masjid/primary.jpg",
-            "hover": "/assets/images/places/india/delhi/jama-masjid/hover.jpg"
+            "primary": "/assets/cities/india/delhi/jama-masjid/primary.jpg",
+            "hover": "/assets/cities/india/delhi/jama-masjid/hover.jpg"
           }
         },
         {
-          "id": "chandni-chowk",
-          "name": "Chandni Chowk",
-          "category": "Historic market",
+          "id": "jantar-mantar",
+          "name": "Jantar Mantar",
+          "category": "Historic Observatory",
           "unesco": false,
-          "description": "The main bazaar of Shahjahanabad, planned in the 17th century. Narrow lanes specialise in spices, silver, wedding textiles, books and sweets. It is Delhi’s best-known area for traditional street food.",
-          "visitorTip": "Go on foot or by cycle-rickshaw and keep valuables secure. Mornings are better for exploring; evenings for food.",
+          "description": "An open-air astronomical observatory built by Maharaja Jai Singh II of Jaipur in 1724. It features 13 architectural astronomy instruments, including the massive Samrat Yantra sundial, designed to compile astronomical tables and predict the movements of the sun, moon, and planets.",
+          "visitorTip": "Visit during mid-day when the sun is high to see the shadows cast by the instruments clearly. Carry water and a hat as there is very little shade.",
           "images": {
-            "primary": "/assets/images/places/india/delhi/chandni-chowk/primary.jpg",
-            "hover": "/assets/images/places/india/delhi/chandni-chowk/hover.jpg"
+            "primary": "/assets/cities/india/delhi/jantar-mantar/primary.jpg",
+            "hover": "/assets/cities/india/delhi/jantar-mantar/hover.jpg"
           }
         },
         {
@@ -119,8 +117,8 @@
           "description": "Opened in 2005, this large temple complex uses carved pink sandstone and marble in a traditional Indian style, with exhibitions and an evening water show.",
           "visitorTip": "Strict security rules apply and mobile phones and cameras are usually not allowed inside; plan for lockers and queues.",
           "images": {
-            "primary": "/assets/images/places/india/delhi/akshardham-temple/primary.jpg",
-            "hover": "/assets/images/places/india/delhi/akshardham-temple/hover.jpg"
+            "primary": "/assets/cities/india/delhi/akshardham-temple/primary.jpg",
+            "hover": "/assets/cities/india/delhi/akshardham-temple/hover.jpg"
           }
         }
       ]
@@ -145,9 +143,7 @@
         "knownFor": "Taj Mahal, Mughal forts, marble inlay craft"
       },
       "images": {
-        "hero": "/assets/images/cities/india/agra/hero.jpg",
-        "primary": "/assets/images/cities/india/agra/primary.jpg",
-        "hover": "/assets/images/cities/india/agra/hover.jpg"
+        "hero": "/assets/cities/india/agra/hero.jpg"
       },
       "places": [
         {
@@ -158,8 +154,8 @@
           "description": "Commissioned by Shah Jahan as a mausoleum for Mumtaz Mahal and built from about 1632 to 1653, the Taj Mahal is considered the finest achievement of Mughal architecture. White Makrana marble, a large central dome, four minarets, pietra dura inlay, Quranic calligraphy and a formal charbagh garden create its symmetrical design. The marble appears to change colour at sunrise, midday and sunset.",
           "visitorTip": "The Taj Mahal is closed on Fridays for regular visitors. Sunrise is quieter and cooler. Buy tickets only through official channels and check rules on bags and items allowed.",
           "images": {
-            "primary": "/assets/images/places/india/agra/taj-mahal/primary.jpg",
-            "hover": "/assets/images/places/india/agra/taj-mahal/hover.jpg"
+            "primary": "/assets/cities/india/agra/taj-mahal/primary.jpg",
+            "hover": "/assets/cities/india/agra/taj-mahal/hover.jpg"
           }
         },
         {
@@ -170,8 +166,8 @@
           "description": "Begun by Akbar in 1565, this red sandstone fortress contains a walled imperial city with palaces, audience halls and mosques. Later additions by Shah Jahan in marble, such as the Moti Masjid and Khas Mahal, show the shift from military fortress to palace architecture. The fort overlooks the Taj Mahal along the river.",
           "visitorTip": "Allow 2–3 hours. Visit before the Taj Mahal to follow the architectural story chronologically.",
           "images": {
-            "primary": "/assets/images/places/india/agra/agra-fort/primary.jpg",
-            "hover": "/assets/images/places/india/agra/agra-fort/hover.jpg"
+            "primary": "/assets/cities/india/agra/agra-fort/primary.jpg",
+            "hover": "/assets/cities/india/agra/agra-fort/hover.jpg"
           }
         },
         {
@@ -182,8 +178,8 @@
           "description": "Built by Akbar in the second half of the 16th century and used as the capital for roughly a decade, this planned city includes the Jama Masjid, Buland Darwaza, Panch Mahal and the tomb of Sheikh Salim Chishti. Its red sandstone buildings combine Persian, Hindu and Gujarati architectural elements. The Buland Darwaza is about 54 metres high.",
           "visitorTip": "Located around 35–40 km from Agra. Hire an official guide and avoid touts at the entrance.",
           "images": {
-            "primary": "/assets/images/places/india/agra/fatehpur-sikri/primary.jpg",
-            "hover": "/assets/images/places/india/agra/fatehpur-sikri/hover.jpg"
+            "primary": "/assets/cities/india/agra/fatehpur-sikri/primary.jpg",
+            "hover": "/assets/cities/india/agra/fatehpur-sikri/hover.jpg"
           }
         },
         {
@@ -194,8 +190,8 @@
           "description": "Built between 1622 and 1628 by Nur Jahan for her father, it is often called the “Baby Taj”. It is one of the first Mughal structures to use extensive white marble with detailed inlay and carved screens, an important step toward the Taj Mahal.",
           "visitorTip": "Quieter than the Taj Mahal and good for photography.",
           "images": {
-            "primary": "/assets/images/places/india/agra/itmad-ud-daulah-s-tomb/primary.jpg",
-            "hover": "/assets/images/places/india/agra/itmad-ud-daulah-s-tomb/hover.jpg"
+            "primary": "/assets/cities/india/agra/itmad-ud-daulah/primary.jpg",
+            "hover": "/assets/cities/india/agra/itmad-ud-daulah/hover.jpg"
           }
         },
         {
@@ -206,8 +202,8 @@
           "description": "A garden complex on the opposite bank of the Yamuna aligned with the Taj Mahal, offering a rear view of the monument at sunset.",
           "visitorTip": "Best late afternoon; the view is unobstructed by crowds.",
           "images": {
-            "primary": "/assets/images/places/india/agra/mehtab-bagh/primary.jpg",
-            "hover": "/assets/images/places/india/agra/mehtab-bagh/hover.jpg"
+            "primary": "/assets/cities/india/agra/mehtab-bagh/primary.jpg",
+            "hover": "/assets/cities/india/agra/mehtab-bagh/hover.jpg"
           }
         },
         {
@@ -218,8 +214,8 @@
           "description": "The red sandstone and marble tomb of Akbar stands in a large garden about 10 km from central Agra, and shows the transition between the Akbar and Shah Jahan styles.",
           "visitorTip": "Often visited with Fatehpur Sikri on the same day.",
           "images": {
-            "primary": "/assets/images/places/india/agra/akbar-s-tomb-sikandra/primary.jpg",
-            "hover": "/assets/images/places/india/agra/akbar-s-tomb-sikandra/hover.jpg"
+            "primary": "/assets/cities/india/agra/akbar-tomb-sikandra/primary.jpg",
+            "hover": "/assets/cities/india/agra/akbar-tomb-sikandra/hover.jpg"
           }
         }
       ]
@@ -244,9 +240,7 @@
         "knownFor": "Pink City, palaces, forts, jewellery and textiles"
       },
       "images": {
-        "hero": "/assets/images/cities/india/jaipur/hero.jpg",
-        "primary": "/assets/images/cities/india/jaipur/primary.jpg",
-        "hover": "/assets/images/cities/india/jaipur/hover.jpg"
+        "hero": "/assets/cities/india/jaipur/hero.jpg"
       },
       "places": [
         {
@@ -257,8 +251,8 @@
           "description": "A hilltop fort-palace built from the late 16th century by Raja Man Singh I and expanded by later rulers. Red sandstone and marble courtyards, the Sheesh Mahal (mirror palace), Ganesh Pol and terraced gardens overlook Maota Lake. The design blends Rajput and Mughal elements.",
           "visitorTip": "Go early to avoid crowds. Jeeps and walking paths lead up; check current rules on elephant rides, which are widely discouraged for welfare reasons.",
           "images": {
-            "primary": "/assets/images/places/india/jaipur/amber-fort/primary.jpg",
-            "hover": "/assets/images/places/india/jaipur/amber-fort/hover.jpg"
+            "primary": "/assets/cities/india/jaipur/amber-fort/primary.jpg",
+            "hover": "/assets/cities/india/jaipur/amber-fort/hover.jpg"
           }
         },
         {
@@ -269,8 +263,8 @@
           "description": "Built in 1799 by Maharaja Sawai Pratap Singh and attributed to architect Lal Chand Ustad, the five-storey “Palace of Winds” has 953 small windows (jharokhas) with lattice screens that let royal women watch street life unseen and also cool the building.",
           "visitorTip": "The best photographs are from cafés across the road, especially in the morning light.",
           "images": {
-            "primary": "/assets/images/places/india/jaipur/hawa-mahal/primary.jpg",
-            "hover": "/assets/images/places/india/jaipur/hawa-mahal/hover.jpg"
+            "primary": "/assets/cities/india/jaipur/hawa-mahal/primary.jpg",
+            "hover": "/assets/cities/india/jaipur/hawa-mahal/hover.jpg"
           }
         },
         {
@@ -281,8 +275,8 @@
           "description": "A complex of courtyards, museums and ceremonial gates blending Rajput and Mughal styles. The Peacock Gate in Pritam Niwas Chowk, royal textiles, weapons and manuscripts are highlights. Part of the palace remains the royal family’s residence.",
           "visitorTip": "Allow at least 2 hours. Consider a combined ticket with nearby Jantar Mantar where available.",
           "images": {
-            "primary": "/assets/images/places/india/jaipur/city-palace/primary.jpg",
-            "hover": "/assets/images/places/india/jaipur/city-palace/hover.jpg"
+            "primary": "/assets/cities/india/jaipur/city-palace/primary.jpg",
+            "hover": "/assets/cities/india/jaipur/city-palace/hover.jpg"
           }
         },
         {
@@ -293,8 +287,8 @@
           "description": "Built between 1728 and 1734, this observatory has 19 instruments for tracking time, the sun, stars and planets. The Samrat Yantra sundial is about 27 metres high and accurate to within a couple of seconds, and is among the largest stone sundials.",
           "visitorTip": "A guide helps explain the instruments. Visit in daylight for working sundials.",
           "images": {
-            "primary": "/assets/images/places/india/jaipur/jantar-mantar/primary.jpg",
-            "hover": "/assets/images/places/india/jaipur/jantar-mantar/hover.jpg"
+            "primary": "/assets/cities/india/jaipur/jantar-mantar/primary.jpg",
+            "hover": "/assets/cities/india/jaipur/jantar-mantar/hover.jpg"
           }
         },
         {
@@ -305,8 +299,8 @@
           "description": "A palace set in Man Sagar Lake whose lower floors lie under water for much of the year. It is viewed from the lakeside promenade.",
           "visitorTip": "Visit at sunset; the palace is generally not open for entry.",
           "images": {
-            "primary": "/assets/images/places/india/jaipur/jal-mahal/primary.jpg",
-            "hover": "/assets/images/places/india/jaipur/jal-mahal/hover.jpg"
+            "primary": "/assets/cities/india/jaipur/jal-mahal/primary.jpg",
+            "hover": "/assets/cities/india/jaipur/jal-mahal/hover.jpg"
           }
         },
         {
@@ -317,33 +311,9 @@
           "description": "Built from 1734 as part of Jaipur’s defences. The ridge offers panoramic city views, particularly at dusk.",
           "visitorTip": "Combine with Jaigarh Fort, known for the huge Jaivana cannon.",
           "images": {
-            "primary": "/assets/images/places/india/jaipur/nahargarh-fort/primary.jpg",
-            "hover": "/assets/images/places/india/jaipur/nahargarh-fort/hover.jpg"
-          }
-        },
-        {
-          "id": "albert-hall-museum",
-          "name": "Albert Hall Museum",
-          "category": "Indo-Saracenic museum",
-          "unesco": false,
-          "description": "Opened in 1887 and designed by Samuel Swinton Jacob, it holds art, textiles, metalwork and ethnographic collections.",
-          "visitorTip": "Looks striking when lit at night.",
-          "images": {
-            "primary": "/assets/images/places/india/jaipur/albert-hall-museum/primary.jpg",
-            "hover": "/assets/images/places/india/jaipur/albert-hall-museum/hover.jpg"
-          }
-        },
-        {
-          "id": "johari-bazaar-and-bapu-bazaar",
-          "name": "Johari Bazaar and Bapu Bazaar",
-          "category": "Heritage markets",
-          "unesco": false,
-          "description": "Historic bazaars in the Walled City selling gems, silver, kundan and meenakari jewellery, block-printed textiles, mojari shoes and handicrafts.",
-          "visitorTip": "Compare prices; buy gemstones only from certified, reputable dealers.",
-          "images": {
-            "primary": "/assets/images/places/india/jaipur/johari-bazaar-and-bapu-bazaar/primary.jpg",
-            "hover": "/assets/images/places/india/jaipur/johari-bazaar-and-bapu-bazaar/hover.jpg"
-          }
+            "primary": "/assets/cities/india/jaipur/nahargarh-fort/primary.jpg",
+            "hover": "/assets/cities/india/jaipur/nahargarh-fort/hover.jpg"
+          }    
         }
       ]
     },
@@ -367,9 +337,7 @@
         "knownFor": "Colonial Gothic and Art Deco, Bollywood, street food, sea views"
       },
       "images": {
-        "hero": "/assets/images/cities/india/mumbai/hero.jpg",
-        "primary": "/assets/images/cities/india/mumbai/primary.jpg",
-        "hover": "/assets/images/cities/india/mumbai/hover.jpg"
+        "hero": "/assets/cities/india/mumbai/hero.jpg"
       },
       "places": [
         {
@@ -380,8 +348,8 @@
           "description": "Completed in 1924 to commemorate the 1911 visit of King George V, the basalt arch was designed by George Wittet in an Indo-Saracenic style influenced by Gujarati architecture. It is the departure point for ferries to Elephanta Island.",
           "visitorTip": "Visit early morning or at dusk. The adjacent Taj Mahal Palace hotel makes a notable backdrop.",
           "images": {
-            "primary": "/assets/images/places/india/mumbai/gateway-of-india/primary.jpg",
-            "hover": "/assets/images/places/india/mumbai/gateway-of-india/hover.jpg"
+            "primary": "/assets/cities/india/mumbai/gateway-of-india/primary.jpg",
+            "hover": "/assets/cities/india/mumbai/gateway-of-india/hover.jpg"
           }
         },
         {
@@ -392,8 +360,8 @@
           "description": "Designed by F. W. Stevens and completed in 1887, this working railway station combines Victorian Gothic Revival with Indian elements such as domes, turrets, stone carving and arches. It remains one of the busiest stations in the country.",
           "visitorTip": "Admire the exterior and main hall; take care when photographing near commuters.",
           "images": {
-            "primary": "/assets/images/places/india/mumbai/chhatrapati-shivaji-maharaj-terminus-csmt/primary.jpg",
-            "hover": "/assets/images/places/india/mumbai/chhatrapati-shivaji-maharaj-terminus-csmt/hover.jpg"
+            "primary": "/assets/cities/india/mumbai/chhatrapati-shivaji-maharaj-terminus-csmt/primary.jpg",
+            "hover": "/assets/cities/india/mumbai/chhatrapati-shivaji-maharaj-terminus-csmt/hover.jpg"
           }
         },
         {
@@ -404,8 +372,8 @@
           "description": "Rock-cut cave temples on Elephanta Island, dating mainly from the 5th to 8th centuries and dedicated primarily to Shiva. The Sadashiva (Trimurti) sculpture is a masterpiece of Indian rock-cut art.",
           "visitorTip": "Reach by ferry from the Gateway of India; the caves are closed on Mondays. Allow a half day.",
           "images": {
-            "primary": "/assets/images/places/india/mumbai/elephanta-caves/primary.jpg",
-            "hover": "/assets/images/places/india/mumbai/elephanta-caves/hover.jpg"
+            "primary": "/assets/cities/india/mumbai/elephanta-caves/primary.jpg",
+            "hover": "/assets/cities/india/mumbai/elephanta-caves/hover.jpg"
           }
         },
         {
@@ -416,8 +384,8 @@
           "description": "Buildings around Oval Maidan form two linked architectural stages: Victorian Neo-Gothic public buildings such as the University of Mumbai and the High Court, and Art Deco buildings along Marine Drive and Oval Maidan from the early 20th century. Mumbai’s Art Deco collection is among the largest in the world.",
           "visitorTip": "Take a heritage walking tour for context; the Oval Maidan area works well in the morning.",
           "images": {
-            "primary": "/assets/images/places/india/mumbai/victorian-gothic-and-art-deco-ensembles/primary.jpg",
-            "hover": "/assets/images/places/india/mumbai/victorian-gothic-and-art-deco-ensembles/hover.jpg"
+            "primary": "/assets/cities/india/mumbai/victorian-gothic-and-art-deco-ensembles/primary.jpg",
+            "hover": "/assets/cities/india/mumbai/victorian-gothic-and-art-deco-ensembles/hover.jpg"
           }
         },
         {
@@ -428,20 +396,8 @@
           "description": "A curved 3-km boulevard along Back Bay, often called the Queen’s Necklace for its streetlights at night. The Art Deco apartment blocks that line it reflect the city’s 20th-century expansion.",
           "visitorTip": "Best at sunset and after dark.",
           "images": {
-            "primary": "/assets/images/places/india/mumbai/marine-drive/primary.jpg",
-            "hover": "/assets/images/places/india/mumbai/marine-drive/hover.jpg"
-          }
-        },
-        {
-          "id": "colaba-causeway",
-          "name": "Colaba Causeway",
-          "category": "Shopping district",
-          "unesco": false,
-          "description": "A busy street of stalls, cafés, bookshops and clothes, close to the Gateway of India and Colaba’s colonial-era buildings.",
-          "visitorTip": "Bargain at street stalls; visit cafés for breakfast.",
-          "images": {
-            "primary": "/assets/images/places/india/mumbai/colaba-causeway/primary.jpg",
-            "hover": "/assets/images/places/india/mumbai/colaba-causeway/hover.jpg"
+            "primary": "/assets/cities/india/mumbai/marine-drive/primary.jpg",
+            "hover": "/assets/cities/india/mumbai/marine-drive/hover.jpg"
           }
         },
         {
@@ -452,8 +408,8 @@
           "description": "Opened in 1922 (formerly the Prince of Wales Museum) in an Indo-Saracenic building by George Wittet. Collections include sculpture, miniature paintings, decorative arts and archaeological finds.",
           "visitorTip": "Combine with nearby Kala Ghoda art precinct.",
           "images": {
-            "primary": "/assets/images/places/india/mumbai/chhatrapati-shivaji-maharaj-vastu-sangrahalaya/primary.jpg",
-            "hover": "/assets/images/places/india/mumbai/chhatrapati-shivaji-maharaj-vastu-sangrahalaya/hover.jpg"
+            "primary": "/assets/cities/india/mumbai/chhatrapati-shivaji-maharaj-vastu-sangrahalaya/primary.jpg",
+            "hover": "/assets/cities/india/mumbai/chhatrapati-shivaji-maharaj-vastu-sangrahalaya/hover.jpg"
           }
         },
         {
@@ -464,8 +420,8 @@
           "description": "Dating to the 15th century, this white Indo-Islamic tomb-mosque stands on an islet in the Arabian Sea, linked to the shore by a narrow causeway that is accessible at low tide.",
           "visitorTip": "Check tide timings before visiting; modest dress required.",
           "images": {
-            "primary": "/assets/images/places/india/mumbai/haji-ali-dargah/primary.jpg",
-            "hover": "/assets/images/places/india/mumbai/haji-ali-dargah/hover.jpg"
+            "primary": "/assets/cities/india/mumbai/haji-ali-dargah/primary.jpg",
+            "hover": "/assets/cities/india/mumbai/haji-ali-dargah/hover.jpg"
           }
         }
       ]
@@ -490,9 +446,7 @@
         "knownFor": "Beaches, Portuguese heritage, seafood, nightlife"
       },
       "images": {
-        "hero": "/assets/images/cities/india/goa/hero.jpg",
-        "primary": "/assets/images/cities/india/goa/primary.jpg",
-        "hover": "/assets/images/cities/india/goa/hover.jpg"
+        "hero": "/assets/cities/india/goa/hero.jpg"
       },
       "places": [
         {
@@ -503,8 +457,8 @@
           "description": "Completed in 1605, the basilica holds the remains of St Francis Xavier and is a leading example of Baroque architecture in India. Its unplastered laterite façade and ornate interior make it one of Goa’s most important churches.",
           "visitorTip": "Dress modestly. The relics are exposed only on special occasions.",
           "images": {
-            "primary": "/assets/images/places/india/goa/basilica-of-bom-jesus/primary.jpg",
-            "hover": "/assets/images/places/india/goa/basilica-of-bom-jesus/hover.jpg"
+            "primary": "/assets/cities/india/goa/basilica-of-bom-jesus/primary.jpg",
+            "hover": "/assets/cities/india/goa/basilica-of-bom-jesus/hover.jpg"
           }
         },
         {
@@ -515,8 +469,8 @@
           "description": "Built between 1562 and 1619, it is one of the largest churches in Asia. The Tuscan exterior, a tall bell tower and the Golden Bell, among the largest in Goa, reflect Portuguese ambition in the East.",
           "visitorTip": "Located next to Bom Jesus; visit both together.",
           "images": {
-            "primary": "/assets/images/places/india/goa/se-cathedral/primary.jpg",
-            "hover": "/assets/images/places/india/goa/se-cathedral/hover.jpg"
+            "primary": "/assets/cities/india/goa/se-cathedral/primary.jpg",
+            "hover": "/assets/cities/india/goa/se-cathedral/hover.jpg"
           }
         },
         {
@@ -527,8 +481,8 @@
           "description": "The group includes St Francis of Assisi Church, the Church of St Cajetan and other buildings of the 16th–18th centuries. They illustrate the spread of Christianity and European artistic styles across Asia.",
           "visitorTip": "Spend half a day with a guide or audio tour.",
           "images": {
-            "primary": "/assets/images/places/india/goa/churches-and-convents-of-old-goa/primary.jpg",
-            "hover": "/assets/images/places/india/goa/churches-and-convents-of-old-goa/hover.jpg"
+            "primary": "/assets/cities/india/goa/churches-and-convents-of-old-goa/primary.jpg",
+            "hover": "/assets/cities/india/goa/churches-and-convents-of-old-goa/hover.jpg"
           }
         },
         {
@@ -539,8 +493,8 @@
           "description": "Built in 1612 with a freshwater spring and lighthouse, the fort guarded the Mandovi estuary and ships on the spice route.",
           "visitorTip": "Best at sunset for views of the Arabian Sea.",
           "images": {
-            "primary": "/assets/images/places/india/goa/fort-aguada/primary.jpg",
-            "hover": "/assets/images/places/india/goa/fort-aguada/hover.jpg"
+            "primary": "/assets/cities/india/goa/fort-aguada/primary.jpg",
+            "hover": "/assets/cities/india/goa/fort-aguada/hover.jpg"
           }
         },
         {
@@ -551,8 +505,8 @@
           "description": "A district of narrow lanes, colourful Portuguese-style houses with tiled roofs and balconies, and the Chapel of St Sebastian.",
           "visitorTip": "Explore on foot with a guide; peak colour in the morning light.",
           "images": {
-            "primary": "/assets/images/places/india/goa/panaji-latin-quarter-fontainhas/primary.jpg",
-            "hover": "/assets/images/places/india/goa/panaji-latin-quarter-fontainhas/hover.jpg"
+            "primary": "/assets/cities/india/goa/panaji-latin-quarter-fontainhas/primary.jpg",
+            "hover": "/assets/cities/india/goa/panaji-latin-quarter-fontainhas/hover.jpg"
           }
         },
         {
@@ -563,8 +517,8 @@
           "description": "The most popular beach hubs, with water sports, shacks, clubs and shopping.",
           "visitorTip": "Best for activity and nightlife; avoid weekends in peak season for quiet.",
           "images": {
-            "primary": "/assets/images/places/india/goa/baga-and-calangute-beaches/primary.jpg",
-            "hover": "/assets/images/places/india/goa/baga-and-calangute-beaches/hover.jpg"
+            "primary": "/assets/cities/india/goa/baga-and-calangute-beaches/primary.jpg",
+            "hover": "/assets/cities/india/goa/baga-and-calangute-beaches/hover.jpg"
           }
         },
         {
@@ -575,20 +529,8 @@
           "description": "Known for laterite cliffs, music, cafés and the hippie-era market culture. Chapora Fort is nearby.",
           "visitorTip": "Check the days on which the Anjuna flea market operates.",
           "images": {
-            "primary": "/assets/images/places/india/goa/anjuna-and-vagator/primary.jpg",
-            "hover": "/assets/images/places/india/goa/anjuna-and-vagator/hover.jpg"
-          }
-        },
-        {
-          "id": "palolem-beach",
-          "name": "Palolem Beach",
-          "category": "South Goa beach",
-          "unesco": false,
-          "description": "A curved bay lined with palms, quieter than the north, with kayaking and boat trips.",
-          "visitorTip": "Ideal for relaxation; nearby Agonda and Cola are also calm.",
-          "images": {
-            "primary": "/assets/images/places/india/goa/palolem-beach/primary.jpg",
-            "hover": "/assets/images/places/india/goa/palolem-beach/hover.jpg"
+            "primary": "/assets/cities/india/goa/anjuna-and-vagator/primary.jpg",
+            "hover": "/assets/cities/india/goa/anjuna-and-vagator/hover.jpg"
           }
         },
         {
@@ -599,8 +541,8 @@
           "description": "A multi-tier waterfall of about 310 metres on the Mandovi River at the Goa–Karnataka border, set in forest.",
           "visitorTip": "Check seasonal access rules and monsoon conditions before going.",
           "images": {
-            "primary": "/assets/images/places/india/goa/dudhsagar-waterfalls/primary.jpg",
-            "hover": "/assets/images/places/india/goa/dudhsagar-waterfalls/hover.jpg"
+            "primary": "/assets/cities/india/goa/dudhsagar-waterfalls/primary.jpg",
+            "hover": "/assets/cities/india/goa/dudhsagar-waterfalls/hover.jpg"
           }
         }
       ]

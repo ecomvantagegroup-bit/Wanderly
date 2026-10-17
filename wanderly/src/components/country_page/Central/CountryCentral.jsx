@@ -1,4 +1,5 @@
 import { defineComponent, inject, ref } from 'vue';
+import { RouterLink } from 'vue-router';
 import { gsap, ScrollTrigger, SplitText } from '../../../utils/gsap.js';
 import { asset } from '../../../utils/router.jsx';
 import './CountryCentral.css';
@@ -77,22 +78,8 @@ export default defineComponent({
           .from(head.chars, { yPercent: 110, duration: 0.7, ease: 'power3.out', stagger: 0.025 })
           .from(body.words, { y: 12, opacity: 0, duration: 0.5, ease: 'power2.out', stagger: 0.012 }, '-=0.35');
 
-        // the big outlined name drifts slower than the cards
-        gsap.fromTo(
-          ghostRef.value,
-          { x: '-12vw' },
-          {
-            x: '12vw',
-            ease: 'none',
-            scrollTrigger: {
-              trigger: root,
-              containerAnimation: tween,
-              start: 'left right',
-              end: 'right left',
-              scrub: true,
-            },
-          }
-        );
+        // the big ghost name and the photos inside the cards are moved by the
+        // shared parallax pass in CountryPage.jsx (data-depth / data-img-depth)
 
         slots.forEach((slot, i) => {
           const card = cards[i];
@@ -124,23 +111,6 @@ export default defineComponent({
             }
           );
 
-          // the photo slides inside its frame
-          gsap.fromTo(
-            card.querySelector('.city-parallax'),
-            { xPercent: -9 },
-            {
-              xPercent: 9,
-              ease: 'none',
-              scrollTrigger: {
-                trigger: slot,
-                containerAnimation: tween,
-                start: 'left 100%',
-                end: 'right 0%',
-                scrub: true,
-              },
-            }
-          );
-
           // the card in the middle of the screen opens up
           ScrollTrigger.create({
             trigger: slot,
@@ -166,9 +136,9 @@ export default defineComponent({
 
     return () => (
       <section class="country-central" ref={rootRef} id="country-cities">
-        <span class="central-ghost" ref={ghostRef} aria-hidden="true">{c.name}</span>
+        <span class="central-ghost" ref={ghostRef} aria-hidden="true" data-depth="1.2">{c.name}</span>
 
-        <div class="central-intro" ref={introRef}>
+        <div class="central-intro" ref={introRef} data-depth="0.3">
           <p class="central-count">{cities.length} cities</p>
           <h2 ref={headRef}>{section.heading || `Top cities in ${c.name}`}</h2>
           <p class="central-body" ref={bodyRef}>{section.body}</p>
@@ -178,6 +148,7 @@ export default defineComponent({
           {cities.map((city, i) => (
             <div
               key={city.id}
+              data-frame
               class={['city-slot flex-none', i % 2 ? 'md:translate-y-10' : 'md:-translate-y-8']}
             >
               <article
@@ -186,7 +157,7 @@ export default defineComponent({
                 onPointerleave={onLeave}
               >
                 {/* photo, 125% wide so it can slide inside the frame */}
-                <div class="city-parallax absolute inset-y-0 -left-[12.5%] w-[125%]">
+                <div class="city-parallax absolute inset-y-0 -left-[12.5%] w-[125%]" data-img-depth="9">
                   <img
                     class="absolute inset-0 h-full w-full object-cover"
                     src={asset(city.images.primary)}
@@ -223,13 +194,12 @@ export default defineComponent({
                         <span class="text-[var(--accent)]">Best time: </span>
                         {city.bestTime}
                       </p>
-                      {/* hook the city page up here later: router.push(city.route) */}
-                      <button
-                        type="button"
-                        class="mt-4 w-full rounded-full bg-[var(--accent)] px-4 py-2.5 text-sm font-semibold text-[#17110e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                      <RouterLink
+                        to={city.route}
+                        class="mt-4 block w-full rounded-full bg-[var(--accent)] px-4 py-2.5 text-center text-sm font-semibold text-[#17110e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                       >
                         Discover {city.name}
-                      </button>
+                      </RouterLink>
                     </div>
                   </div>
                 </div>

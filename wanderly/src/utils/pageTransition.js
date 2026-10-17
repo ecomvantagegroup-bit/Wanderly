@@ -26,8 +26,16 @@ let coverPromise = null;
 let activeTl = null;
 let revealToken = 0;
 
-const labelFor = (to) =>
-  landing.countries.find((c) => c.id === to.params?.id)?.heading ?? 'Wanderly';
+const labelFor = (to) => {
+  if (to.params?.city) {
+    // "san-francisco" -> "San Francisco"
+    return to.params.city
+      .split('-')
+      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+      .join(' ');
+  }
+  return landing.countries.find((c) => c.id === to.params?.id)?.heading ?? 'Wanderly';
+};
 
 const ensure = () => {
   if (curtain) return;
@@ -122,7 +130,7 @@ export async function revealPage(to) {
   }, 5000);
 
   try {
-    await waitForPage(to.name === 'CountryPage');
+    await waitForPage(to.name === 'CountryPage' || to.name === 'CityPage');
     if (token !== revealToken || state !== 'covered') return;
 
     // measure every ScrollTrigger of the new page again before showing it

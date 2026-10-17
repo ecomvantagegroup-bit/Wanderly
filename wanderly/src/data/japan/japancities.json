@@ -21,9 +21,7 @@
         "knownFor": "Modern capital, shrines, museums, technology, food"
       },
       "images": {
-        "hero": "/assets/images/cities/japan/tokyo/hero.jpg",
-        "primary": "/assets/images/cities/japan/tokyo/primary.jpg",
-        "hover": "/assets/images/cities/japan/tokyo/hover.jpg"
+        "hero": "/assets/cities/japan/tokyo/hero.jpg"
       },
       "places": [
         {
@@ -34,8 +32,8 @@
           "description": "Tokyo’s oldest major temple, in Asakusa, traditionally founded in the 7th century. Visitors pass the red Kaminarimon Gate and Nakamise shopping street to reach the main hall.",
           "visitorTip": "Go early or late to avoid crowds.",
           "images": {
-            "primary": "/assets/images/places/japan/tokyo/senso-ji-temple/primary.jpg",
-            "hover": "/assets/images/places/japan/tokyo/senso-ji-temple/hover.jpg"
+            "primary": "/assets/cities/japan/tokyo/senso-ji-temple/primary.jpg",
+            "hover": "/assets/cities/japan/tokyo/senso-ji-temple/hover.jpg"
           }
         },
         {
@@ -46,8 +44,8 @@
           "description": "Completed in 1920 and dedicated to Emperor Meiji and Empress Shoken, the shrine is set in a forest near Harajuku, with a quiet entrance path.",
           "visitorTip": "Visit in the morning for a calm walk.",
           "images": {
-            "primary": "/assets/images/places/japan/tokyo/meiji-jingu/primary.jpg",
-            "hover": "/assets/images/places/japan/tokyo/meiji-jingu/hover.jpg"
+            "primary": "/assets/cities/japan/tokyo/meiji-jingu/primary.jpg",
+            "hover": "/assets/cities/japan/tokyo/meiji-jingu/hover.jpg"
           }
         },
         {
@@ -58,8 +56,8 @@
           "description": "Opened in 2012, this 634-metre tower is among the world’s tallest freestanding towers and has observation decks with city views.",
           "visitorTip": "Book timed tickets and go near sunset.",
           "images": {
-            "primary": "/assets/images/places/japan/tokyo/tokyo-skytree/primary.jpg",
-            "hover": "/assets/images/places/japan/tokyo/tokyo-skytree/hover.jpg"
+            "primary": "/assets/cities/japan/tokyo/tokyo-skytree/primary.jpg",
+            "hover": "/assets/cities/japan/tokyo/tokyo-skytree/hover.jpg"
           }
         },
         {
@@ -70,8 +68,8 @@
           "description": "A busy pedestrian intersection that symbolises dense Japanese city life, retail, youth culture and technology.",
           "visitorTip": "View from the surrounding buildings for photos.",
           "images": {
-            "primary": "/assets/images/places/japan/tokyo/shibuya-crossing/primary.jpg",
-            "hover": "/assets/images/places/japan/tokyo/shibuya-crossing/hover.jpg"
+            "primary": "/assets/cities/japan/tokyo/shibuya-crossing/primary.jpg",
+            "hover": "/assets/cities/japan/tokyo/shibuya-crossing/hover.jpg"
           }
         },
         {
@@ -82,8 +80,8 @@
           "description": "Founded in 1872 in Ueno Park, it is Japan’s oldest national museum, with Japanese paintings, Buddhist sculpture, samurai objects and archaeological collections.",
           "visitorTip": "Allow two to three hours; check special exhibitions.",
           "images": {
-            "primary": "/assets/images/places/japan/tokyo/tokyo-national-museum/primary.jpg",
-            "hover": "/assets/images/places/japan/tokyo/tokyo-national-museum/hover.jpg"
+            "primary": "/assets/cities/japan/tokyo/tokyo-national-museum/primary.jpg",
+            "hover": "/assets/cities/japan/tokyo/tokyo-national-museum/hover.jpg"
           }
         },
         {
@@ -94,8 +92,8 @@
           "description": "The palace occupies the site of Edo Castle. The East Gardens are open to visitors, and show stone walls, moats and bridges.",
           "visitorTip": "Inner palace tours need reservations.",
           "images": {
-            "primary": "/assets/images/places/japan/tokyo/imperial-palace/primary.jpg",
-            "hover": "/assets/images/places/japan/tokyo/imperial-palace/hover.jpg"
+            "primary": "/assets/cities/japan/tokyo/imperial-palace/primary.jpg",
+            "hover": "/assets/cities/japan/tokyo/imperial-palace/hover.jpg"
           }
         }
       ]
@@ -119,9 +117,7 @@
         "knownFor": "Temples, shrines, gardens, geisha districts, UNESCO monuments"
       },
       "images": {
-        "hero": "/assets/images/cities/japan/kyoto/hero.jpg",
-        "primary": "/assets/images/cities/japan/kyoto/primary.jpg",
-        "hover": "/assets/images/cities/japan/kyoto/hover.jpg"
+        "hero": "/assets/cities/japan/kyoto/hero.jpg"
       },
       "places": [
         {
@@ -132,8 +128,8 @@
           "description": "The Golden Pavilion, covered in gold leaf, reflects in its pond. It was originally built in the 14th century and the current structure was rebuilt in 1955 after a fire.",
           "visitorTip": "Arrive early for fewer crowds.",
           "images": {
-            "primary": "/assets/images/places/japan/kyoto/kinkaku-ji/primary.jpg",
-            "hover": "/assets/images/places/japan/kyoto/kinkaku-ji/hover.jpg"
+            "primary": "/assets/cities/japan/kyoto/kinkaku-ji/primary.jpg",
+            "hover": "/assets/cities/japan/kyoto/kinkaku-ji/hover.jpg"
           }
         },
         {
@@ -144,8 +140,8 @@
           "description": "A historic hillside temple, founded in the 8th century, famous for its large wooden terrace with city views.",
           "visitorTip": "Visit at sunset and walk the Higashiyama lanes.",
           "images": {
-            "primary": "/assets/images/places/japan/kyoto/kiyomizu-dera/primary.jpg",
-            "hover": "/assets/images/places/japan/kyoto/kiyomizu-dera/hover.jpg"
+            "primary": "/assets/cities/japan/kyoto/kiyomizu-dera/primary.jpg",
+            "hover": "/assets/cities/japan/kyoto/kiyomizu-dera/hover.jpg"
           }
         },
         {
@@ -156,20 +152,8 @@
           "description": "A major shrine dedicated to Inari, associated with rice, business and prosperity, known for thousands of red torii gates along mountain paths.",
           "visitorTip": "Go early or in the evening for quiet.",
           "images": {
-            "primary": "/assets/images/places/japan/kyoto/fushimi-inari-taisha/primary.jpg",
-            "hover": "/assets/images/places/japan/kyoto/fushimi-inari-taisha/hover.jpg"
-          }
-        },
-        {
-          "id": "arashiyama-bamboo-grove",
-          "name": "Arashiyama Bamboo Grove",
-          "category": "Natural and cultural landscape",
-          "unesco": false,
-          "description": "A bamboo path near temples and the riverside in Kyoto’s western hills.",
-          "visitorTip": "Combine with Tenryu-ji and the Togetsukyo Bridge.",
-          "images": {
-            "primary": "/assets/images/places/japan/kyoto/arashiyama-bamboo-grove/primary.jpg",
-            "hover": "/assets/images/places/japan/kyoto/arashiyama-bamboo-grove/hover.jpg"
+            "primary": "/assets/cities/japan/kyoto/fushimi-inari-taisha/primary.jpg",
+            "hover": "/assets/cities/japan/kyoto/fushimi-inari-taisha/hover.jpg"
           }
         },
         {
@@ -180,8 +164,8 @@
           "description": "One of Kyoto’s most important historic entertainment districts, with wooden machiya houses and geisha culture.",
           "visitorTip": "Be respectful; do not chase or block geiko and maiko.",
           "images": {
-            "primary": "/assets/images/places/japan/kyoto/gion/primary.jpg",
-            "hover": "/assets/images/places/japan/kyoto/gion/hover.jpg"
+            "primary": "/assets/cities/japan/kyoto/gion/primary.jpg",
+            "hover": "/assets/cities/japan/kyoto/gion/hover.jpg"
           }
         },
         {
@@ -192,8 +176,8 @@
           "description": "Built in the early 17th century for the Tokugawa shogunate, it features Ninomaru Palace with painted screens and ‘nightingale’ floors.",
           "visitorTip": "Allow 1.5 hours.",
           "images": {
-            "primary": "/assets/images/places/japan/kyoto/nijo-castle/primary.jpg",
-            "hover": "/assets/images/places/japan/kyoto/nijo-castle/hover.jpg"
+            "primary": "/assets/cities/japan/kyoto/nijo-castle/primary.jpg",
+            "hover": "/assets/cities/japan/kyoto/nijo-castle/hover.jpg"
           }
         },
         {
@@ -204,8 +188,8 @@
           "description": "A set of 17 cultural locations in Kyoto, Uji and Otsu including temples, shrines, gardens and palaces.",
           "visitorTip": "Plan by area to see several sites on one day.",
           "images": {
-            "primary": "/assets/images/places/japan/kyoto/historic-monuments-of-ancient-kyoto/primary.jpg",
-            "hover": "/assets/images/places/japan/kyoto/historic-monuments-of-ancient-kyoto/hover.jpg"
+            "primary": "/assets/cities/japan/kyoto/historic-monuments-of-ancient-kyoto/primary.jpg",
+            "hover": "/assets/cities/japan/kyoto/historic-monuments-of-ancient-kyoto/hover.jpg"
           }
         }
       ]
@@ -229,9 +213,7 @@
         "knownFor": "Street food, Osaka Castle, nightlife, theme parks"
       },
       "images": {
-        "hero": "/assets/images/cities/japan/osaka/hero.jpg",
-        "primary": "/assets/images/cities/japan/osaka/primary.jpg",
-        "hover": "/assets/images/cities/japan/osaka/hover.jpg"
+        "hero": "/assets/cities/japan/osaka/hero.jpg"
       },
       "places": [
         {
@@ -242,8 +224,8 @@
           "description": "Associated with Toyotomi Hideyoshi and Japan’s late 16th-century unification. The current main tower is a 1931 reconstruction with a modern museum inside and views over the city.",
           "visitorTip": "Walk the park and moat in the morning.",
           "images": {
-            "primary": "/assets/images/places/japan/osaka/osaka-castle/primary.jpg",
-            "hover": "/assets/images/places/japan/osaka/osaka-castle/hover.jpg"
+            "primary": "/assets/cities/japan/osaka/osaka-castle/primary.jpg",
+            "hover": "/assets/cities/japan/osaka/osaka-castle/hover.jpg"
           }
         },
         {
@@ -254,8 +236,8 @@
           "description": "A canal-side district famous for neon signs, street food and nightlife, reflecting Osaka’s informal food culture.",
           "visitorTip": "Try takoyaki and okonomiyaki.",
           "images": {
-            "primary": "/assets/images/places/japan/osaka/dotonbori/primary.jpg",
-            "hover": "/assets/images/places/japan/osaka/dotonbori/hover.jpg"
+            "primary": "/assets/cities/japan/osaka/dotonbori/primary.jpg",
+            "hover": "/assets/cities/japan/osaka/dotonbori/hover.jpg"
           }
         },
         {
@@ -266,8 +248,8 @@
           "description": "A traditional market for seafood, snacks, fruit and local specialities.",
           "visitorTip": "Go in the morning when stalls are fresh.",
           "images": {
-            "primary": "/assets/images/places/japan/osaka/kuromon-market/primary.jpg",
-            "hover": "/assets/images/places/japan/osaka/kuromon-market/hover.jpg"
+            "primary": "/assets/cities/japan/osaka/kuromon-market/primary.jpg",
+            "hover": "/assets/cities/japan/osaka/kuromon-market/hover.jpg"
           }
         },
         {
@@ -278,8 +260,8 @@
           "description": "One of Japan’s oldest Buddhist temples, traditionally dated to the 6th century and associated with the introduction of Buddhism.",
           "visitorTip": "Visit on market days for local flea markets.",
           "images": {
-            "primary": "/assets/images/places/japan/osaka/shitennoji-temple/primary.jpg",
-            "hover": "/assets/images/places/japan/osaka/shitennoji-temple/hover.jpg"
+            "primary": "/assets/cities/japan/osaka/shitennoji-temple/primary.jpg",
+            "hover": "/assets/cities/japan/osaka/shitennoji-temple/hover.jpg"
           }
         },
         {
@@ -290,8 +272,8 @@
           "description": "A 1993 building with twin towers connected by the Floating Garden Observatory, giving city views.",
           "visitorTip": "Visit at sunset.",
           "images": {
-            "primary": "/assets/images/places/japan/osaka/umeda-sky-building/primary.jpg",
-            "hover": "/assets/images/places/japan/osaka/umeda-sky-building/hover.jpg"
+            "primary": "/assets/cities/japan/osaka/umeda-sky-building/primary.jpg",
+            "hover": "/assets/cities/japan/osaka/umeda-sky-building/hover.jpg"
           }
         },
         {
@@ -302,8 +284,8 @@
           "description": "A major theme park with film-themed attractions and Super Nintendo World.",
           "visitorTip": "Buy timed entry in advance.",
           "images": {
-            "primary": "/assets/images/places/japan/osaka/universal-studios-japan/primary.jpg",
-            "hover": "/assets/images/places/japan/osaka/universal-studios-japan/hover.jpg"
+            "primary": "/assets/cities/japan/osaka/universal-studios-japan/primary.jpg",
+            "hover": "/assets/cities/japan/osaka/universal-studios-japan/hover.jpg"
           }
         }
       ]
@@ -327,9 +309,7 @@
         "knownFor": "Peace Memorial Park, Atomic Bomb Dome, Miyajima"
       },
       "images": {
-        "hero": "/assets/images/cities/japan/hiroshima/hero.jpg",
-        "primary": "/assets/images/cities/japan/hiroshima/primary.jpg",
-        "hover": "/assets/images/cities/japan/hiroshima/hover.jpg"
+        "hero": "/assets/cities/japan/hiroshima/hero.jpg"
       },
       "places": [
         {
@@ -340,8 +320,8 @@
           "description": "A memorial landscape of museums, monuments and remembrance spaces dedicated to the victims of the atomic bombing and to peace.",
           "visitorTip": "Allow time for quiet reflection.",
           "images": {
-            "primary": "/assets/images/places/japan/hiroshima/hiroshima-peace-memorial-park/primary.jpg",
-            "hover": "/assets/images/places/japan/hiroshima/hiroshima-peace-memorial-park/hover.jpg"
+            "primary": "/assets/cities/japan/hiroshima/hiroshima-peace-memorial-park/primary.jpg",
+            "hover": "/assets/cities/japan/hiroshima/hiroshima-peace-memorial-park/hover.jpg"
           }
         },
         {
@@ -352,8 +332,8 @@
           "description": "The ruined structure near the explosion’s hypocentre is preserved as an international symbol of nuclear destruction and peace.",
           "visitorTip": "Visit at dusk when it is lit.",
           "images": {
-            "primary": "/assets/images/places/japan/hiroshima/atomic-bomb-dome/primary.jpg",
-            "hover": "/assets/images/places/japan/hiroshima/atomic-bomb-dome/hover.jpg"
+            "primary": "/assets/cities/japan/hiroshima/atomic-bomb-dome/primary.jpg",
+            "hover": "/assets/cities/japan/hiroshima/atomic-bomb-dome/hover.jpg"
           }
         },
         {
@@ -364,8 +344,8 @@
           "description": "Displays documents, objects, photographs and survivor testimonies that explain the human effects of the bombing.",
           "visitorTip": "Allow at least 90 minutes; content is emotionally heavy.",
           "images": {
-            "primary": "/assets/images/places/japan/hiroshima/hiroshima-peace-memorial-museum/primary.jpg",
-            "hover": "/assets/images/places/japan/hiroshima/hiroshima-peace-memorial-museum/hover.jpg"
+            "primary": "/assets/cities/japan/hiroshima/hiroshima-peace-memorial-museum/primary.jpg",
+            "hover": "/assets/cities/japan/hiroshima/hiroshima-peace-memorial-museum/hover.jpg"
           }
         },
         {
@@ -376,8 +356,8 @@
           "description": "A Shinto shrine on Miyajima Island, built to appear connected with the sea, and known for its large torii gate standing in the water.",
           "visitorTip": "Check tide times for the best views.",
           "images": {
-            "primary": "/assets/images/places/japan/hiroshima/itsukushima-shrine/primary.jpg",
-            "hover": "/assets/images/places/japan/hiroshima/itsukushima-shrine/hover.jpg"
+            "primary": "/assets/cities/japan/hiroshima/itsukushima-shrine/primary.jpg",
+            "hover": "/assets/cities/japan/hiroshima/itsukushima-shrine/hover.jpg"
           }
         },
         {
@@ -388,8 +368,8 @@
           "description": "A sacred island with temples, deer, forests, seafood and Mount Misen views; reached by a short ferry ride.",
           "visitorTip": "Try oysters and momiji manju; a small visitor fee may apply.",
           "images": {
-            "primary": "/assets/images/places/japan/hiroshima/miyajima-island/primary.jpg",
-            "hover": "/assets/images/places/japan/hiroshima/miyajima-island/hover.jpg"
+            "primary": "/assets/cities/japan/hiroshima/miyajima-island/primary.jpg",
+            "hover": "/assets/cities/japan/hiroshima/miyajima-island/hover.jpg"
           }
         }
       ]
@@ -413,9 +393,7 @@
         "knownFor": "Ancient capital, Todai-ji, deer, UNESCO heritage"
       },
       "images": {
-        "hero": "/assets/images/cities/japan/nara/hero.jpg",
-        "primary": "/assets/images/cities/japan/nara/primary.jpg",
-        "hover": "/assets/images/cities/japan/nara/hover.jpg"
+        "hero": "/assets/cities/japan/nara/hero.jpg"
       },
       "places": [
         {
@@ -426,8 +404,8 @@
           "description": "Home to the Great Buddha Hall, one of the world’s largest historic wooden buildings, which houses a 14.98-metre bronze Vairocana Buddha.",
           "visitorTip": "Go early for fewer crowds.",
           "images": {
-            "primary": "/assets/images/places/japan/nara/todai-ji-temple/primary.jpg",
-            "hover": "/assets/images/places/japan/nara/todai-ji-temple/hover.jpg"
+            "primary": "/assets/cities/japan/nara/todai-ji-temple/primary.jpg",
+            "hover": "/assets/cities/japan/nara/todai-ji-temple/hover.jpg"
           }
         },
         {
@@ -438,8 +416,8 @@
           "description": "A large park with free-roaming deer, which are culturally associated with the sacred environment of Kasuga Taisha.",
           "visitorTip": "Buy deer crackers from official sellers and be careful with food.",
           "images": {
-            "primary": "/assets/images/places/japan/nara/nara-park/primary.jpg",
-            "hover": "/assets/images/places/japan/nara/nara-park/hover.jpg"
+            "primary": "/assets/cities/japan/nara/nara-park/primary.jpg",
+            "hover": "/assets/cities/japan/nara/nara-park/hover.jpg"
           }
         },
         {
@@ -450,8 +428,8 @@
           "description": "An important shrine of the Fujiwara family and ancient Nara, famous for lanterns and forest paths.",
           "visitorTip": "Walk the path through the forest.",
           "images": {
-            "primary": "/assets/images/places/japan/nara/kasuga-taisha/primary.jpg",
-            "hover": "/assets/images/places/japan/nara/kasuga-taisha/hover.jpg"
+            "primary": "/assets/cities/japan/nara/kasuga-taisha/primary.jpg",
+            "hover": "/assets/cities/japan/nara/kasuga-taisha/hover.jpg"
           }
         },
         {
@@ -462,8 +440,8 @@
           "description": "Preserves traditional merchant houses and local crafts, showing historic urban architecture.",
           "visitorTip": "Browse small shops and cafés.",
           "images": {
-            "primary": "/assets/images/places/japan/nara/naramachi/primary.jpg",
-            "hover": "/assets/images/places/japan/nara/naramachi/hover.jpg"
+            "primary": "/assets/cities/japan/nara/naramachi/primary.jpg",
+            "hover": "/assets/cities/japan/nara/naramachi/hover.jpg"
           }
         },
         {
@@ -474,8 +452,8 @@
           "description": "A UNESCO property of six Buddhist temples and shrines, Heijo Palace and the Kasugayama Primeval Forest.",
           "visitorTip": "Use a map to plan route.",
           "images": {
-            "primary": "/assets/images/places/japan/nara/historic-monuments-of-ancient-nara/primary.jpg",
-            "hover": "/assets/images/places/japan/nara/historic-monuments-of-ancient-nara/hover.jpg"
+            "primary": "/assets/cities/japan/nara/historic-monuments-of-ancient-nara/primary.jpg",
+            "hover": "/assets/cities/japan/nara/historic-monuments-of-ancient-nara/hover.jpg"
           }
         }
       ]

@@ -10,7 +10,7 @@
   },
   "heading": "India Travel Guide: Five Iconic Cities",
   "description": [
-    "India’s five most iconic tourist cities cover heritage, architecture, art, food, business, beaches and culture. UNESCO listings below are based on official UNESCO and Indian government information."
+    "From Mughal monuments and royal palaces to Mumbai's sea-facing skyline and Goa's beaches, India's five most iconic destinations cover heritage, architecture, food, culture and coast in one trip."
   ],
   "quickFacts": {
     "Capital": "New Delhi",
@@ -19,10 +19,7 @@
     "Suggested trip": "Delhi–Agra–Jaipur Golden Triangle plus Mumbai and Goa"
   },
   "images": {
-    "hero": "/assets/images/countries/india/hero.jpg",
-    "banner": "/assets/images/countries/india/banner.jpg",
-    "primary": "/assets/images/countries/india/primary.jpg",
-    "hover": "/assets/images/countries/india/hover.jpg"
+    "hero": "/assets/countries/india/hero.jpg"
   },
   "citiesSection": {
     "heading": "Top Cities in India",
@@ -40,8 +37,8 @@
       "suggestedStay": "2–3 days",
       "bestTime": "October to March (pleasant weather); April to June is very hot; July to September is monsoon",
       "images": {
-        "primary": "/assets/images/cities/india/delhi/primary.jpg",
-        "hover": "/assets/images/cities/india/delhi/hover.jpg"
+        "primary": "/assets/countries/india/delhi/primary.jpg",
+        "hover": "/assets/countries/india/delhi/hover.jpg"
       }
     },
     {
@@ -54,8 +51,8 @@
       "suggestedStay": "1–2 days",
       "bestTime": "October to March; summers are very hot",
       "images": {
-        "primary": "/assets/images/cities/india/agra/primary.jpg",
-        "hover": "/assets/images/cities/india/agra/hover.jpg"
+        "primary": "/assets/countries/india/agra/primary.jpg",
+        "hover": "/assets/countries/india/agra/hover.jpg"
       }
     },
     {
@@ -68,8 +65,8 @@
       "suggestedStay": "2–3 days",
       "bestTime": "October to March; summers are very hot",
       "images": {
-        "primary": "/assets/images/cities/india/jaipur/primary.jpg",
-        "hover": "/assets/images/cities/india/jaipur/hover.jpg"
+        "primary": "/assets/countries/india/jaipur/primary.jpg",
+        "hover": "/assets/countries/india/jaipur/hover.jpg"
       }
     },
     {
@@ -82,8 +79,8 @@
       "suggestedStay": "2–3 days",
       "bestTime": "November to February; June to September is heavy monsoon",
       "images": {
-        "primary": "/assets/images/cities/india/mumbai/primary.jpg",
-        "hover": "/assets/images/cities/india/mumbai/hover.jpg"
+        "primary": "/assets/countries/india/mumbai/primary.jpg",
+        "hover": "/assets/countries/india/mumbai/hover.jpg"
       }
     },
     {
@@ -96,8 +93,8 @@
       "suggestedStay": "3–5 days",
       "bestTime": "November to February; June to September is monsoon with many beach shacks closed",
       "images": {
-        "primary": "/assets/images/cities/india/goa/primary.jpg",
-        "hover": "/assets/images/cities/india/goa/hover.jpg"
+        "primary": "/assets/countries/india/goa/primary.jpg",
+        "hover": "/assets/countries/india/goa/hover.jpg"
       }
     }
   ]

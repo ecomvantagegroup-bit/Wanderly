@@ -23,10 +23,7 @@
     "Suggested trip": "10–14 days"
   },
   "images": {
-    "hero": "/assets/images/countries/indonesia/hero.jpg",
-    "banner": "/assets/images/countries/indonesia/banner.jpg",
-    "primary": "/assets/images/countries/indonesia/primary.jpg",
-    "hover": "/assets/images/countries/indonesia/hover.jpg"
+    "hero": "/assets/countries/indonesia/hero.jpg"
   },
   "citiesSection": {
     "heading": "Top Cities in Indonesia",
@@ -44,8 +41,8 @@
       "suggestedStay": "2–3 days",
       "bestTime": "May–September (dry season)",
       "images": {
-        "primary": "/assets/images/cities/indonesia/jakarta/primary.jpg",
-        "hover": "/assets/images/cities/indonesia/jakarta/hover.jpg"
+        "primary": "/assets/countries/indonesia/jakarta/primary.jpg",
+        "hover": "/assets/countries/indonesia/jakarta/hover.jpg"
       }
     },
     {
@@ -58,8 +55,8 @@
       "suggestedStay": "3–4 days",
       "bestTime": "May–September",
       "images": {
-        "primary": "/assets/images/cities/indonesia/yogyakarta/primary.jpg",
-        "hover": "/assets/images/cities/indonesia/yogyakarta/hover.jpg"
+        "primary": "/assets/countries/indonesia/yogyakarta/primary.jpg",
+        "hover": "/assets/countries/indonesia/yogyakarta/hover.jpg"
       }
     },
     {
@@ -72,8 +69,8 @@
       "suggestedStay": "4–6 days",
       "bestTime": "April–October (dry season)",
       "images": {
-        "primary": "/assets/images/cities/indonesia/bali/primary.jpg",
-        "hover": "/assets/images/cities/indonesia/bali/hover.jpg"
+        "primary": "/assets/countries/indonesia/bali/primary.jpg",
+        "hover": "/assets/countries/indonesia/bali/hover.jpg"
       }
     },
     {
@@ -86,8 +83,8 @@
       "suggestedStay": "3–4 days",
       "bestTime": "April–December (dry season); conditions vary by activity",
       "images": {
-        "primary": "/assets/images/cities/indonesia/labuan-bajo-komodo/primary.jpg",
-        "hover": "/assets/images/cities/indonesia/labuan-bajo-komodo/hover.jpg"
+        "primary": "/assets/countries/indonesia/labuan-bajo-komodo/primary.jpg",
+        "hover": "/assets/countries/indonesia/labuan-bajo-komodo/hover.jpg"
       }
     }
   ]

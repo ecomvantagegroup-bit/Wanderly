@@ -45,11 +45,11 @@ export default defineComponent({
     return () => (
       <footer class="country-footer" ref={rootRef} id="country-footer">
         <div class="foot-top">
-          <h2 class="foot-title" ref={titleRef}>
+          <h2 class="foot-title" ref={titleRef} data-depth="-0.2">
             <span class="foot-solid">Where to</span>
             <span class="foot-outline">next?</span>
           </h2>
-          <div class="foot-side" ref={ledeRef}>
+          <div class="foot-side" ref={ledeRef} data-depth="0.3">
             <p>You have seen the best of {c.name}. Pick another country, or start this guide again.</p>
             <button type="button" class="foot-restart" onClick={backToStart}>
               Back to the start
@@ -57,10 +57,10 @@ export default defineComponent({
           </div>
         </div>
 
-        <div class="foot-tiles" ref={tilesRef} style={{ '--n': others.length }}>
+        <div class="foot-tiles" ref={tilesRef} data-depth="0.15" style={{ '--n': others.length }}>
           {others.map((o) => (
-            <RouterLink key={o.id} to={o.route} class="foot-tile">
-              <img src={asset(o.images.primary)} alt="" loading="lazy" draggable="false" />
+            <RouterLink key={o.id} to={o.route} class="foot-tile" data-frame>
+              <img src={asset(o.images.primary)} alt="" loading="lazy" draggable="false" data-img-depth="10" />
               <span class="foot-tile-text">
                 <strong>{o.heading}</strong>
                 <small>Open the guide</small>

@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, START_LOCATION } from 'vue-router'
 import Home from '../components/home/Home.jsx'
 import CountryPage from '../components/country_page/CountryPage.jsx'
+import CityPage from '../components/city_page/CityPage.jsx'
 import { ScrollTrigger } from './gsap.js'
 import { coverPage, revealPage } from './pageTransition.js'
 
@@ -25,6 +26,12 @@ const router = createRouter({
       path: '/:id(india|russia|china|usa|japan|indonesia)',
       name: 'CountryPage',
       component: CountryPage
+    },
+    {
+      // /india/delhi, /japan/kyoto ...
+      path: '/:id(india|russia|china|usa|japan|indonesia)/:city',
+      name: 'CityPage',
+      component: CityPage
     },
     { path: '/:pathMatch(.*)*', redirect: '/' }
   ]

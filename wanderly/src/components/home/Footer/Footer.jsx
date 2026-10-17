@@ -1,17 +1,13 @@
 /* eslint-disable no-unused-vars */
 import { defineComponent, ref, onMounted, onBeforeUnmount } from 'vue';
 import { RouterLink } from 'vue-router';
-import { gsap, ScrollTrigger } from '../../../utils/gsap.js';
+import { gsap } from '../../../utils/gsap.js';
 import data from '../../../data/landing.json';
 import { asset } from '../../../utils/router.jsx';
 import './Footer.css';
 
-
-
 const FADE = 0.7;
 const GLOBE_FILL = 0.96;
-const PRELOAD_START = 'top 300%';
-const TEXT_START = 'top 80%';
 
 export default defineComponent({
   name: 'FooterSection',
@@ -29,6 +25,8 @@ export default defineComponent({
     const hintRef = ref(null);
 
     let ctx = null;
+    let io1 = null; // preloads the globe one screen early
+    let io2 = null; // reveals text + hint
     let destroyed = false;
     let globeStarted = false;
     let three = null; // 3D things we must dispose later
@@ -81,7 +79,7 @@ export default defineComponent({
 
         const renderer = new THREE.WebGLRenderer({
           antialias: true,
-          alpha: true, // transparent, so the white footer shows through
+          alpha: true, // transparent, so the dark footer shows through
           powerPreference: 'high-performance',
         });
         renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
@@ -94,18 +92,17 @@ export default defineComponent({
         // soft studio reflections so the globe does not look flat
         const pmrem = new THREE.PMREMGenerator(renderer);
         scene.environment = pmrem.fromScene(new RoomEnvironment(renderer), 0.04).texture;
-        scene.environmentIntensity = 0.9; // reflection strength (ignored by very old three versions)
-        renderer.toneMappingExposure = 1.15; // overall brightness
+        scene.environmentIntensity = 0.9;
+        renderer.toneMappingExposure = 1.15;
 
         const camera = new THREE.PerspectiveCamera(40, 1, 0.1, 100);
         scene.add(camera);
 
-        // 3-point lighting. All lights ride on the camera, so the globe is lit the same
-        // way while orbiting. Their distances are set in fit() so they scale with the model.
-        scene.add(new THREE.HemisphereLight(0xdfe8ff, 0x2a2430, 0.7)); // sky / ground fill
-        const key = new THREE.DirectionalLight(0xfff1dc, 2.6); // warm main light, top right
-        const fillLight = new THREE.DirectionalLight(0x9db8ff, 0.9); // cool fill, left
-        const rim = new THREE.DirectionalLight(0xffe8c2, 1.6); // soft warm rim from behind
+        // 3-point lighting riding on the camera, so the globe is lit the same while orbiting
+        scene.add(new THREE.HemisphereLight(0xdfe8ff, 0x2a2430, 0.7));
+        const key = new THREE.DirectionalLight(0xfff1dc, 2.6); // warm main light
+        const fillLight = new THREE.DirectionalLight(0x9db8ff, 0.9); // cool fill
+        const rim = new THREE.DirectionalLight(0xffe8c2, 1.6); // warm rim from behind
         camera.add(key, fillLight, rim);
 
         // load and centre the model
@@ -130,11 +127,10 @@ export default defineComponent({
         controls.autoRotateSpeed = cfg.autoRotateSpeed ?? 0.5;
         const zoomAllowed = !!cfg.zoom;
         controls.enableZoom = zoomAllowed;
-        // let vertical swipes scroll the page on touch screens
+        // vertical swipes still scroll the page on touch screens
         renderer.domElement.style.touchAction = 'pan-y';
 
-        // The wheel scrolls the page. Hold Ctrl (or Cmd) to zoom the globe.
-        // Touch: pinch zooms.
+        // Wheel scrolls the page (which moves the horizontal row). Ctrl/Cmd + wheel zooms.
         const stage = stageRef.value;
         const onWheel = (e) => {
           controls.enableZoom = zoomAllowed && (e.ctrlKey || e.metaKey);
@@ -145,8 +141,7 @@ export default defineComponent({
         stage.addEventListener('wheel', onWheel, { capture: true, passive: true });
         stage.addEventListener('pointerdown', onPointerDown, { capture: true });
 
-        // The stage covers the whole footer: the globe fits the shorter side (height on
-        // laptops/TVs, width on vertical phones) and stays centred
+        // The stage covers the whole footer; the globe fits the shorter side and stays centred
         let first = true;
         const fit = () => {
           const w = host.clientWidth || 1;
@@ -164,7 +159,6 @@ export default defineComponent({
           }
           controls.minDistance = dist * 0.55;
           controls.maxDistance = dist * 1.5;
-          // lights placed relative to the camera distance (x right, y up, +z = towards the viewer, -z = behind the globe)
           key.position.set(0.7, 0.6, 0.5).multiplyScalar(dist);
           fillLight.position.set(-0.8, -0.1, 0.4).multiplyScalar(dist);
           rim.position.set(-0.6, 0.7, -1.6).multiplyScalar(dist);
@@ -248,49 +242,48 @@ export default defineComponent({
       revealGlobe(ok);
     };
 
-    /* ---------------- Mount / unmount ---------------- */
+    /* ---------------- Mount / unmount ----------------
+       The page scrolls sideways, so ScrollTrigger (vertical) can't tell when the footer
+       is near. IntersectionObserver works for any direction. */
     onMounted(async () => {
       await document.fonts.ready;
       if (destroyed || !footerRef.value) return;
 
       ctx = gsap.context(() => {
-        // the text stays hidden until the footer comes into view
         gsap.set('.footer-reveal', { y: 24, opacity: 0 });
-
-        // load the globe a few screens before the footer
-        ScrollTrigger.create({
-          trigger: footerRef.value,
-          start: PRELOAD_START,
-          once: true,
-          onEnter: loadGlobe,
-        });
-
-        // animate the text when the footer is coming into view
-        ScrollTrigger.create({
-          trigger: footerRef.value,
-          start: TEXT_START,
-          once: true,
-          onEnter: () => {
-            loadGlobe(); // in case the visitor jumped straight to the footer
-            revealText();
-          },
-        });
-
-        // the hint is shown once the visitor really reaches the footer
-        ScrollTrigger.create({
-          trigger: footerRef.value,
-          start: 'top 70%',
-          once: true,
-          onEnter: () => {
-            footerInView = true;
-            tryShowHint();
-          },
-        });
       }, footerRef.value);
+
+      // start loading the 3D model about one screen before the footer arrives
+      io1 = new IntersectionObserver(
+        ([e]) => {
+          if (!e.isIntersecting) return;
+          io1.disconnect();
+          loadGlobe();
+        },
+        { rootMargin: '0px 100% 0px 100%' }
+      );
+
+      // reveal text + hint once the footer is really on screen
+      io2 = new IntersectionObserver(
+        ([e]) => {
+          if (!e.isIntersecting) return;
+          io2.disconnect();
+          loadGlobe(); // in case the visitor jumped straight here
+          revealText();
+          footerInView = true;
+          tryShowHint();
+        },
+        { threshold: 0.35 }
+      );
+
+      io1.observe(footerRef.value);
+      io2.observe(footerRef.value);
     });
 
     onBeforeUnmount(() => {
       destroyed = true;
+      io1?.disconnect();
+      io2?.disconnect();
       ctx?.revert();
       if (three) three.dispose();
     });
@@ -298,7 +291,7 @@ export default defineComponent({
     return () => (
       <footer class="footer" ref={footerRef}>
         <div class="footer-frame">
-          {/* Full-size stage: fallback image and globe both cover the whole footer */}
+          {/* Full-size stage: fallback image and 3D globe both cover the whole footer */}
           <div id="footer-globe" ref={stageRef}>
             <div id="footer-canvas" ref={canvasRef} />
           </div>

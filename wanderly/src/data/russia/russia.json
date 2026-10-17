@@ -10,7 +10,7 @@
   },
   "heading": "Russia Travel Guide: Heritage Cities and Cultural Highlights",
   "description": [
-    "Russia’s main visitor destinations combine imperial palaces, Orthodox churches, museums, theatre, medieval towns and Black Sea or mountain landscapes. This content set features Moscow, Saint Petersburg, Kazan, Sochi and Vladimir/Suzdal.",
+    "Russia’s top destinations combine imperial palaces, Orthodox churches, world-class museums, medieval Golden Ring towns and Black Sea or mountain scenery, from Moscow and Saint Petersburg to Kazan, Sochi and Vladimir–Suzdal.",
     "Moscow and Saint Petersburg should be the main international pages because they contain Russia’s strongest concentration of political, religious, artistic, imperial and architectural attractions.",
     "Travel conditions, entry rules, flights, payments and government travel advisories for Russia can change quickly. Content on this site should describe heritage and attractions, and travellers should check the latest advice from their own government before planning."
   ],
@@ -23,10 +23,7 @@
     "Suggested trip": "10–14 days"
   },
   "images": {
-    "hero": "/assets/images/countries/russia/hero.jpg",
-    "banner": "/assets/images/countries/russia/banner.jpg",
-    "primary": "/assets/images/countries/russia/primary.jpg",
-    "hover": "/assets/images/countries/russia/hover.jpg"
+    "hero": "/assets/countries/russia/hero.jpg"
   },
   "citiesSection": {
     "heading": "Top Cities in Russia",
@@ -44,8 +41,8 @@
       "suggestedStay": "3–4 days",
       "bestTime": "May–September; winters are cold and snowy",
       "images": {
-        "primary": "/assets/images/cities/russia/moscow/primary.jpg",
-        "hover": "/assets/images/cities/russia/moscow/hover.jpg"
+        "primary": "/assets/countries/russia/moscow/primary.jpg",
+        "hover": "/assets/countries/russia/moscow/hover.jpg"
       }
     },
     {
@@ -58,8 +55,8 @@
       "suggestedStay": "3–4 days",
       "bestTime": "June–August (White Nights); winter for snowy scenery",
       "images": {
-        "primary": "/assets/images/cities/russia/saint-petersburg/primary.jpg",
-        "hover": "/assets/images/cities/russia/saint-petersburg/hover.jpg"
+        "primary": "/assets/countries/russia/saint-petersburg/primary.jpg",
+        "hover": "/assets/countries/russia/saint-petersburg/hover.jpg"
       }
     },
     {
@@ -72,8 +69,8 @@
       "suggestedStay": "2 days",
       "bestTime": "May–September",
       "images": {
-        "primary": "/assets/images/cities/russia/kazan/primary.jpg",
-        "hover": "/assets/images/cities/russia/kazan/hover.jpg"
+        "primary": "/assets/countries/russia/kazan/primary.jpg",
+        "hover": "/assets/countries/russia/kazan/hover.jpg"
       }
     },
     {
@@ -86,8 +83,8 @@
       "suggestedStay": "3–5 days",
       "bestTime": "June–September for beaches; December–March for skiing",
       "images": {
-        "primary": "/assets/images/cities/russia/sochi/primary.jpg",
-        "hover": "/assets/images/cities/russia/sochi/hover.jpg"
+        "primary": "/assets/countries/russia/sochi/primary.jpg",
+        "hover": "/assets/countries/russia/sochi/hover.jpg"
       }
     },
     {
@@ -100,8 +97,8 @@
       "suggestedStay": "2 days",
       "bestTime": "Summer and winter",
       "images": {
-        "primary": "/assets/images/cities/russia/vladimir-suzdal/primary.jpg",
-        "hover": "/assets/images/cities/russia/vladimir-suzdal/hover.jpg"
+        "primary": "/assets/countries/russia/vladimir-suzdal/primary.jpg",
+        "hover": "/assets/countries/russia/vladimir-suzdal/hover.jpg"
       }
     }
   ]

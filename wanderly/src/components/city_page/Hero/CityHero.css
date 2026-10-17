@@ -1,0 +1,198 @@
+.city-hero {
+  --frame-left: clamp(26rem, 36vw, 40rem);
+  position: relative;
+  flex: 0 0 100vw;
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+  isolation: isolate;
+  background: var(--paper);
+}
+
+/* ---------- Photo ---------- */
+.chero-frame {
+  position: absolute;
+  top: 12vh;
+  bottom: 12vh;
+  left: var(--frame-left);
+  right: clamp(1rem, 4vw, 4rem);
+  overflow: hidden;
+  border-radius: 4px;
+  background: var(--paper-2);
+}
+
+.chero-img {
+  position: absolute;
+  top: 0;
+  left: -10%; /* extra width so the parallax never shows an edge */
+  width: 120%;
+  height: 100%;
+  object-fit: cover;
+  will-change: transform;
+}
+
+/* ---------- Name: it crosses the edge of the photo and inverts there ---------- */
+.chero-name {
+  position: absolute;
+  left: clamp(1rem, 4vw, 4rem);
+  bottom: clamp(1.5rem, 5vh, 4rem);
+  z-index: 3;
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(4.5rem, min(13vw, 24vh, calc(120vw / var(--len))), 14rem);
+  font-weight: 400;
+  line-height: 0.85;
+  letter-spacing: -0.045em;
+  white-space: nowrap;
+  color: #fff;
+  mix-blend-mode: difference;
+  visibility: hidden;
+}
+
+/* ---------- Intro and facts ---------- */
+.chero-copy {
+  position: absolute;
+  top: clamp(5.5rem, 15vh, 9rem);
+  left: clamp(1rem, 4vw, 4rem);
+  width: calc(var(--frame-left) - clamp(1rem, 4vw, 4rem) - 2.5rem);
+  visibility: hidden;
+}
+
+.chero-intro {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  margin: 0;
+  overflow: hidden;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--ink);
+}
+
+.chero-facts {
+  display: grid;
+  gap: 0.9rem;
+  margin: 1.75rem 0 0;
+}
+
+.chero-facts > div {
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--line);
+}
+
+.chero-facts dt {
+  font-size: 0.78rem;
+  color: var(--mute);
+}
+
+.chero-facts dd {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin: 0.2rem 0 0;
+  overflow: hidden;
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+@media (max-height: 760px) {
+  .chero-intro {
+    -webkit-line-clamp: 4;
+  }
+
+  .chero-facts {
+    gap: 0.6rem;
+    margin-top: 1.1rem;
+  }
+
+  .chero-facts > div:nth-child(1) {
+    display: none; /* the full best-time note is repeated in the places section */
+  }
+}
+
+/* ---------- Scroll cue ---------- */
+.chero-cue {
+  position: absolute;
+  right: clamp(1rem, 4vw, 4rem);
+  bottom: clamp(1.25rem, 4vh, 2.5rem);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 0.8rem;
+  color: var(--mute);
+  visibility: hidden;
+}
+
+.chero-cue i {
+  display: block;
+  width: 3.5rem;
+  height: 1px;
+  background: var(--ink);
+  transform-origin: left center;
+  animation: chero-run 2.4s ease-in-out infinite;
+}
+
+@keyframes chero-run {
+  0% { transform: scaleX(0.15); }
+  60% { transform: scaleX(1); }
+  100% { transform: scaleX(0.15); }
+}
+
+/* ---------- Phones ---------- */
+@media (max-width: 767px) {
+  .city-hero {
+    flex: none;
+    width: 100%;
+    height: auto;
+    min-height: 100svh;
+    padding: 5.5rem 1rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .chero-frame {
+    position: relative;
+    inset: auto;
+    height: 58svh;
+  }
+
+  .chero-name {
+    position: absolute;
+    left: 1.5rem;
+    bottom: auto;
+    top: calc(5.5rem + 58svh - 5.5rem);
+    font-size: clamp(3.5rem, min(22vw, calc(100vw / var(--len) * 1.5)), 7rem);
+  }
+
+  .chero-copy {
+    position: relative;
+    inset: auto;
+    width: auto;
+    margin-top: 1rem;
+  }
+
+  .chero-intro {
+    -webkit-line-clamp: unset;
+    display: block;
+  }
+
+  .chero-facts > div:nth-child(1) {
+    display: block;
+  }
+
+  .chero-facts dd {
+    -webkit-line-clamp: unset;
+    display: block;
+  }
+
+  .chero-cue {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chero-cue i {
+    animation: none;
+  }
+}

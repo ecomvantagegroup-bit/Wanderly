@@ -52,7 +52,9 @@ export default defineComponent({
         .from(factsRef.value.children, { x: 60, opacity: 0, duration: 0.9, stagger: 0.1 }, '-=0.8')
         .from(cueRef.value, { opacity: 0, duration: 0.8 }, '-=0.4');
 
-      /* ---- depth while the page slides away to the left ---- */
+      /* ---- depth while the page slides away to the left ----
+         (the background photo and the small pieces are handled by the shared
+         parallax pass in CountryPage.jsx through data-img-depth / data-depth) */
       if (tween) {
         const scrub = () => ({
           trigger: root,
@@ -61,7 +63,6 @@ export default defineComponent({
           end: 'right left',
           scrub: true,
         });
-        gsap.to(bgRef.value, { xPercent: 8, ease: 'none', scrollTrigger: scrub() }); // slower than the page
         gsap.to(contentRef.value, { x: '10vw', opacity: 0.2, ease: 'none', scrollTrigger: scrub() });
         gsap.to(factsRef.value, { x: '-12vw', ease: 'none', scrollTrigger: scrub() }); // faster than the page
       }
@@ -69,7 +70,7 @@ export default defineComponent({
 
     return () => (
       <section class="country-hero" ref={rootRef} id="country-hero">
-        <div class="hero-bg" ref={bgRef}>
+        <div class="hero-bg" ref={bgRef} data-img-depth="7">
           <img ref={bgImgRef} src={asset(image)} alt="" />
         </div>
         <div class="hero-overlay" />
@@ -79,7 +80,7 @@ export default defineComponent({
             <span class="hero-name" ref={nameRef}>{c.name}</span>
             <span class="hero-outline" ref={outlineRef}>Travel Guide</span>
           </h1>
-          <p class="hero-body" ref={bodyRef}>{intro}</p>
+          <p class="hero-body" ref={bodyRef} data-depth="0.25">{intro}</p>
         </div>
 
         <div class="hero-facts-wrap">
@@ -93,7 +94,7 @@ export default defineComponent({
           </dl>
         </div>
 
-        <div class="hero-cue" ref={cueRef} aria-hidden="true">
+        <div class="hero-cue" ref={cueRef} aria-hidden="true" data-depth="0.4">
           <i />
           Scroll to see the cities
         </div>

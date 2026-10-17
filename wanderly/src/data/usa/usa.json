@@ -23,10 +23,7 @@
     "Suggested trip": "10–14 days for five cities"
   },
   "images": {
-    "hero": "/assets/images/countries/usa/hero.jpg",
-    "banner": "/assets/images/countries/usa/banner.jpg",
-    "primary": "/assets/images/countries/usa/primary.jpg",
-    "hover": "/assets/images/countries/usa/hover.jpg"
+    "hero": "/assets/countries/usa/hero.jpg"
   },
   "citiesSection": {
     "heading": "Top Cities in United States",
@@ -44,8 +41,8 @@
       "suggestedStay": "3–5 days",
       "bestTime": "April–June and September–November; December for holiday lights",
       "images": {
-        "primary": "/assets/images/cities/usa/new-york-city/primary.jpg",
-        "hover": "/assets/images/cities/usa/new-york-city/hover.jpg"
+        "primary": "/assets/countries/usa/new-york-city/primary.jpg",
+        "hover": "/assets/countries/usa/new-york-city/hover.jpg"
       }
     },
     {
@@ -53,13 +50,13 @@
       "name": "Washington, D.C.",
       "slug": "washington-dc-travel-guide",
       "route": "/usa/washington-dc",
-      "intro": "Washington, D.C.",
+      "intro": "Washington, D.C. is the capital of the United States and home to its national monuments, museums and federal institutions.",
       "knownFor": "National monuments, museums, politics, free attractions",
       "suggestedStay": "2–3 days",
       "bestTime": "Spring (cherry blossoms in late March–early April) and autumn",
       "images": {
-        "primary": "/assets/images/cities/usa/washington-dc/primary.jpg",
-        "hover": "/assets/images/cities/usa/washington-dc/hover.jpg"
+        "primary": "/assets/countries/usa/washington-dc/primary.jpg",
+        "hover": "/assets/countries/usa/washington-dc/hover.jpg"
       }
     },
     {
@@ -72,8 +69,8 @@
       "suggestedStay": "3–4 days",
       "bestTime": "March–May and September–November",
       "images": {
-        "primary": "/assets/images/cities/usa/los-angeles/primary.jpg",
-        "hover": "/assets/images/cities/usa/los-angeles/hover.jpg"
+        "primary": "/assets/countries/usa/los-angeles/primary.jpg",
+        "hover": "/assets/countries/usa/los-angeles/hover.jpg"
       }
     },
     {
@@ -86,8 +83,8 @@
       "suggestedStay": "3–4 days",
       "bestTime": "September–October for warmer, clearer weather; summers are cool and foggy",
       "images": {
-        "primary": "/assets/images/cities/usa/san-francisco/primary.jpg",
-        "hover": "/assets/images/cities/usa/san-francisco/hover.jpg"
+        "primary": "/assets/countries/usa/san-francisco/primary.jpg",
+        "hover": "/assets/countries/usa/san-francisco/hover.jpg"
       }
     },
     {
@@ -100,8 +97,8 @@
       "suggestedStay": "2–3 days",
       "bestTime": "March–May and October–November; summer is extremely hot",
       "images": {
-        "primary": "/assets/images/cities/usa/las-vegas/primary.jpg",
-        "hover": "/assets/images/cities/usa/las-vegas/hover.jpg"
+        "primary": "/assets/countries/usa/las-vegas/primary.jpg",
+        "hover": "/assets/countries/usa/las-vegas/hover.jpg"
       }
     }
   ]

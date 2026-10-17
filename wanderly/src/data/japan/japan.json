@@ -10,7 +10,7 @@
   },
   "heading": "Japan Travel Guide: Five Essential Cities",
   "description": [
-    "Japan combines ancient temples, shrines and castles with modern cities, technology and food culture. This content set features Tokyo, Kyoto, Osaka, Hiroshima and Nara, which together cover imperial history, Buddhist and Shinto heritage, merchant culture and modern peace history.",
+    "Japan pairs ancient temples, shrines and castles with futuristic cities and world-class food. Tokyo, Kyoto, Osaka, Hiroshima and Nara together cover imperial history, Buddhist and Shinto heritage, merchant culture and modern peace history.",
     "Kyoto and Nara are especially important for traditional architecture, Buddhist art, Shinto shrines, imperial history and UNESCO heritage. Japan’s official tourism information highlights Kyoto, Nara, Hiroshima, Tokyo and Osaka among its major destinations.",
     "The cities are linked by an efficient high-speed rail network, which makes multi-city trips simple."
   ],
@@ -23,10 +23,7 @@
     "Suggested trip": "10–12 days"
   },
   "images": {
-    "hero": "/assets/images/countries/japan/hero.jpg",
-    "banner": "/assets/images/countries/japan/banner.jpg",
-    "primary": "/assets/images/countries/japan/primary.jpg",
-    "hover": "/assets/images/countries/japan/hover.jpg"
+    "hero": "/assets/countries/japan/hero.jpg"
   },
   "citiesSection": {
     "heading": "Top Cities in Japan",
@@ -44,8 +41,8 @@
       "suggestedStay": "3–4 days",
       "bestTime": "March–May and October–November",
       "images": {
-        "primary": "/assets/images/cities/japan/tokyo/primary.jpg",
-        "hover": "/assets/images/cities/japan/tokyo/hover.jpg"
+        "primary": "/assets/countries/japan/tokyo/primary.jpg",
+        "hover": "/assets/countries/japan/tokyo/hover.jpg"
       }
     },
     {
@@ -58,8 +55,8 @@
       "suggestedStay": "3–4 days",
       "bestTime": "Late March–April and November",
       "images": {
-        "primary": "/assets/images/cities/japan/kyoto/primary.jpg",
-        "hover": "/assets/images/cities/japan/kyoto/hover.jpg"
+        "primary": "/assets/countries/japan/kyoto/primary.jpg",
+        "hover": "/assets/countries/japan/kyoto/hover.jpg"
       }
     },
     {
@@ -72,8 +69,8 @@
       "suggestedStay": "2–3 days",
       "bestTime": "March–May and October–November",
       "images": {
-        "primary": "/assets/images/cities/japan/osaka/primary.jpg",
-        "hover": "/assets/images/cities/japan/osaka/hover.jpg"
+        "primary": "/assets/countries/japan/osaka/primary.jpg",
+        "hover": "/assets/countries/japan/osaka/hover.jpg"
       }
     },
     {
@@ -86,8 +83,8 @@
       "suggestedStay": "2 days",
       "bestTime": "March–May and October–November",
       "images": {
-        "primary": "/assets/images/cities/japan/hiroshima/primary.jpg",
-        "hover": "/assets/images/cities/japan/hiroshima/hover.jpg"
+        "primary": "/assets/countries/japan/hiroshima/primary.jpg",
+        "hover": "/assets/countries/japan/hiroshima/hover.jpg"
       }
     },
     {
@@ -100,8 +97,8 @@
       "suggestedStay": "1 day (half-day possible)",
       "bestTime": "Spring and autumn",
       "images": {
-        "primary": "/assets/images/cities/japan/nara/primary.jpg",
-        "hover": "/assets/images/cities/japan/nara/hover.jpg"
+        "primary": "/assets/countries/japan/nara/primary.jpg",
+        "hover": "/assets/countries/japan/nara/hover.jpg"
       }
     }
   ]
