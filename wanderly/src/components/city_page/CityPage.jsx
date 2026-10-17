@@ -165,55 +165,59 @@ export default defineComponent({
 
     return () => {
       const v = view.value;
+      // The root element belongs to Vue and is never touched by GSAP; the pin lives on
+      // the inner .city-page (see the note in CountryPage.jsx).
       return (
-        <div
-          class="city-page"
-          ref={pageRef}
-          style={v?.city?.accent ? { '--accent': v.city.accent } : null}
-        >
-          <header class="city-hud">
-            <RouterLink to={backTo()} class="hud-back">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M15 5l-7 7 7 7" />
-              </svg>
-              {v?.countryName || 'Back'}
-            </RouterLink>
-            <span class="hud-brand">Wanderly</span>
-          </header>
+        <div class="city-root">
+          <div
+            class="city-page"
+            ref={pageRef}
+            style={v?.city?.accent ? { '--accent': v.city.accent } : null}
+          >
+            <header class="city-hud">
+              <RouterLink to={backTo()} class="hud-back">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M15 5l-7 7 7 7" />
+                </svg>
+                {v?.countryName || 'Back'}
+              </RouterLink>
+              <span class="hud-brand">Wanderly</span>
+            </header>
 
-          {status.value === 'ready' && v ? (
-            <>
-              <div class="city-track" ref={trackRef}>
-                <CityHero city={v.city} countryName={v.countryName} />
-                <CityCentral city={v.city} />
-                <CityFooter
-                  city={v.city}
-                  cities={v.cities}
-                  index={v.index}
-                  countryId={v.countryId}
-                  countryName={v.countryName}
-                />
-              </div>
-              <PlaceSheet ref={sheetRef} places={v.city.places || []} />
-            </>
-          ) : (
-            <div class="city-state">
-              {status.value === 'loading' ? (
-                <span class="state-ring" role="status" aria-label="Loading" />
-              ) : (
-                <div>
-                  <h1>We could not find this city</h1>
-                  <p>The guide may not be written yet. Choose another place to start from.</p>
-                  <RouterLink to={backTo()} class="state-link">
-                    Back to the country
-                  </RouterLink>
+            {status.value === 'ready' && v ? (
+              <>
+                <div class="city-track" ref={trackRef}>
+                  <CityHero city={v.city} countryName={v.countryName} />
+                  <CityCentral city={v.city} />
+                  <CityFooter
+                    city={v.city}
+                    cities={v.cities}
+                    index={v.index}
+                    countryId={v.countryId}
+                    countryName={v.countryName}
+                  />
                 </div>
-              )}
-            </div>
-          )}
+                <PlaceSheet ref={sheetRef} places={v.city.places || []} />
+              </>
+            ) : (
+              <div class="city-state">
+                {status.value === 'loading' ? (
+                  <span class="state-ring" role="status" aria-label="Loading" />
+                ) : (
+                  <div>
+                    <h1>We could not find this city</h1>
+                    <p>The guide may not be written yet. Choose another place to start from.</p>
+                    <RouterLink to={backTo()} class="state-link">
+                      Back to the country
+                    </RouterLink>
+                  </div>
+                )}
+              </div>
+            )}
 
-          <div class="hud-progress" aria-hidden="true">
-            <i ref={fillRef} />
+            <div class="hud-progress" aria-hidden="true">
+              <i ref={fillRef} />
+            </div>
           </div>
         </div>
       );

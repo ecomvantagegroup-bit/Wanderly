@@ -18,19 +18,9 @@ import './CountryPage.css';
   This file owns the horizontal tween. Each section registers a callback with
   `countryScroll.onReady(...)` and receives { tween, desktop, reduce } so its own
   animations can follow the horizontal scroll (containerAnimation: tween).
-
-  Parallax
-    The sections only mark what should move, this file does the animating:
-      data-depth="n"      moves a whole component. Desktop: sideways (n * 10vw each
-                          way). Phones: vertical (n * 60px each way). Negative n reverses.
-      data-img-depth="n"  slides a photo inside its frame by n percent each way.
-      data-frame          marks the frame the photo slides in (default: the section
-                          on desktop, the parent element on phones).
-    Never put data-depth on an element that already has its own GSAP x / y tween.
 */
 const DESKTOP = '(min-width: 768px)';
 const REDUCE = '(prefers-reduced-motion: reduce)';
-const SECTION = '.country-hero, .country-central, .country-footer';
 
 // Bundles src/data/<id>/<id>.json - each country becomes its own lazy chunk
 const countryFiles = import.meta.glob('/src/data/*/*.json', { import: 'default' });
@@ -64,47 +54,6 @@ export default defineComponent({
         mm = null;
       }
       handlers.length = 0;
-    };
-
-    /* ---------- Parallax for every component and image on the page ---------- */
-    const applyParallax = ({ tween, desktop, reduce }) => {
-      if (reduce || !pageRef.value) return;
-      const root = pageRef.value;
-      const sideways = desktop && !!tween;
-
-      // the first section starts at scroll 0, the last one never reaches "right left"
-      const range = (section) => {
-        if (section.classList.contains('country-hero')) return { start: 'left left', end: 'right left' };
-        if (section.classList.contains('country-footer')) return { start: 'left right', end: 'right right' };
-        return { start: 'left right', end: 'right left' };
-      };
-
-      const trigger = (frame, section) =>
-        sideways
-          ? { trigger: frame, containerAnimation: tween, scrub: true, ...range(section) }
-          : { trigger: frame, scrub: true, start: 'top bottom', end: 'bottom top' };
-
-      // whole components
-      gsap.utils.toArray('[data-depth]', root).forEach((el) => {
-        const depth = parseFloat(el.dataset.depth) || 0;
-        const section = el.closest(SECTION) || el;
-        const axis = sideways ? 'x' : 'y';
-        const amount = (v) => (sideways ? `${v * 10}vw` : v * 60);
-        gsap.fromTo(
-          el,
-          { [axis]: amount(-depth) },
-          { [axis]: amount(depth), ease: 'none', scrollTrigger: trigger(sideways ? section : el, section) }
-        );
-      });
-
-      // images sliding inside their frame
-      gsap.utils.toArray('[data-img-depth]', root).forEach((el) => {
-        const amt = parseFloat(el.dataset.imgDepth) || 8;
-        const section = el.closest(SECTION) || el;
-        const frame = el.closest('[data-frame]') || (sideways ? section : el.parentElement);
-        const prop = sideways ? 'xPercent' : 'yPercent';
-        gsap.fromTo(el, { [prop]: -amt }, { [prop]: amt, ease: 'none', scrollTrigger: trigger(frame, section) });
-      });
     };
 
     const build = () => {
@@ -141,9 +90,6 @@ export default defineComponent({
 
           // every section builds its animations inside this matchMedia context
           handlers.forEach((cb) => cb({ tween, desktop, reduce }));
-
-          // then the shared parallax pass
-          applyParallax({ tween, desktop, reduce });
 
           return () => {
             if (fillRef.value) fillRef.value.style.transform = 'scaleX(0)';
@@ -205,46 +151,51 @@ export default defineComponent({
 
     const meta = () => landing.countries.find((c) => c.id === route.params.id);
 
+    // The root element belongs to Vue and is never touched by GSAP. The pin (and its
+    // pin-spacer) lives on the inner .country-page, so removing the page can never
+    // leave a tall empty spacer behind.
     return () => (
-      <div
-        class="country-page"
-        ref={pageRef}
-        style={data.value?.accent ? { '--accent': data.value.accent } : null}
-      >
-        <header class="country-hud">
-          <RouterLink to="/" class="hud-back">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M15 5l-7 7 7 7" />
-            </svg>
-            Home
-          </RouterLink>
-          <span class="hud-brand">Wanderly</span>
-        </header>
+      <div class="country-root">
+        <div
+          class="country-page"
+          ref={pageRef}
+          style={data.value?.accent ? { '--accent': data.value.accent } : null}
+        >
+          <header class="country-hud">
+            <RouterLink to="/" class="hud-back">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M15 5l-7 7 7 7" />
+              </svg>
+              All countries
+            </RouterLink>
+            <span class="hud-brand">Wanderly</span>
+          </header>
 
-        {status.value === 'ready' && data.value ? (
-          <div class="country-track" ref={trackRef}>
-            <CountryHero country={data.value} />
-            <CountryCentral country={data.value} />
-            <CountryFooter country={data.value} />
-          </div>
-        ) : (
-          <div class="country-state">
-            {status.value === 'loading' ? (
-              <span class="state-ring" role="status" aria-label="Loading" />
-            ) : (
-              <div>
-                <h1>{meta()?.heading ?? 'This guide'} is not ready yet</h1>
-                <p>We are still writing it. Pick another country in the meantime.</p>
-                <RouterLink to="/" class="state-link">
-                  Back to all countries
-                </RouterLink>
-              </div>
-            )}
-          </div>
-        )}
+          {status.value === 'ready' && data.value ? (
+            <div class="country-track" ref={trackRef}>
+              <CountryHero country={data.value} />
+              <CountryCentral country={data.value} />
+              <CountryFooter country={data.value} />
+            </div>
+          ) : (
+            <div class="country-state">
+              {status.value === 'loading' ? (
+                <span class="state-ring" role="status" aria-label="Loading" />
+              ) : (
+                <div>
+                  <h1>{meta()?.heading ?? 'This guide'} is not ready yet</h1>
+                  <p>We are still writing it. Pick another country in the meantime.</p>
+                  <RouterLink to="/" class="state-link">
+                    Back to all countries
+                  </RouterLink>
+                </div>
+              )}
+            </div>
+          )}
 
-        <div class="hud-progress" aria-hidden="true">
-          <i ref={fillRef} />
+          <div class="hud-progress" aria-hidden="true">
+            <i ref={fillRef} />
+          </div>
         </div>
       </div>
     );

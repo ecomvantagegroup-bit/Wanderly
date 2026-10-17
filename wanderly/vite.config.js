@@ -38,9 +38,9 @@ export default defineConfig({
     chunkSizeWarningLimit: 800,
     rollupOptions: {
       output: {
-        manualChunks: {
-          three: ['three'],
-          gsap: ['gsap'],
+        manualChunks(id) {
+          if (/node_modules[\\/]three[\\/]/.test(id)) return 'three'
+          if (/node_modules[\\/]gsap[\\/]/.test(id)) return 'gsap'
         },
       },
     },

@@ -133,6 +133,11 @@ export async function revealPage(to) {
     await waitForPage(to.name === 'CountryPage' || to.name === 'CityPage');
     if (token !== revealToken || state !== 'covered') return;
 
+    // safety net: a pin-spacer with nothing inside is garbage left by an old page
+    document.querySelectorAll('.pin-spacer').forEach((el) => {
+      if (!el.children.length) el.remove();
+    });
+
     // measure every ScrollTrigger of the new page again before showing it
     ScrollTrigger.refresh();
     await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)));
